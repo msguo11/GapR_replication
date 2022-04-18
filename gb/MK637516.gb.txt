@@ -1,0 +1,3253 @@
+LOCUS       MK637516               68451 bp    DNA     linear   PHG 23-APR-2020
+DEFINITION  Agrobacterium phage Milano, complete genome.
+ACCESSION   MK637516
+VERSION     MK637516.1
+DBLINK      BioProject: PRJNA222858
+            BioSample: SAMN11360273
+            Sequence Read Archive: SRR8869236
+KEYWORDS    .
+SOURCE      Agrobacterium phage Milano
+  ORGANISM  Agrobacterium phage Milano
+            Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
+            Caudoviricetes; Caudovirales; Myoviridae; Schmittlotzvirus;
+            unclassified Schmittlotzvirus.
+REFERENCE   1  (bases 1 to 68451)
+  AUTHORS   Nittolo,T., Ravindran,A., Gonzalez,C.F. and Ramsey,J.
+  TITLE     Complete Genome Sequence of Agrobacterium tumefaciens Myophage
+            Milano
+  JOURNAL   Microbiol Resour Announc 8 (25), e00587-19 (2019)
+   PUBMED   31221656
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 68451)
+  AUTHORS   Nittolo,T., Ravindran,A., Gonzalez,C. and Ramsey,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAR-2019) Center for Phage Technology, Texas A&M
+            University, 2128 TAMU, College Station, TX 77843, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPADES v. 3.5.0
+            Coverage              :: 3095x
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..68451
+                     /organism="Agrobacterium phage Milano"
+                     /mol_type="genomic DNA"
+                     /isolation_source="rice stem extract"
+                     /host="Agrobacterium tumefaciens C58"
+                     /db_xref="taxon:2557550"
+                     /country="USA: Beaumont, TX"
+                     /collection_date="2015"
+                     /collected_by="Aravind Ravindran"
+     gene            3..1525
+                     /locus_tag="Milano_001"
+     regulatory      3..6
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_001"
+                     /note="Milano_001"
+     CDS             17..1525
+                     /locus_tag="Milano_001"
+                     /note="similar to Agrobacterium phage 7-7-1 virion protein
+                     NCBI YP_007006562.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72024.1"
+                     /translation="MAKGKPYLLTWLSNVLASWQMDSNDVFQPVANVALTSTFDLTTL
+                     PFSLAASYVEDTNFLGIIYRASSTPIGSNIYTLPGLTPIVVTPNFISPGGTPSMVAAK
+                     KKGLMTYALTATTTSAGRKIDRNTGAAISAFGLGSNAGWLPTYAKVAVHPTGRYAVRP
+                     RTNGTTGISVSWNSALTTANNYPNLNNNNYNAPTPNLIQAVAACWSPGGELLYMLDSA
+                     GVIQIVPFTIPADDPVPQPANVYAAFGAIVSSVPTTGLGLDYFTHMEADPSGSFVMVC
+                     HGAGTTNPVFTTVIYQRVGNTLTEIQRIADFGKYAEFSEDSQYIIDSGSKKAYKLNLV
+                     SGLYEDVSATVMVNVPLGAMGFLSPEIDATPGIANLYNVSIQKFLTCGVDFANMKMIF
+                     LSSGAALNASATTIAGAVGAFAVSDPNVPASGLQLQNVTLNPAAGGQVTLKANDLSVQ
+                     VANNFTFRYSVLVDATNDTPLAFFDWGETFTIGALSGLNIDLSSRGIALFGV"
+     gene            1518..2558
+                     /locus_tag="Milano_002"
+     regulatory      1518..1521
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_002"
+                     /note="Milano_002"
+     CDS             1527..2558
+                     /locus_tag="Milano_002"
+                     /note="similar to Agrobacterium phage 7-7-1 virion protein
+                     NCBI YP_007006563.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72025.1"
+                     /translation="MAIVQYFIPKTLLVKATAIPLAEAEDPGLLLIGEWDYPGYSLIG
+                     QAYRDYQGVGVFDYPTYVVAGEVTDGAPYKPPLYLYSEPSVSKFSALPIDGEEFRISQ
+                     PVAGAWGYPKYCARGTIVYVGVGVGSWDYPSLYSAEGTLQQNGAIVGEWDYPSYDMFG
+                     GAIESQGKWNYPSYYVEGSASGGTEGRFDYPTYEFEGSFVKVPDNAVYATLDYPTYFV
+                     EAEGVQQINATLVANYWSYSLRGTLETQYGIGEWDYPRYAFDGLAAANGQVVGEWDYP
+                     TYSVSGSIDKYGFEGELNYPRYGFDGLVGFPGVAVGIWKYPGYQLNGVIGKPVIEKRR
+                     RQLTVTRTW"
+     gene            2540..3916
+                     /locus_tag="Milano_003"
+     regulatory      2540..2542
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_003"
+                     /note="Milano_003"
+     CDS             2552..3916
+                     /locus_tag="Milano_003"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72026.1"
+                     /translation="MVKTLQRRPYSGTTIAPATQLKVKLSPTGKFLWVSPFNGSSRTR
+                     KIWNGTEYVNAPGAAVEIAEYFVGWTADETYQVVVGRATGGTTRLYLRSVDPAGVLVA
+                     LSSPATTVMSDTNAIRGLERITGDTFIAYGQSAICVFRIDRGTNTIVILNDSIFPDNP
+                     VRGIAGNGNDNIIVVHSGASGSVGFQTYSVNLSTGVLSPLGTKIIKAGNRINGFDYRD
+                     GKILSHSFYTISDVMFLQRDGGNALQPVPGFDATVLQSNMTSASAQTTASFIHLGFDG
+                     TEITYLDQAAPAKFWSADVTTLQKSLPFVPPTDLPSGSTNGRQYGEDISRAFVSYTDD
+                     GKTMAVTFWVAAALQGVYVYTEYEDVTTAFLADVLLPTAFIDAVAVESAQLLADVKLP
+                     SATVDLAKNGTAQLVADVKLPSAFMVTNNTLPAELVADIAVPDAFIRQRATKRNGIMV
+                     VQTL"
+     gene            3898..4158
+                     /locus_tag="Milano_004"
+     regulatory      3898..3900
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_004"
+                     /note="Milano_004"
+     CDS             3913..4158
+                     /locus_tag="Milano_004"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72027.1"
+                     /translation="MSYRSAKRLYKFMGMLADFFDRWMTWGASFLHMCAEGKHNNWSI
+                     LFARIFYTECPCCNFYRGVTVGIVLTLIFTIILTGVL"
+     gene            4146..4287
+                     /locus_tag="Milano_005"
+     regulatory      4146..4150
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_005"
+                     /note="Milano_005"
+     CDS             4159..4287
+                     /locus_tag="Milano_005"
+                     /note="similar to Agrobacterium phage 7-7-1 virion protein
+                     NCBI YP_007006566.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72028.1"
+                     /translation="MGCGCGKGRIKSGSNVVAPRPSKPVSNAARVIRSTAVKRKTV"
+     gene            4274..5473
+                     /locus_tag="Milano_006"
+     regulatory      4274..4276
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_006"
+                     /note="Milano_006"
+     CDS             4289..5473
+                     /locus_tag="Milano_006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="terminase large subunit"
+                     /protein_id="QBQ72029.1"
+                     /translation="MQLNWGAAYADIWQPAENKCFKGGRGSQKSHVIAEYVVLRANKR
+                     KERVVGARQFQASIKGSSKALIEEKIIALGMKRDFEVTNTEIRSRRTGSVMNFIGLER
+                     NPDSARSLEGCTICWVEEARNISQRSMNTLMPTIRAEGAEIIWSWNPVNPKDPIEKYF
+                     VVGERPPATIVRHTTYRDNPFFRRTRLPNQMEHMKKTNFKLYKHVWEGEYDDGGEARI
+                     FNCKIERMEIPDAIRPQFGMDFGSNNDPNVLLRFYVLQSTQTIYVSHERYLPSSIEKW
+                     MEYIRDVPDVTRLTIAAESSWPQSIATMNNNGFRVAPAKKGPFSVLEGIQWLQGWNIV
+                     ISPDCPRFIEESRLYSWEVDPYDDTNILNVPKDEDNHGWDALRYGTEQNRFGGGVTVR
+                     RL"
+     gene            5461..6737
+                     /locus_tag="Milano_007"
+     regulatory      5461..5464
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_007"
+                     /note="Milano_007"
+     CDS             5475..6737
+                     /locus_tag="Milano_007"
+                     /note="similar to Agrobacterium phage 7-7-1 NCBI protein
+                     YP_007006568.1 in PMID 22650361"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="portal protein"
+                     /protein_id="QBQ72030.1"
+                     /translation="MLGIPLLTRKAALTPPAPSANPAKIFIRRFFSAGVAKNVVSYSN
+                     VMAAQRAMEHPVAFRCLDKLGLTVQSVKWDVGKDPQNTQVGDGGMSASQRKALQQILQ
+                     RPNPTMSGAQLRYSAALSWACFGRMAFKVSVMSDGSVNAIWPLGIPFLKQKFDRYGDV
+                     ESFQYGDEAGKETIPSFTKVEKNDKGRPIKNYAFMIVKPSINGAMNFDVQNTPLQAIG
+                     VPVALYDALMARAIDSADGTPNSKWLVTASRDLDDGQAKEVKEGIEETKPGGDNGGEI
+                     IFIAGTDVKVQEMKNDLSDIHSKVPLDDQARTIAGNFGIPIALLGFAGADGSKFANNY
+                     DESRKAFFEDTIEPGYLTPLEDGFSMFLCGAGYRVIFDRDSIPALRKSRADIAATYDK
+                     VTFITEEEKREVTGWPAKKEGQTQNDDA"
+     gene            6708..7494
+                     /locus_tag="Milano_008"
+     regulatory      6708..6711
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_008"
+                     /note="Milano_008"
+     CDS             6724..7494
+                     /locus_tag="Milano_008"
+                     /note="similarity to phage HK97 prohead protease SwissProt
+                     P49860"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="prohead protease"
+                     /protein_id="QBQ72031.1"
+                     /translation="MTMLDTKKVDRDADTHVELQLTFTPATELELKAIGDNLQEGYIA
+                     GWASTPDRDRGNHVVMTGAFDESIRERGLQGPKGVKLLINHAWDKGAGAITVLETRNG
+                     RLWMEAQLNLDITYVKDAYLAAKSAGGYSFSVGFRRQEWAWIVDEDDNDEYLSISKAD
+                     LWEVSMVPFPMNEECTIEFMKSADSIETLADFERYLMSQGIVKSRNVARNITRVVKSV
+                     PHLFQSKEEPPRLAVNDVKSIRSKLAALTSKMAPVADP"
+     gene            7503..8913
+                     /locus_tag="Milano_009"
+     regulatory      7503..7506
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_009"
+                     /note="Milano_009"
+     CDS             7516..8913
+                     /locus_tag="Milano_009"
+                     /note="similar to Agrobacterium phage 7-7-1 major capsid
+                     protein NCBI YP_007006570.1 in PMID 22650361"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major capsid protein"
+                     /protein_id="QBQ72032.1"
+                     /translation="MANKESELNGLDDIHSDIEKLSAHVEKFSDGMDEKYKELTARFD
+                     GVKGDNDAIRKAVADATKEYAELSAKHQFFTEELAAMKARLDTPIMRSQAELDDHDRK
+                     TAIQLQRNMHEFRGGDPKEFVADESNLVDLKAYRSAVRKMLKVGIESKERVIASMTDV
+                     ERKAFEASTIGPAFFTPQVLALEVDCNIECASLLDLYGQIEVSRSTFTYMKIADYGQL
+                     GEYTCDAKCDAEFGEPGNIRHLEGKTYDYRGVFCFNRKNLQEANYDFLSFMIGAAQRS
+                     HRINRNQALMIGKGVNEPKGWLTENCFPVFQTLPVDVNGTSTPAFLAQDWRRFVTSFP
+                     AEYGEARSVMHQNVFGYLAAMVDANGRFLFGDGDLTFTPDLVRERIRISNCLPDPTEG
+                     NTKGGTGQDAFAAGSFVAAQAAWKTAFYAVEKRPMFFEQYEGGSSAWCVKYQFGAEDG
+                     GFVGCCEHGRILQIG"
+     gene            8972..9395
+                     /locus_tag="Milano_010"
+     regulatory      8972..8975
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_010"
+                     /note="Milano_010"
+     CDS             8982..9395
+                     /locus_tag="Milano_010"
+                     /note="similar to Agrobacterium phage 7-7-1 gp002 NCBI
+                     protein YP_007006571.1 in PMID 22650361"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72033.1"
+                     /translation="MNFNVGVDFPSFIAWDGEESFPVKVDGFNQFGFTFKTIAALTAA
+                     TTFNIFYHEPSDADPCVPGPAIRVPEVPFCDTVLLSEDGLAAVTLPETVTPDSFCAGT
+                     VPCMNGQWISIAPATGSETNAANVQITVTMKGATR"
+     gene            9403..9814
+                     /locus_tag="Milano_011"
+     regulatory      9403..9405
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_011"
+                     /note="Milano_011"
+     CDS             9413..9814
+                     /locus_tag="Milano_011"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72034.1"
+                     /translation="MRQSKTARPGEMVRAVVKLKGGAKSARVFIYSRYNGIGDFSPHV
+                     DDAAIGVLENGKPVLARPFSIRLDRELKTRNVFSIMASEAIEVQVIEELDFGQEINTR
+                     ARIVIHGKASQAFGRIFRNIRRFFRRKTPSA"
+     gene            9722..10268
+                     /locus_tag="Milano_012"
+     regulatory      9722..9725
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_012"
+                     /note="Milano_012"
+     CDS             9735..10268
+                     /locus_tag="Milano_012"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72035.1"
+                     /translation="MEKLHKRSDGYSETSDGSFAVKPLRHNSVVQRADGVYKQFDFKA
+                     SFDAETIRVEWPVESHIAIFPGDVSAIMIRLGYARNLTNEEVEQYNSSVDFENGNPAP
+                     KQEEPPKQEEPPKQEEPPADTPKDEEPTQEGDETPADEKPADVQAEEKPGDEQEGEEK
+                     KKAGRPKKPVAIPGLTS"
+     gene            10314..11186
+                     /locus_tag="Milano_013"
+     regulatory      10314..10316
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_013"
+                     /note="Milano_013"
+     CDS             10326..11186
+                     /locus_tag="Milano_013"
+                     /note="similar to Agrobacterium phage 7-7-1 gp118
+                     structural protein NCBI YP_007006574.1 in PMID 22650361"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72036.1"
+                     /translation="MPPVVSGSDRFPACVASVLHLPWRGTVGTGHTRLTTELSIKSGE
+                     YSPLLSNEASAQMYFFSVDPRNGASKSGDVCGSCCCESISARPGEVNGVMVSYAAWSA
+                     PLRGHGLTNKTTFEIDGVSVTPPKVSNAFGRTKVGVVFEGTLSDLFPNPEGEQVEYEI
+                     SELNGPSNGVVELGANGAFTYTPGALFTGVDRFWFSINGNIGEYVISVDPTTSELPQP
+                     PFTTPVYVPAARRSVDPRTHVLKFVLGVSPAAIPGDVYRLTVRQVAIDCDGNEFVHIS
+                     CYDISIGSCG"
+     gene            11171..11791
+                     /locus_tag="Milano_014"
+     regulatory      11171..11174
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_014"
+                     /note="Milano_014"
+     CDS             11183..11791
+                     /locus_tag="Milano_014"
+                     /note="similar to Agrobacterium phage 7-7-1 protein gp119
+                     NCBI YP_007006575.1 in PMID 22650361; HHPred similarity
+                     with 98 probability to phage SPP1 gp15 Protein Data Bank
+                     5A21_D"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="head-to-tail connector complex protein"
+                     /protein_id="QBQ72037.1"
+                     /translation="MNLDTLLPLQTIREHAKCDDNPRVTDDLLKLYREAAFEAAELYT
+                     GLSFTPEKTIVEPIRLKGRRGKIILSATPIAGRPVVFYGGGLGSPLELIPRPGSNVLF
+                     FPYGSPDRFQTWGDCHTCDVESQLMATYVTGRRCENSVPAGIIIGILKLIAWNINNPG
+                     DEVMSVRNTLNANAQGLIGGTNNGAVISGAQDEWFRYRRVLL"
+     gene            11778..12213
+                     /locus_tag="Milano_015"
+     regulatory      11778..11781
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_015"
+                     /note="Milano_015"
+     CDS             11788..12213
+                     /locus_tag="Milano_015"
+                     /note="similar to Agrobacterium phage 7-7-1 gp121 virion
+                     protein YP_007006577.1 in PMID 22650361; HHPred greater
+                     than 99 probability structural alignment over 106 of 109
+                     residues in gp16 of SPP1 phage entry 5A21_F in Protein
+                     Data Bank"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="head completion protein"
+                     /protein_id="QBQ72038.1"
+                     /translation="MRTADRKHRVIVCSQQSDVDDEGRLLITRAGVIQGWAAIAPVKA
+                     IRFSQDGVSMQKDTMQPTHDITMNYNPDVNVSVSAWVYEHRLKSPPRWFKVLSVVNVD
+                     ECSRYMKIRCRLVETSDDVTPPVEEEKNSFGAVKIDIPL"
+     gene            12214..12877
+                     /locus_tag="Milano_016"
+     regulatory      12214..12217
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_016"
+                     /note="Milano_016"
+     CDS             12224..12877
+                     /locus_tag="Milano_016"
+                     /note="similar to Agrobacterium phage 7-7-1 gp122 protein
+                     NCBI YP_007006578 from PMID 22650361"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72039.1"
+                     /translation="MDCRNLCGAAAPSRLVQPGCFICRGVAVSIPPAAPGPATSVFDT
+                     PPSTFSLRPDGTIIAGTGIRGDHASVGTDGTIEMFIVPFIGDVTGSELTHPYAVELQD
+                     GEELAIAFGVTLKSGYGARITEYYDVSLFLENGGNSKELTLQPANTKSGYVWSDGHGY
+                     NITDSDGDLHTVQNVTRPVWFEMTEPGIVGVIMEARYKATGLVSSSISITVNVTYAD"
+     gene            12867..13283
+                     /locus_tag="Milano_017"
+     regulatory      13030..13032
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_017"
+                     /note="Milano_017"
+     CDS             13047..13283
+                     /locus_tag="Milano_017"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72040.1"
+                     /translation="MNRALAEYPARDTGDLFRSAKKRVARDEMEVGTNMFYSRFLREG
+                     TSKMARRKMSDTALEESLPELERKVGRFAYWKRN"
+     gene            13257..13804
+                     /locus_tag="Milano_018"
+     regulatory      13257..13260
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_018"
+                     /note="Milano_018"
+     CDS             13268..13804
+                     /locus_tag="Milano_018"
+                     /note="similar to Agrobacterium phage 7-7-1 gp124 NCBI
+                     protein YP_007006580.1 in PMID 22650361"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72041.1"
+                     /translation="METKLTYGNRVTLPEFAKYIVAPAFHEIEGRAIPVTGVDDDASG
+                     TQATKLPFVLVGLRQGDTSGPATIAGNSTINLRDDFIVEFNMKKERYRDRKGGETPFF
+                     SYYDYESIRDRLFNSMIEFSGEHGITFEFVSLDISTEGDVVYIEFRFRQNYEWCETVR
+                     EADTTIEAGRFSINLQGC"
+     gene            13795..13952
+                     /locus_tag="Milano_019"
+     regulatory      13795..13797
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_019"
+                     /note="Milano_019"
+     CDS             13806..13952
+                     /locus_tag="Milano_019"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72042.1"
+                     /translation="MAKLISVTGVKGRVAYSAVTGGDLRHGRQGTCRLFRRNRWRSYP
+                     GRRP"
+     gene            14064..15589
+                     /locus_tag="Milano_020"
+     regulatory      14064..14067
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_020"
+                     /note="Milano_020"
+     CDS             14078..15589
+                     /locus_tag="Milano_020"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail sheath protein"
+                     /protein_id="QBQ72043.1"
+                     /translation="MAQDALSDGFVRLCIDPSLNFFGEGCKILVEGQMTDDGSATPDA
+                     VTCVTSELDIIERFGQGSVLTESLRKVFCTCKSGVSVYALPREDAAAGVKAVYTLTIA
+                     GPATTDGRVQLYMGEAEYAVDIGVDAGDTATDIAAAIVAAISPDFPYAATAAAGVITL
+                     TARNAGTIGNHLSVIYTNLGSCTSVTPEGVTVTFAQTTAGSVNPTPNDYATVVNECCF
+                     AVYVLSSDDTDWQENLRDWIRSAWDCSKPQCFGHGYVFNKGTLGQVLADGDNSAELSR
+                     LALPTTYPVLPYLTNAAYGALSACSTCNNPELNIQGQTFGLLSCINMPESCTPGWTFG
+                     EVTQLQANGFVVSGPSTTSGQGNYTSPYIYNDVTNYLRDEKNRPNATFRDASSRRLAA
+                     ATGVALAEFLQQFNGLAVFTKNTNIRTGIIGTNPRLMLGKIRKWAQDNVGTLFSEFDN
+                     INEDIQLLTDFEVQPKCVGQPGIFHLNMRYRPPVRGARINVNMAPALFDNCDR"
+     gene            15594..16015
+                     /locus_tag="Milano_021"
+     regulatory      15594..15597
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_021"
+                     /note="Milano_021"
+     CDS             15605..16015
+                     /locus_tag="Milano_021"
+                     /note="similar to Agrobacterium phage 7-7-1 virion protein
+                     NCBI YP_007006583"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72044.1"
+                     /translation="MACNKQNGVKNILITFTDCDTQEVIGPISHEQPDDTLPTYKNCA
+                     WTNTALTNGYVQRSASNATMTLPVVRDLRVPLAFYQGCAQVDVQVEKFDGTVMTLTEG
+                     AVVEPEESDGRSVTMNIVASEIDELLPPGSLAAA"
+     gene            16042..16642
+                     /locus_tag="Milano_022"
+     regulatory      16042..16045
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_022"
+                     /note="Milano_022"
+     regulatory      16042..16045
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_023"
+                     /note="Milano_023"
+     gene            16055..16809
+                     /locus_tag="Milano_023"
+     CDS             join(16055..16633,16633..16809)
+                     /locus_tag="Milano_023"
+                     /ribosomal_slippage
+                     /note="tape assembly chaperone frameshift product"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tape assembly chaperone"
+                     /protein_id="QBQ72046.1"
+                     /translation="MIEIPANENGFVKFTVEPINYVSLVRLGASLVIKNPRDTSKLMQ
+                     RQRIFRQVTAYNDKGKAPFTEVELAALSPALGKRISRAVDEVLDQKEECKIISPEEAD
+                     GVSAPILVKLGSPLTMGSESITELEFHAKTYGDIEAVFSEDNAGEQTILFIENMAKPI
+                     TSDLKLQALPSWAVDQITPNDGIFISRFVLPRFFGIARKVMESVEVMAYHKATPDLSS
+                     MSIILIARKLEIFNRTHKDKLKFDAQIAGAKLK"
+     CDS             16055..16642
+                     /locus_tag="Milano_022"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tape assembly chaperone"
+                     /protein_id="QBQ72045.1"
+                     /translation="MIEIPANENGFVKFTVEPINYVSLVRLGASLVIKNPRDTSKLMQ
+                     RQRIFRQVTAYNDKGKAPFTEVELAALSPALGKRISRAVDEVLDQKEECKIISPEEAD
+                     GVSAPILVKLGSPLTMGSESITELEFHAKTYGDIEAVFSEDNAGEQTILFIENMAKPI
+                     TSDLKLQALPSWAVDQITPNDGIFISRFVLPRFLE"
+     gene            16808..19154
+                     /locus_tag="Milano_024"
+     regulatory      16808..16811
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_024"
+                     /note="Milano_024"
+     CDS             16818..19154
+                     /locus_tag="Milano_024"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tape measure protein"
+                     /protein_id="QBQ72047.1"
+                     /translation="MAKFVESAILKVIDQSSRNLSKIERALKSFRTEANRLKRVDLNI
+                     NTGRVKNATREINALGRAIRTISTPKINASGINSTTAALRRLQVQAAKLNGTRVNIRT
+                     GASGGGMGGGGMGGGGGPRRYGMGPGGGVFRINASALDIWSAGFIHRLGSTIESAITT
+                     GFREGTKNVSQSYLRNQALGYNPDQIGMIDRESARISRENPNFTRSDVRTWFAEIGPT
+                     LGKDPSRSIPLIEMAATFANSRLTQTGNTEEAQKGIRALFKTLDNINRLQDSNGNISS
+                     EAKDYMRVLIEESIISGADIDPEKINTAVTYARTTGKTLSPEGFRTLIGMLESMGRVS
+                     GSSLNRFVENLSGNTTAKALNAQAEWGLITMGQREVGKTGKKSRTENFRESTVAGELL
+                     RTDPNAWVVQELIPRLKQRGIDLNNAAQVADAVTPLFGSVVAKDVAANLAMWQAEYQT
+                     RLEAARNIPTNEAITSLVNNNGLLTFQSIGKQTTELLGEIGTTLLNKVNGPLQSFRDT
+                     IMSVSNFLGGEERSGTNTAIVGGAAAGVGLAGLWAGSKIKNFLLSPIVLAGSLDTASA
+                     AALRFATTLDGVGGLPGGDGPGKRRKTKVPFAPIGPTATTAIVAAAVGGEAALLNYGK
+                     EHIESQPRHAEDIKRFETWRQNASAWLKNLGSSLPAGNMPAQPEGMTTTPFDWKRFFI
+                     GDLADGGTLRDALGIQTGVEMGADRLRTTFEEGSTMIGSKGPELAAGVQDALMAVAGP
+                     FGAAIAASMQSNFTPPPLSVNVNAGTPVDTGANPNNAR"
+     gene            19149..20355
+                     /locus_tag="Milano_025"
+     regulatory      19149..19152
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_025"
+                     /note="Milano_025"
+     CDS             19159..20355
+                     /locus_tag="Milano_025"
+                     /note="DNA-circularization protein Mu N"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA-circularization protein"
+                     /protein_id="QBQ72048.1"
+                     /translation="MAGPCYNPDAEYLPASFKGFSFDADSSDSDHGRNGAEAEFVFGE
+                     RTGYADLGIKIKSYQLRARFQTNDHIAQTNAFIAVLESPGPGLLVHPTRGTVFAACRS
+                     ARVTDSKVDAAGVTYVELDFVEANSVLSGFGLVGNLVALALAPIITATEGSFKRHFSP
+                     DNIRYYNTEAVVSTMAQAVTQVQNAYLAISGNDTSQDKWTTVRDFRNVLIDEFTFYSP
+                     ANAWNVLRNGFAILDAAATGSDKFNVLRNLINWSSTHSDLDGESGDAENAIFTAVRVL
+                     SAAYLAKAYTETAATTVNEGLTQYDLIAAVLEQEAQIAKDDCHDNEFFLQIRAFAVDV
+                     ARVMVNRAYNSPSLIVYAFPGTVHGLVAAWEIFGDAKRSRDLEARNNGSPWAVGPKII
+                     SERVRA"
+     gene            20342..21725
+                     /locus_tag="Milano_026"
+     regulatory      20342..20345
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_026"
+                     /note="Milano_026"
+     CDS             20352..21725
+                     /locus_tag="Milano_026"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="baseplate hub protein"
+                     /protein_id="QBQ72049.1"
+                     /translation="MIKPMRIFIGGEELVTYTSAQLQRTKKQMTGSLTVEIFLDYVPT
+                     KPTIVNAVRGKEILVYIMGELAFTGIIDKRRGKSVKKQNRDASGRFAFSGGPGSLSED
+                     AGGDVSVNFSKGNGYSVTLTARGRTKYLIDSSQTHPTGFFKNTSDKKVIETLVKEHNV
+                     VLQWDAEEIDEPKVTLRDGNRIYNEIFERCNQNCHFAYETRDGKLLITDGTNGTVGED
+                     IILGYNILDFSAEQSEDQANSQITVKGHRTQKGVWGNDAIVQPVQTVADSWVGANIPL
+                     TIQHYGDATNEGLQRRAKFEADRRAAESKSVSVTVFHVAQQTGTPWDIGTVHYVEIPP
+                     EGIFDVLECVSLTYTVDAKSTLETKLELAPPPSQGISGGAASGVSGLLSSANNLLSDL
+                     TTKGIARRVQAGVQIIGGQYPSSWTSAALSAIANPINAITSVVNSLLAKEDEKPPKQP
+                     PMRLPPE"
+     gene            21707..22288
+                     /locus_tag="Milano_027"
+     regulatory      21707..21711
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_027"
+                     /note="Milano_027"
+     CDS             21722..22288
+                     /locus_tag="Milano_027"
+                     /note="HHPred similarity to phage P2 baseplate Protein
+                     Data Bank entry"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="baseplate protein"
+                     /protein_id="QBQ72050.1"
+                     /translation="MTTSKTYDERNRDIQDGFERHVFKGIEHTDTGALVSVKGSGTQE
+                     EDVPVINSGYGFTPAADTELEVFLHGDGSDASNKFATMTIPRNKQRKWPEGAGGVQHP
+                     FNADKFVQFDDDSIWLKDGKFTLGNNQELTITVSNGLVTLSSNNEVDFRCPKLMHNGV
+                     NIGDSHVHPQKPDSGGDSEEDTDPPKRD"
+     gene            22282..22606
+                     /locus_tag="Milano_028"
+     regulatory      22282..22284
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_028"
+                     /note="Milano_028"
+     CDS             22292..22606
+                     /locus_tag="Milano_028"
+                     /note="similar to Agrobacterium phage 7-7-1 virion protein
+                     NCBI YP_007006462.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72051.1"
+                     /translation="MTCTVDVADRRKRFWTTQIAACGTSSDDCGDCARPGLQLMCNGQ
+                     GQVTVSTDNYAVGLALNILLTDVLTTFEAAVKSVRFRPVHQCAKRFPSFARMPLTILK
+                     NW"
+     gene            22745..23950
+                     /locus_tag="Milano_029"
+     regulatory      22745..22748
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_029"
+                     /note="Milano_029"
+     CDS             22760..23950
+                     /locus_tag="Milano_029"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="baseplate protein"
+                     /protein_id="QBQ72052.1"
+                     /translation="MSCTIQRPDPQDLRNDIATRFSTNVLGGAPIIPESNEFYVVSLE
+                     YAMQEEFYAFGEQMWRERDPRFACCENLVKMAAERGVYPKPAQFAQGYVRMTGTPGSA
+                     LNQGLRFQFGNQTYEPASVVPDQLPATGILVLRVSAVNPGPSGNARVTDGTLVTPVPG
+                     ISSAVTAYGGNFCGGSDEEECEQFRTRYLQRLQYQPRFTVEWLKSKAAEWPCVTDVFD
+                     LGPNCCAVNALGEVVCPNNFEFYVLFRDTFDCGLAPQCVVDEITDWLFGSPQGLGLGE
+                     AEFGICGKVRTAAPVKLDIILDGLSCATPAQSRVVEERVTDFVNRLPPSTNLTIDQLR
+                     FIGLQVLGPSFNFNVAIRSPNDAVQPGLRFTSCGDAEIDCDYKACLNSVVVINNNVTT
+                     SGCL"
+     gene            23939..24810
+                     /locus_tag="Milano_030"
+     regulatory      23939..23942
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_030"
+                     /note="Milano_030"
+     CDS             23950..24810
+                     /locus_tag="Milano_030"
+                     /note="similar to Agrobacterium phage 7-7-1 virion protein
+                     NCBI YP_007006464.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72053.1"
+                     /translation="MNVLIPGIDGMVSAGTLEYTGCCPPSFADVDECTLATAFVGLLP
+                     SGPLWDRPKYEAITTITEAGNCAACWTTDHCPTLVDYAVNVGARLASVIERTIWPAVR
+                     ESDPFTAVTSTADWLNRFDWVNCFETSCRSKELGEKTPIEYMTDCGPVYVKITYPPSL
+                     QQAFESALIKSLERLSMGIIKNLAAINFVIEPLKVRVVPVDTTDACENETLCVVLEKT
+                     SDFFDGVNANTCGIPTPVAAYIDRDVMQLPSDLDKYIWPGHMAAECIVRSLLSHVSRF
+                     CLIRTEQAPD"
+     gene            24812..25724
+                     /locus_tag="Milano_031"
+     regulatory      24812..24815
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_031"
+                     /note="Milano_031"
+     CDS             24822..25724
+                     /locus_tag="Milano_031"
+                     /note="similar to Agrobacterium phage 7-7-1 virion protein
+                     NCBI YP_007006465.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72054.1"
+                     /translation="MAGIFFSGGLACNLTVNAACGIATTGDDCPALYYPPKCNVQVDP
+                     LQMNAVISEIANAINAFGNTYDCSRLDNLKQVLNRARNICDLPPFGDAPDMDDRIAGC
+                     FDGQSSTVTVQQLVNLVLGQVGTLCQLPQIGAIQDDDWLAGCIDGAARIVPFAAVRSA
+                     LGGGGGVIGGVIPQNQLFDSWRAGGFWDVSQSTAGRTAFVFRSRKEGIGITVSELFIA
+                     TGGGAYQSISEWEPSTFAYVPTGETTAIDGGRIQAVAIAFKKGNQWYAKAGDIILPLG
+                     GDDGVIRVRTPGYQRLQIWDGVQV"
+     gene            25706..26530
+                     /locus_tag="Milano_032"
+     regulatory      25706..25708
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_032"
+                     /note="Milano_032"
+     CDS             25721..26530
+                     /locus_tag="Milano_032"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="endolysin N-acetylmuramidase"
+                     /protein_id="QBQ72055.1"
+                     /translation="MIDEFNRSLTKVLVHEGGKVDDKNDPGGRTNQGVIQRTYDAWRR
+                     RKGLKTRDVWLMTNDERDAIYREQYWDLIKGDELAPGVSYVVFDGAVNSGVKQSVIWL
+                     QRALGVNADGIVGNQTIDALNNHPDHDRLIADILRRRLAFLQALKTWKFYKNGWTSRV
+                     NGVRAVGQAWAMGSVGPAIEFVPNGNKRGLITDAKQAPSTAPADASTGAGSISVVLSQ
+                     ATDQLTPLANIDFIAKAVAVLTVAGVVVTVGGIGYRLWAKRQEAKLKEALS"
+     gene            26514..26733
+                     /locus_tag="Milano_033"
+     regulatory      26514..26517
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_033"
+                     /note="Milano_033"
+     CDS             26527..26733
+                     /locus_tag="Milano_033"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="i-spanin"
+                     /protein_id="QBQ72056.2"
+                     /translation="MIRLYVYGAIAIALLGLSYWIYRQGGESIRTEIEKQDTKAGNRS
+                     DDARSRYDLCPVGKWNFGAGKCSE"
+     gene            26710..26951
+                     /locus_tag="Milano_034"
+     regulatory      26710..26713
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_034"
+                     /note="Milano_034"
+     CDS             26721..26951
+                     /locus_tag="Milano_034"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="o-spanin"
+                     /protein_id="QCQ78506.1"
+                     /translation="MFRITALCVLLAGCQTVEPGSTAAVRRIVGTDLIGARGATAEDQ
+                     RKIDRTIVGLCAPNVYTRDECTRHGTLTSRPL"
+     gene            complement(27113..27631)
+                     /locus_tag="Milano_035"
+     CDS             complement(27113..27619)
+                     /locus_tag="Milano_035"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72057.1"
+                     /translation="MYAEGYELLANILTDAFEQASTGKGKERHGRGLPWHEQAILTLG
+                     RQYGPGGTGFQAAKKIGEAMGMIERGEYEAAEREILGTIVYAAATLALVREKAKRPVI
+                     TNEKVDIEPKEVEPIPEGYEWEVSTQRFYDTFQKAYVSTVGEFHSKWIERRGEFPFRK
+                     RFPPMPND"
+     regulatory      complement(27627..27631)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_035"
+                     /note="Milano_035"
+     gene            complement(27630..28076)
+                     /locus_tag="Milano_036"
+     CDS             complement(27630..28067)
+                     /locus_tag="Milano_036"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72058.1"
+                     /translation="MTAWGEMTVPERIDAITRVYPDTKGDCRDIGKALGTTKAAIAGF
+                     YNRNRDRLAHVPLRGKTLLNTEKELQRKRGGIKEPSPPPPPPEPVKVFEPSNPVTLLE
+                     IDDTGCRYVVTVRRGGESLMCNEPATRKFGFCPYHSKINYEPR"
+     gene            complement(28064..28387)
+                     /locus_tag="Milano_037"
+     CDS             complement(28064..28375)
+                     /locus_tag="Milano_037"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72059.1"
+                     /translation="MTAQIGHNSGESTETIAAAELRQFIERWERLEEEKRAIASDQKD
+                     IMGEAKGRGYDTKAIREIIKRRKQDANERVEFETILETYMDALGMTLREHGIPMPSVK
+                     K"
+     regulatory      complement(28074..28076)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_036"
+                     /note="Milano_036"
+     gene            complement(28372..28689)
+                     /locus_tag="Milano_038"
+     CDS             complement(28372..28677)
+                     /locus_tag="Milano_038"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72060.1"
+                     /translation="MFKKSKLTVEKADPGILPNHGIVGSTVSLLEGQRNALEGEVDML
+                     TRHITDLIETRRQAIASLKAITVSLVTLSGDISLTPEQAKIADREIVVSLEDLRIDA"
+     regulatory      complement(28384..28387)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_037"
+                     /note="Milano_037"
+     regulatory      complement(28686..28689)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_038"
+                     /note="Milano_038"
+     gene            complement(28695..30602)
+                     /locus_tag="Milano_039"
+     CDS             complement(28695..30488)
+                     /locus_tag="Milano_039"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase"
+                     /protein_id="QBQ72061.1"
+                     /translation="MSWRRNDSVAFINFIWWLKHVNARMVGFNNLAFDYPVIHYLLNV
+                     GPGFTSEHANWKGTDIIEKQKRDIRSMVFGRDIVVPQLDLLKIHHFDNKAKITGLKAL
+                     EFAMRSYSIKDLPYPVEAELTSKQIDEIITYNCHDVNETEKFYIESLDKIEFREKLSE
+                     RMGKSFINYNDTKIGKDYFIQRLEKEMPGITGTYENPRQTWRPNGIPLQEIILPYVNY
+                     QNPEFNTVLNYLKGTTIRDTRSPPELKELSINFRGFKFDIGAGGLHGSVTNKSVMAHG
+                     DWEIHDVDVASFYPNLAIANRFYPLHLTEKFCDVYAELYADRSNYAKGTAENEMLKLS
+                     LNGVYGESNNEHGVFLDPQFTMSITINGQLLLLMLAENLLRHDLIQMIQANTDGVTVL
+                     MHKSAKPYFDKVCDWWQKQTLLKLEYAQYSAMHIRDVNSYMAVKTDGKVKRIGAYAYV
+                     TPMENAATREVQWHKDHSHLVVPKAAEACLVRGESIESFVWNHTDIFDFCIRVKAPRT
+                     SRLEFADGERIQNTSRVHMSKQGRELFKIMPPLAKNPEKERKMAQFKGWQLHECNDIR
+                     SFDWNNLDRNFYYEEAHKLVDKLEKVYTLSG"
+     regulatory      complement(30497..30499)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_039"
+                     /note="Milano_039"
+     gene            complement(30599..30769)
+                     /locus_tag="Milano_040"
+     CDS             complement(30599..30760)
+                     /locus_tag="Milano_040"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72062.1"
+                     /translation="MEKLLRLIAERGYRDEDGKLLTDDREFHEALQRAKDVDEAVKIA
+                     TAHTYGNFS"
+     gene            complement(30732..30941)
+                     /locus_tag="Milano_041"
+     CDS             complement(30732..30932)
+                     /locus_tag="Milano_041"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72063.1"
+                     /translation="MVKRVIVLDAWMRHPTVITVVREYPNKAVAGDDERGIRHYVTEN
+                     RIVKIPLPSKQVQNGKVTASDS"
+     regulatory      complement(30766..30769)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_040"
+                     /note="Milano_040"
+     regulatory      complement(30939..30941)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_041"
+                     /note="Milano_041"
+     regulatory      complement(30946..30986)
+                     /regulatory_class="terminator"
+     gene            complement(31005..31963)
+                     /locus_tag="Milano_042"
+     CDS             complement(31005..31949)
+                     /locus_tag="Milano_042"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72064.1"
+                     /translation="MADQFQTLTPGGRFVWGSITERATHDYDNNPYEPGKGPFQFGLA
+                     VRKDAQGMNELLGGLYNVAITGYPNKPGIHQRINNEYSSGFTRGDFAFKIKDGDKPNA
+                     EGVVNPNTAGCWVLAFQTMIPIKATHYNIIPGVPNNAEIDPKEIYRGAYVDVHLSSSP
+                     NGKEDRTAGIYLNPNAVRLLGHGERIVGGISTEQAFGSAPAPVLPVGASAMPVGPGAG
+                     GAPQVPGLPQVAQPQYQQQPQVPQVAQPQVPQVAQPQYQQQPQVPGLPQVPQVAQPQV
+                     PQVPTLPGHGQQPSTTTYPTNAAPAPAYPQILQPPAIS"
+     regulatory      complement(31959..31963)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_042"
+                     /note="Milano_042"
+     gene            complement(31968..33050)
+                     /locus_tag="Milano_043"
+     CDS             complement(31968..33011)
+                     /locus_tag="Milano_043"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72065.1"
+                     /translation="MNPHFEAMAGPEEPTDAAREGTCAAWVAECVLRGDASSAEDLVG
+                     RNHSNGWLVNLDMAYYVQKYINHVLSRGGIVSAEQRVVICAFIQGTLDSSSVSYTSDT
+                     LYVDDLKFGMEPVDVFENPQLILYGGGEYLRLGRPGNIRKVRLGIYQPRAFHHEGPYR
+                     YWDVTIDELMMLLQDLIQKGHMVQQPGALATPGPWCHRCTGSKGCEALAHSIYRGGEF
+                     ISKSAHYRELTDEEIAAELDAINLLSKLLKARRSAIEPDAESRLRSRGLRGYVLKPRQ
+                     GNRAFKYAPEVIKAMTGVDPFDNSLCTPAELERRGARPDVVEFLSERPKLPSKLERLD
+                     DKEMRRMFDKKDK"
+     regulatory      complement(33023..33025)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_043"
+                     /note="Milano_043"
+     gene            complement(33062..33779)
+                     /locus_tag="Milano_044"
+     CDS             complement(33062..33766)
+                     /locus_tag="Milano_044"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72066.1"
+                     /translation="MTRILSLQIQVSDDEFSNFIAKLASSVVGVSAHDEDGEELSTTP
+                     VGNVDKNGIPWLEAVHASTRTQTKDGRWKRLKGVTEEQRDAAEIAWKQANAAAPAAAP
+                     AVAAGPAAVQAVFVPTTATPPAPPAVNPAPTSVTIPPQVPAPAPAATIPVNIPGMTPP
+                     APAPVPVVEDVPVTLDDVGNAFGVLQAKFGELQQTFIDQIYTAAGVGNPNEIVNDETK
+                     RKKVVEVINETIKQNS"
+     regulatory      complement(33776..33779)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_044"
+                     /note="Milano_044"
+     gene            33833..35449
+                     /locus_tag="Milano_045"
+     regulatory      33833..33835
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_045"
+                     /note="Milano_045"
+     CDS             33845..35449
+                     /locus_tag="Milano_045"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA helicase"
+                     /protein_id="QBQ72067.1"
+                     /translation="MQLFADQQKLENDIFLKWMTGNKNVLAVAPTGAGKTVVKSSVAR
+                     RFNQPAVAIAHRQELVSQISVAFARFGITHRIIAPEKVVRFIVKQHIKECGRSYYHQN
+                     SPFAVAGVDTILKRAKDYEQFFDSVRLWLGDEAHHFLPDNKWGKAVLNNFPKANGLGV
+                     TATPRRTDGKPLRGIFQALVLGPTVAELIAAKRLSNYRIFGMPPSYTMVDEEDISKST
+                     GDYTLDALRKRAKGSKIVGDMVDTYLAFAPGEIGIGFAVSVEQAVEIATAFIHKGVPA
+                     MALSGESKDDVRQDGIDRLRRGDLKFIVNVDLFDEGMDAPGVTYVGAGRKTTSIIKWK
+                     QQMGRAMRYRENGMTAKIADHVGNCVSLSCVPDTEFAWSLDGKEKTKAETTVKLKTCT
+                     QCYNVYPAFKPVCTRCGHKEEPLARSAPEFVDGDLLEFSPELIAKLRGEIKKIDGKPL
+                     IPQNLPQHAIGTVERRWEERKQAQQELRDCISQWAGIRKYVDERSDAESYREFYLKFG
+                     VDIMTAQTLGAPEARKLTAMIRDEWT"
+     gene            35432..35904
+                     /locus_tag="Milano_046"
+     regulatory      35432..35434
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_046"
+                     /note="Milano_046"
+     CDS             35440..35904
+                     /locus_tag="Milano_046"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72068.1"
+                     /translation="MDMIEGWFQKYNIPFEAQAELRLLFISHPRGDDTPSTGTEGDVQ
+                     NLIRIKAAELGDVLWRNNSGATTDDAGNFFRFGLGNDSTKLNMVYKSPDLVGLRCDGK
+                     PLFIEVKEPGWNWTGTKHEQGQMNFLTHAASFGALCGFAQSVEDFLHIRNRY"
+     gene            35948..36211
+                     /locus_tag="Milano_047"
+     regulatory      35948..35950
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_047"
+                     /note="Milano_047"
+     CDS             35960..36211
+                     /locus_tag="Milano_047"
+                     /note="InterPro domain IPR009057"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="homeobox-like domain superfamily protein"
+                     /protein_id="QBQ72069.1"
+                     /translation="MKKKPRKVMSADERKEYILLNGAKLADQVGLNNVTAKLVSAVCD
+                     VNTSVMTIRHYFNNQRILQEAIAKSAYASKDVKAELRRA"
+     gene            36361..38556
+                     /locus_tag="Milano_048"
+     regulatory      36361..36364
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_048"
+                     /note="Milano_048"
+     CDS             36370..38556
+                     /locus_tag="Milano_048"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA primase"
+                     /protein_id="QBQ72070.1"
+                     /translation="MNVGFVFTQNDPYFFFDLDDCRIGDHWKPHVNEACQLFHGAAME
+                     VSQSGDGIHIIGRCDTMVGVSRKNKFKINGEKHEFYFHSRFVAFGKHGFVGDFNADMS
+                     QAVLNFIPVRTPQDDIELTEGADPAYTGPEDDEELLQMMLASRGGLNQQFGDKATIRE
+                     LWDADSVKLAQVFPSTQGDAFDRSAADAALMSHLAFWTGRDLQRMDRLFRRSGLMREK
+                     YEKRPEYREWTVTNAAKGCRNVYNIPRPDRRFEVPAERFQEITETVAEGFENVVAGLP
+                     ISMHGSMTPSEQISYFDNMVYVMEDHSIYVFKDNLFYPPERFSAFFGGTTFIIDSEGK
+                     KPTKSAFEAFTQNTCVRFPRVQRSVFRPDRRVLEKDGDRTINTYIPHVPETAEGDVSL
+                     FLDHMRRLFSTERDMNIVLYWFATLARYPDKRIRWAPVIQGVEGNGKSFLGDVLTYIV
+                     GEQYTHKPNAEDISNKFNDYIDRKLLIIVEEAHMQGRREMMDVLKPLITNPRVEIQPK
+                     GGKKRMIDNWTRWIFFTNHKDAFPIDLKNRRYAVFYTRQQSKEDLNEHGMTAEYFLRL
+                     WGWFENGGAANIAHFLKTVKVPAEYDPLTTLINAPITSSTSDAILESMGTVEQYIMEA
+                     IETDREGFRNGWISSGALDELLSVTMPKVTLGPTKKAQILRNLKYEKVGRASREIFNE
+                     KMSKPILYARQGMKHSGDPVSDYCTAQGYQIAPTMPVMDNVIPLKK"
+     gene            38731..38969
+                     /locus_tag="Milano_049"
+     regulatory      38731..38734
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_049"
+                     /note="Milano_049"
+     CDS             38745..38969
+                     /locus_tag="Milano_049"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72071.1"
+                     /translation="MFNFPVDVLTRICIISFAQGYTARQPEQRGSPCKRHALRRFVTD
+                     KYRDFTGAEHHQLKGSKRIYNAAGNQKLVE"
+     gene            38928..39384
+                     /locus_tag="Milano_050"
+     regulatory      38928..38931
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_050"
+                     /note="Milano_050"
+     CDS             38938..39384
+                     /locus_tag="Milano_050"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P-loop containing nucleoside triphosphate
+                     hydrolase superfamily protein"
+                     /protein_id="QBQ72072.1"
+                     /translation="MRQEIKNWLNNVRLGHFNERALVIVGGKSSGKTTFAKLAAQKCG
+                     LIRTEQYVFINAAVTETKFFVDSVRQYSMIVIDADELDVDEVIERLKPIVSNRQIHVD
+                     RLGKSSIMVNNRMNFMILTEKYEPPAASRRVLVASPIYAMNVLTEI"
+     gene            39375..40157
+                     /locus_tag="Milano_051"
+     regulatory      39375..39378
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_051"
+                     /note="Milano_051"
+     CDS             39390..40157
+                     /locus_tag="Milano_051"
+                     /note="Many BLAST hits to Noc and InterPro domains
+                     including IPR003115 for ParB"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="nucleoid occlusion protein"
+                     /protein_id="QBQ72073.1"
+                     /translation="MSIKELAKGRSDLYRMDPADLQVKEGWNVRDAETLDLQELKDSI
+                     RELGVKQPITVQVEKGVPYVTDGHRRYAAVMELISEGVEIKTVPVQVEDRFSNPADHI
+                     ASMIVRNSGKPLTAIEQARVFKRLFDYGLTETEIAQKVGKSRQWIVSMLELNAAPEEL
+                     KKLVKTGKVTATLAQQTLAKEGGEKAAETLTKAVKKAEAEGKTKATAKHVEKSAKVQL
+                     RELFDALEFEPWEGTVPGYTVSMTADQYAAFRSLAGA"
+     gene            40149..40573
+                     /locus_tag="Milano_052"
+     regulatory      40149..40151
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_052"
+                     /note="Milano_052"
+     CDS             40157..40573
+                     /locus_tag="Milano_052"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72074.1"
+                     /translation="MNDLVLIQLQEMGCVVEPCGSRVTCNPPPTDTDRDYLVEVKRFD
+                     DFDKALEIIMENGFYPEGSDHYRNSVFDFQSWRFGEINLIVTYKDWFATRHRSATALC
+                     KALNLMDKADRIALFQTMLYGNRPDEKTSETDDLPY"
+     gene            40578..41285
+                     /locus_tag="Milano_053"
+     regulatory      40578..40581
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_053"
+                     /note="Milano_053"
+     CDS             40590..41285
+                     /locus_tag="Milano_053"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72075.1"
+                     /translation="MYHELPAGAVVRLENGETATIIERPVSWPKNPDYPVVALIKGAD
+                     NPDTWTENGQFLKEGNDPYDIVAVVHYGEQKAPIVKHEPINRIERRDVENFRTGNYST
+                     RNALDQYQEIATRSAIYPGQGTPLGVMYAALGLAEAGEVQNKVKKGFRDDGMIEFVDE
+                     PFQNGDVLVRFKSITPERREAIIKEMGGALWYMAALAKEIGVSLKEVACRNLDELCSR
+                     TERDTLHGDGDDR"
+     gene            41315..41657
+                     /locus_tag="Milano_054"
+     regulatory      41315..41318
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_054"
+                     /note="Milano_054"
+     CDS             41325..41657
+                     /locus_tag="Milano_054"
+                     /note="InterPro domain IPR015947"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="pseudouridine synthase and archaeosine
+                     transglycosylase domain-containing protein"
+                     /protein_id="QBQ72076.1"
+                     /translation="MTHHVLKAHPPMFFALKDGTKNFEVRKDDRAYQTGDTVEIRHFE
+                     PAVAPPAPMTPFAPAPLWPDDRKPKSVEVRKADMTPYYGKITFVLRGNQYGVEDGYVV
+                     LALSELVD"
+     regulatory      41685..41717
+                     /regulatory_class="terminator"
+     gene            41709..42333
+                     /locus_tag="Milano_055"
+     regulatory      41709..41712
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_055"
+                     /note="Milano_055"
+     CDS             41719..42333
+                     /locus_tag="Milano_055"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72077.1"
+                     /translation="MSGFIGKIVRLRNGEVRGPIRERDDNGPYTLTDDHSSWTETGRY
+                     ISGHVDDKDIMEVAQFIPFYDPKVAEEITKTGQEIMKNLPFSVDTEGVVLTGTPSHGR
+                     IYLAGPMAGYPERNYPAFIRAAKALRELGYEVYNPAEYEANERFKGQEDRSEFPLREA
+                     FTEYTNYILNRADIIALLPGHEKSVGATAELSLARVVKLKEIYL"
+     gene            42317..42521
+                     /locus_tag="Milano_056"
+     regulatory      42317..42320
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_056"
+                     /note="Milano_056"
+     CDS             42330..42521
+                     /locus_tag="Milano_056"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72078.1"
+                     /translation="MTPEELESWLEEVRRVSPGITDKEIAEGIGRSDQWLADAKKKGV
+                     KMKTPVMAMRWFLHGLKVG"
+     gene            42511..42925
+                     /locus_tag="Milano_057"
+     regulatory      42511..42514
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_057"
+                     /note="Milano_057"
+     CDS             42521..42925
+                     /locus_tag="Milano_057"
+                     /note="InterPro domain IPR019627; HHPred similarity to
+                     many bacterial DprA proteins with greater than 99
+                     probability"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA processing protein A"
+                     /protein_id="QBQ72079.1"
+                     /translation="MIVLCFGGRDFNDELYVRHVLSWFNQSIGSITQVVEGDARGADR
+                     LCGRVARSMGISVRKFPADWDGLGKRAGPIRNQQMLDEGKPNAAIGFPGGVGTRDMAR
+                     RLIAAKIPIFIDAGCLNGVLTTTNNLYKVIAD"
+     gene            42928..43077
+                     /locus_tag="Milano_058"
+     regulatory      42928..42931
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_058"
+                     /note="Milano_058"
+     CDS             42940..43077
+                     /locus_tag="Milano_058"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72080.1"
+                     /translation="MFKLNIAGNWYQSEIKGGNDGMWLFVRRPGDYKAVPLFYQETMG
+                     L"
+     gene            43058..43373
+                     /locus_tag="Milano_059"
+     regulatory      43058..43062
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_059"
+                     /note="Milano_059"
+     CDS             43074..43373
+                     /locus_tag="Milano_059"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72081.1"
+                     /translation="MTREIWKNPINIYTMPESHIDVMVPADSEVLHVSRQFPQDDSLP
+                     QVWTIGTPSKPREPLRIHVFGTGVPIPAGLKLKHIGTEIFHRGQLVLHFFVEEKE"
+     gene            43359..43510
+                     /locus_tag="Milano_060"
+     regulatory      43359..43362
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_060"
+                     /note="Milano_060"
+     CDS             43370..43510
+                     /locus_tag="Milano_060"
+                     /note="InterPro domain IPR023200 and HHPred similarity
+                     with greater than 99 probability to ribosome modulation
+                     factors in Vibrio Protein Data Bank entry 2JRM_A and
+                     Thermus entry 4V8G_CV"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosome modulation factor domain superfamily
+                     protein"
+                     /protein_id="QBQ72082.1"
+                     /translation="MTPYMQGRLAGKMGKGRCTNPYERGTEEHRQWLEGYSDGAMTLT
+                     HG"
+     gene            43591..43985
+                     /locus_tag="Milano_061"
+     regulatory      43591..43593
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_061"
+                     /note="Milano_061"
+     CDS             43605..43985
+                     /locus_tag="Milano_061"
+                     /note="HHPred similarity to many macro domain-containing
+                     proteins with greater than 99 probability over entire
+                     domain"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="macro domain-containing protein"
+                     /protein_id="QBQ72083.1"
+                     /translation="MNGWRFEMDVQNEHIVFVFGSNLAGRHGKGAALSAARFHGAIRG
+                     QGVGFMGSCYAIPTKGYQLEVLPLNEIEKHVHRFLVFATMNQKLKFRLTPVGCGLAGY
+                     RPDQIAPMFKGAPSNIIMPAEFKT"
+     gene            43970..44407
+                     /locus_tag="Milano_062"
+     regulatory      43970..43973
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_062"
+                     /note="Milano_062"
+     CDS             43982..44407
+                     /locus_tag="Milano_062"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72084.1"
+                     /translation="MIFTRVYKSEVIARLIPVIDELSKWYSEHADDLNSKYSKAAWQK
+                     NRIENKARVATRIYRLCMFKGDPYISIDIDHVEDFESLTVENIRDEIKEYARLREIQI
+                     VKTERAIKPEVTYDDDQRAHDAVLCSLVIVTVSLIAAFA"
+     gene            44406..44762
+                     /locus_tag="Milano_063"
+     regulatory      44406..44411
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_063"
+                     /note="Milano_063"
+     CDS             44421..44762
+                     /locus_tag="Milano_063"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72085.1"
+                     /translation="MFYKYDVYCRAKVVESTTDKEEAKRKARIRSKSDVDHVIVYRRT
+                     IATGRRQNIAHFFDGEDITGKHYMAGMEWKFSAGAVVALIAALSFIMAFLAFTSLPAC
+                     ETVSCFHAVNR"
+     gene            44750..45079
+                     /locus_tag="Milano_064"
+     regulatory      44750..44752
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_064"
+                     /note="Milano_064"
+     CDS             44759..45079
+                     /locus_tag="Milano_064"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72086.1"
+                     /translation="MTRFIRINDMTVIPGVELADEMKKGYVFDSKERREIEGWFFFIG
+                     PDGTAHASYDVQEHDYPTEDEVIEHIMYREIDGRRFERRDDDKIERMAEIVAALAAGK
+                     KVTL"
+     gene            45098..45318
+                     /locus_tag="Milano_065"
+     regulatory      45098..45101
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_065"
+                     /note="Milano_065"
+     CDS             45115..45318
+                     /locus_tag="Milano_065"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72087.1"
+                     /translation="MAFSFVALSSFAENSLSPTQSRWARERAENCLWALGIEEFKTER
+                     RTYFARELVTKTINLESTKRIGK"
+     gene            45304..45722
+                     /locus_tag="Milano_066"
+     regulatory      45304..45307
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_066"
+                     /note="Milano_066"
+     CDS             45315..45722
+                     /locus_tag="Milano_066"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72088.1"
+                     /translation="MMEYSKARAHMVALRQCVLLCEPSAIATAMKEAADFLESTIPVL
+                     DHVERRVLLILQSVGEDYAMNFKGIGNRYRQEFGQEISRKTIRDYCWKLKLKGLAVYR
+                     NGLMSEIDGAVAGSGYSVTTEGAKFYVEEPIKA"
+     gene            45683..45846
+                     /locus_tag="Milano_067"
+     regulatory      45683..45686
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_067"
+                     /note="Milano_067"
+     CDS             45697..45846
+                     /locus_tag="Milano_067"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72089.1"
+                     /translation="MSKNQSRHKNAYRAGYLDAINRLRELPRSEELDKIIAYLTNQAP
+                     KKPVD"
+     gene            45882..46307
+                     /locus_tag="Milano_068"
+     regulatory      45882..45885
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_068"
+                     /note="Milano_068"
+     CDS             45894..46307
+                     /locus_tag="Milano_068"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72090.1"
+                     /translation="MFESGTVLEMTNGNYILRFFSFEGQISFVKPPRVAKTDVEECDL
+                     TRALVLFSAAKKKGYKVVPSTWNVKFLTARQREVLARIAEHPMRKFESGVKIDTFEML
+                     INYGLINNHHLAREFHITAAGRMFLAGITNMRDVA"
+     gene            46292..46750
+                     /locus_tag="Milano_069"
+     regulatory      46292..46295
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_069"
+                     /note="Milano_069"
+     CDS             46304..46750
+                     /locus_tag="Milano_069"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72091.1"
+                     /translation="MIIENIHLSFAYIYNTYDLKDYDGRPDIHTKATVSAILDEQVDD
+                     RLKEHFFGTVYSGPNVGKPKFSARSNRRCPVIVEGGYSRFKDFQGQLEVLDVANIDRN
+                     LIFKTGPVTLEVERGEYERGGTSNSFIHLSKMIVDVDKLDIYKVLK"
+     gene            46737..46932
+                     /locus_tag="Milano_070"
+     regulatory      46737..46740
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_070"
+                     /note="Milano_070"
+     CDS             46747..46932
+                     /locus_tag="Milano_070"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72092.1"
+                     /translation="MNVERAVELAKEMNRTGKHKEEWHYYPALHDSGNWFVMRRRKRA
+                     ELCVAVYVDGKTSVREA"
+     gene            46920..47390
+                     /locus_tag="Milano_071"
+     regulatory      46920..46923
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_071"
+                     /note="Milano_071"
+     CDS             46929..47390
+                     /locus_tag="Milano_071"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72093.1"
+                     /translation="MMKVHKSELVPNGRLSFGTFEEQFPYPEVMKWRFDLPLSWRGKS
+                     DFEQVYKDLTAIRRLRAFLRPVAAPVSDLRTSAAYPMGVPVERRYYTGNVVEPTAQDI
+                     IDYFNGVRDPKADAFNRLMYGYCVSDVRETIRQREILLRWNLNRTYGKYAR"
+     gene            47374..47584
+                     /locus_tag="Milano_072"
+     regulatory      47374..47376
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_072"
+                     /note="Milano_072"
+     CDS             47387..47584
+                     /locus_tag="Milano_072"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72094.1"
+                     /translation="MKAQEIFEADPELHRVATLEFMKIQDEVGMDHDRVEQAKAAFLG
+                     EIEKFRTVENAAKVAREAVGL"
+     gene            47566..47985
+                     /locus_tag="Milano_073"
+     regulatory      47566..47570
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_073"
+                     /note="Milano_073"
+     CDS             47581..47985
+                     /locus_tag="Milano_073"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72095.1"
+                     /translation="MTKDETLNAIAVMQAYADGKPIEVRTPCGLPHERGWYLLKPIDA
+                     PNWDWRNSEYRIATVKPSIDWSHVAPEYRFLAVDDDERAHLYRNEPVNRAGDWEDPNN
+                     RKAFAPEAAAFASYMRGDCPYHESLVERPEGV"
+     gene            48249..48983
+                     /locus_tag="Milano_074"
+     regulatory      48249..48252
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_074"
+                     /note="Milano_074"
+     CDS             48261..48983
+                     /locus_tag="Milano_074"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72096.1"
+                     /translation="MQMTKKAQKAAEVLENRKAAFVKKVAGLLGHVFSRQPLAGVVAA
+                     FEAGVSAEDFSTSVASREPVGLCLHPMKIDACDAMEAKVRDATEKLLSKLAEHDGDIF
+                     KAFPYNENWRTRTESDKGDERLHNHVRRLTTDTEELIEVREYHRRNFKRVPNPESIER
+                     FVQENRDIAAMNYDMFICKMVQKVGEGVVSATIEGSHIWGNSILTVVKESGKVERWHT
+                     QTIWNYSKYGLPFNQWPSRLKK"
+     gene            49037..49326
+                     /locus_tag="Milano_075"
+     regulatory      49037..49040
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_075"
+                     /note="Milano_075"
+     CDS             49051..49326
+                     /locus_tag="Milano_075"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72097.1"
+                     /translation="MYAIDIPNRRNLINAAFRILIAKDPITTMRKFEKKYGLEIREAH
+                     AFAHEAYGNCMAAKEEDVDNKLSEKFGWKTMRQLRKESIDALKQELL"
+     gene            49313..49562
+                     /locus_tag="Milano_076"
+     regulatory      49313..49316
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_076"
+                     /note="Milano_076"
+     CDS             49326..49562
+                     /locus_tag="Milano_076"
+                     /note="InterPro domain IPR023200 and HHPred similarity
+                     with greater than 99 probability to ribosome modulation
+                     factors in Vibrio Protein Data Bank entry 2JRM_A and
+                     Thermus entry 4V8G_CV"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosome modulation factor domain superfamily
+                     protein"
+                     /protein_id="QBQ72098.1"
+                     /translation="MDYATAREIVDTWWFDPDIDPRRMKRAERVVMTKGNLFLAYNRG
+                     MLAFYQGRAKTDNPFPPGARRDQWEQGFNYGAVK"
+     gene            49548..49774
+                     /locus_tag="Milano_077"
+     regulatory      49548..49551
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_077"
+                     /note="Milano_077"
+     CDS             49559..49774
+                     /locus_tag="Milano_077"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72099.1"
+                     /translation="MKFFEAVRMWRYRRFVKTLPKAVQEPESFIDDIFMRDVKRRFNP
+                     FSSDDRNAIWRGVRYGQLQAFNKVFPE"
+     gene            49758..50088
+                     /locus_tag="Milano_078"
+     regulatory      49758..49761
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_078"
+                     /note="Milano_078"
+     CDS             49771..50088
+                     /locus_tag="Milano_078"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72100.1"
+                     /translation="MIEITHNETPLSRELYVFDHNAWQRGTRLVRYSKQERETTRHKF
+                     KGPMWNSDDTRRPFGSQLGEPSEIPAEVLEKLKSALIDDVLSMTLYVGWFNPKHVYKD
+                     NLK"
+     gene            50072..50276
+                     /locus_tag="Milano_079"
+     regulatory      50072..50075
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_079"
+                     /note="Milano_079"
+     CDS             50085..50276
+                     /locus_tag="Milano_079"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72101.1"
+                     /translation="MNDKITRMGKHGAPYSVDFLTQLRNDLQQLAADVDDTRYATRLL
+                     QAASAVNLIRSNNAAGRDE"
+     gene            50261..50368
+                     /locus_tag="Milano_080"
+     regulatory      50261..50264
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_080"
+                     /note="Milano_080"
+     CDS             50273..50368
+                     /locus_tag="Milano_080"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72102.1"
+                     /translation="MKDLEPIFGYVVLIFLVFFVVAGVVLYKSLV"
+     gene            50387..50534
+                     /locus_tag="Milano_081"
+     regulatory      50387..50390
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_081"
+                     /note="Milano_081"
+     CDS             50400..50534
+                     /locus_tag="Milano_081"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72103.1"
+                     /translation="MYRIGKDGNKGWKVVKNATGKNVFFGTKQECEEWIERNGHDGDV
+                     "
+     gene            50739..50919
+                     /locus_tag="Milano_082"
+     regulatory      50739..50742
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_082"
+                     /note="Milano_082"
+     CDS             50752..50919
+                     /locus_tag="Milano_082"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72104.1"
+                     /translation="MKDRIKAARAAVNKETFGTPEWEAKMQVVRDLVDRHDAEQPRFE
+                     HTSIDGDIWSV"
+     gene            50909..51119
+                     /locus_tag="Milano_083"
+     regulatory      50909..50912
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_083"
+                     /note="Milano_083"
+     CDS             50922..51119
+                     /locus_tag="Milano_083"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72105.1"
+                     /translation="MINTKLIAREVGFGEIILKDTSGETVARFDSAPYFYIVTGFKSA
+                     DAYNAHHADEPVKFLVWKREH"
+     gene            51110..51313
+                     /locus_tag="Milano_084"
+     regulatory      51110..51113
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_084"
+                     /note="Milano_084"
+     CDS             51122..51313
+                     /locus_tag="Milano_084"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72106.1"
+                     /translation="MTNDARNYAEKSESHSRRALKATRHAITELRKRIAENEAMLKSS
+                     LADLNEVKRVMCEQGWTEE"
+     gene            51484..51818
+                     /locus_tag="Milano_085"
+     regulatory      51484..51487
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_085"
+                     /note="Milano_085"
+     CDS             51495..51818
+                     /locus_tag="Milano_085"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcriptional regulator"
+                     /protein_id="QBQ72107.1"
+                     /translation="MNTKSTTPIDVMIGNNIRAVRKLRGMSQETLAAGIGKTFQQVQK
+                     YEKATNRVSCSTMLVMCRVLNCEPADIIGRPDGEHVDVAESFLTREAELRDRMARAIK
+                     VLQDG"
+     gene            51799..52023
+                     /locus_tag="Milano_086"
+     regulatory      51799..51802
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_086"
+                     /note="Milano_086"
+     CDS             51811..52023
+                     /locus_tag="Milano_086"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72108.1"
+                     /translation="MADKTFRITCVRSHGKSHSLDLSGFGAEQLAYEQFKRLKESKRY
+                     VYIGMFENDELLMFDVLTKGDVRTDG"
+     gene            52000..52294
+                     /locus_tag="Milano_087"
+     regulatory      52000..52003
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_087"
+                     /note="Milano_087"
+     CDS             52016..52294
+                     /locus_tag="Milano_087"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72109.1"
+                     /translation="MDNDAPLTSREATERFKPEENHIWLERNKRAEELLRPMLKAGDR
+                     IRATKAECCAREATFTFAGWEKGWIVSWSGKSIAPGNVYSVNGKVVRV"
+     gene            52218..52563
+                     /locus_tag="Milano_088"
+     regulatory      52218..52220
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_088"
+                     /note="Milano_088"
+     CDS             52228..52563
+                     /locus_tag="Milano_088"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72110.1"
+                     /translation="MERQEHCAGKRLFGQREGRQGMTSCQCGERKRPFRCDLAEGSND
+                     RPRQWFVTRRNETCSAFTGYRRQWSESSDVMCRVCGAYWRTKAKWVSNLENCEYWPNQ
+                     NAPRAEPME"
+     gene            52557..52965
+                     /locus_tag="Milano_089"
+     regulatory      52557..52560
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_089"
+                     /note="Milano_089"
+     CDS             52570..52965
+                     /locus_tag="Milano_089"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72111.1"
+                     /translation="MAGIVAIFLGLIVVFGGIGGCMAYYPEYTVYQQSMEGKAAYAKA
+                     ESDRQIRVLEARASLESAEMTSQAEIKRAEGVAAANRIIADGLGGPEGYLRWRYIEML
+                     ENTGSKGGRDVIYIPTEANLPILEAGQRK"
+     gene            53176..53479
+                     /locus_tag="Milano_090"
+     regulatory      53176..53180
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_090"
+                     /note="Milano_090"
+     CDS             53189..53479
+                     /locus_tag="Milano_090"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72112.1"
+                     /translation="MNRSYGLKTLTAKLFIAELRNPETNGSICEFELAYSRPEAFRNL
+                     AKRMSGYKIVSFRGEDEMSRDELEQARDWRSAGAVHHFNNFAQYGEMQVYHG"
+     gene            53479..53713
+                     /locus_tag="Milano_091"
+     regulatory      53479..53483
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_091"
+                     /note="Milano_091"
+     CDS             53492..53713
+                     /locus_tag="Milano_091"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72113.1"
+                     /translation="MFYIINKNSDFIRSHPRWGSPEAVHLGDAWENKRYADKFRTKAE
+                     AEKQLAIWADNNDFKGRVIDEQTTFEMGA"
+     gene            53704..53976
+                     /locus_tag="Milano_092"
+     regulatory      53704..53708
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_092"
+                     /note="Milano_092"
+     CDS             53716..53976
+                     /locus_tag="Milano_092"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72114.1"
+                     /translation="MKLTKTVNGVTFERRHNMGDPSRYIWEGGAAGGTVFISRSGKFG
+                     HSREWHDTFEAAAERSMLACRERYLQAKKLVDAYEKQVDAYK"
+     gene            54004..54301
+                     /locus_tag="Milano_093"
+     regulatory      54004..54007
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_093"
+                     /note="Milano_093"
+     CDS             54017..54301
+                     /locus_tag="Milano_093"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72115.1"
+                     /translation="MSIAQTILQQLGGNRFLAMTGAKNLLNGGNYLQMDLGRGKKVRI
+                     TLDASDTYTVETFKWNARALECKRIDGHSGVFADSLREVFTDLTGLYCTL"
+     gene            54365..54584
+                     /locus_tag="Milano_094"
+     regulatory      54365..54368
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_094"
+                     /note="Milano_094"
+     CDS             54378..54584
+                     /locus_tag="Milano_094"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72116.1"
+                     /translation="MTRFDHMISYLAAKGVKMVVKTEYVNGVAAGRKLMTKLTVTKSD
+                     RFYRVNGKVVSSGMAKELMRMAAQ"
+     gene            54566..54775
+                     /locus_tag="Milano_095"
+     regulatory      54566..54569
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_095"
+                     /note="Milano_095"
+     CDS             54581..54775
+                     /locus_tag="Milano_095"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72117.1"
+                     /translation="MTKLIFVVLLNMANGQQIEAYRSEPMTFVECDKRQREVWAGDWP
+                     VAFIDEEGAAPVIDAACVPQ"
+     gene            55004..55219
+                     /locus_tag="Milano_096"
+     regulatory      55004..55007
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_096"
+                     /note="Milano_096"
+     CDS             55013..55219
+                     /locus_tag="Milano_096"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72118.1"
+                     /translation="MRKFFYVTAIYGTKVVALLGPYDNHAAALENVDRGRSMALGYDK
+                     SGKASFASYGTSGSDEEFKTVFGK"
+     gene            55226..55445
+                     /locus_tag="Milano_097"
+     regulatory      55226..55228
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_097"
+                     /note="Milano_097"
+     CDS             55236..55445
+                     /locus_tag="Milano_097"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72119.1"
+                     /translation="MTTKAIYTNDTDYLETKTWNVDIIGFVTGNPQDRSRQYGTLGEQ
+                     PLAVCVFDDGRLEAIPFSRLKVKRP"
+     gene            55442..55783
+                     /locus_tag="Milano_098"
+     regulatory      55580..55582
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_098"
+                     /note="Milano_098"
+     CDS             55595..55783
+                     /locus_tag="Milano_098"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72120.1"
+                     /translation="MKVVSADEVARQMNERKHVGWRWKHADTPDEGHWHYVDGIEKPD
+                     PGFTTEYAKRVTFQEVYA"
+     gene            55767..56433
+                     /locus_tag="Milano_099"
+     regulatory      55767..55773
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_099"
+                     /note="Milano_099"
+     CDS             55780..56433
+                     /locus_tag="Milano_099"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72121.1"
+                     /translation="MTHHRDGNMIVDGNGAVVCLMCECDSFGGLHTAHNADANAEVIL
+                     KAFNDARTSFMIGPNTMERVFKAAGLTDLSDLQAVMDAVEKALTVSREPTTIKGENFV
+                     DFLNTDRPYICRKIEGTRYLLVDRETGEFVGYRKYDDDMPTIKPLEWKRGEYVSSAKS
+                     VDKLAFNAQRLGSAGEQWILHAYLTTETVRTLHPSRQAAEAAAQTLHNEAVAKYLSD"
+     regulatory      56469..56500
+                     /regulatory_class="terminator"
+     gene            56523..56644
+                     /locus_tag="Milano_100"
+     regulatory      56523..56525
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_100"
+                     /note="Milano_100"
+     CDS             56540..56644
+                     /locus_tag="Milano_100"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72122.1"
+                     /translation="MWSPTRHVSPKPPCDRLSRNVDDRTCARHEQEVA"
+     gene            56809..56926
+                     /locus_tag="Milano_101"
+     regulatory      56809..56811
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_101"
+                     /note="Milano_101"
+     CDS             56822..56926
+                     /locus_tag="Milano_101"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72123.1"
+                     /translation="MSAGVIDAVFEIKKHFMTLYGLWLTRQFHNWSGL"
+     regulatory      56992..57021
+                     /regulatory_class="terminator"
+     gene            57223..58035
+                     /locus_tag="Milano_102"
+     regulatory      57223..57225
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_102"
+                     /note="Milano_102"
+     CDS             57235..58035
+                     /locus_tag="Milano_102"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72124.1"
+                     /translation="MDDTIEHWKAVRSFAFLNDHMMVAQPEEFGSRIICERNDGRTFH
+                     FYFGDRSFIASNIGDRQYLITYDVRPNLGGYNLVNGRYVPSPDGDVQIEGFFPNYRIA
+                     GLFIPVYLGPHLYFYTEPQDDIINLAKTGQLRAPSVHIVRQCLTCRREIPKAIGPRAK
+                     YCSIECGLVTRDMQRRQRAARAETRKFELPKLTPVRKCKTCDGVIPKELGGRVRYCSV
+                     ECGLMTREMQKQGKQSPCDYCAKPFKRYGRQRFCSEECKLRSKLDALR"
+     gene            58009..58402
+                     /locus_tag="Milano_103"
+     regulatory      58009..58013
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_103"
+                     /note="Milano_103"
+     CDS             58022..58402
+                     /locus_tag="Milano_103"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72125.1"
+                     /translation="MLCDECGIFEVPENMDCCRVCFSVMRGIPLDDLSDVEFDSFRHR
+                     VLKKQKREEDRQRKKTDRERRAMSTAEEMRHRVEVARQTGEYSGPLQFCGSCKGVIKK
+                     TVGYCVPCARKALAAAGIPGHNAK"
+     gene            58418..58759
+                     /locus_tag="Milano_104"
+     regulatory      58418..58421
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_104"
+                     /note="Milano_104"
+     CDS             58430..58759
+                     /locus_tag="Milano_104"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72126.1"
+                     /translation="MINEELETQVLHFLVEKLGGHSVTIVRDAGTPDAQSLTGFSVSN
+                     SKTFAIRDLLELINGPDDGRPCHMDKFVADLHEATDDTFERDEAITHWLYGDWPAAME
+                     YLKDEDE"
+     gene            58743..58992
+                     /locus_tag="Milano_105"
+     regulatory      58743..58746
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_105"
+                     /note="Milano_105"
+     CDS             58756..58992
+                     /locus_tag="Milano_105"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72127.1"
+                     /translation="MRYIAVVHSWFVHSKGFDVRELDVTNDKDAKTQADAFAHEVSDD
+                     FKSTAVVLLKIGEGERIFKPRRLTWKERMLGRIE"
+     gene            58977..59192
+                     /locus_tag="Milano_106"
+     regulatory      58977..58980
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_106"
+                     /note="Milano_106"
+     CDS             58989..59192
+                     /locus_tag="Milano_106"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72128.1"
+                     /translation="MKLTVPQYQALKKYEDEQAHNETALSIRANVYDRLVKMGCLKRS
+                     YLLKSRITPEGRAALKAFEDRLK"
+     gene            59175..59377
+                     /locus_tag="Milano_107"
+     regulatory      59175..59178
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_107"
+                     /note="Milano_107"
+     CDS             59189..59377
+                     /locus_tag="Milano_107"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72129.1"
+                     /translation="MTPGQDENLRRIAEYLKRLPTCHACVVEGQERECECIGARWAGR
+                     EILKTLDRNEWITKALVK"
+     gene            59361..59730
+                     /locus_tag="Milano_108"
+     regulatory      59361..59363
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_108"
+                     /note="Milano_108"
+     CDS             59374..59730
+                     /locus_tag="Milano_108"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72130.1"
+                     /translation="MKVGQILYACYSDDTTGKVSFEEYHVRTIRKGKIYATLKGSFTW
+                     GKRSSKHGDFGWLDPVPAWCRQRVDLCSWLFTTKLQAIRNEIKRHHPEDFVSPEIAEK
+                     ALKTLKSLETKNKRAK"
+     gene            59884..60195
+                     /locus_tag="Milano_109"
+     regulatory      59884..59886
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_109"
+                     /note="Milano_109"
+     CDS             59896..60195
+                     /locus_tag="Milano_109"
+                     /note="C-terminal effector signal transduction response
+                     regulator homologous superfamily protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="C-terminal effector signal transduction response
+                     regulator-like superfamily protein"
+                     /protein_id="QBQ72131.1"
+                     /translation="MTAEEYERLANEGGKHAAMFRGMAKWCREQEVVSKFTDDDKTII
+                     RSLRRGHPRAEIAMRLAISEAMVSRRILNIWQMIDEPRTNDAGLVFALGRRGLLV"
+     gene            60234..60580
+                     /locus_tag="Milano_110"
+     regulatory      60234..60236
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_110"
+                     /note="Milano_110"
+     CDS             60248..60580
+                     /locus_tag="Milano_110"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72132.1"
+                     /translation="MLVGDVMTLLLTAGYGHDSPSKVWLSFRARPDYWREIFVEMAEN
+                     FGCEKRFADKAASILETSCRYDCCVQRVWINNRLYNLVEAMSFAGVTVKVDPEYFPPR
+                     GYHRSVKV"
+     gene            60563..60909
+                     /locus_tag="Milano_111"
+     regulatory      60563..60567
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_111"
+                     /note="Milano_111"
+     CDS             60577..60909
+                     /locus_tag="Milano_111"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72133.1"
+                     /translation="MKVIHPANAQLLPGPEGTFALPVVRDETGFYSYWQPDEKELALL
+                     NAGYAVQLGIHHNVHPVVSMAIAFAAGENVKGAYSDETVSRVAQAFLDNVEEHGFVAA
+                     IRAGLDAL"
+     gene            60891..61103
+                     /locus_tag="Milano_112"
+     regulatory      60891..60894
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_112"
+                     /note="Milano_112"
+     CDS             60906..61103
+                     /locus_tag="Milano_112"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72134.1"
+                     /translation="MTMSTLQYETMRIDRLMQPRRLTLYPDHDLVLSVAVCWAVMYHC
+                     KGSPFEAKDYYLSTIGMDGVQ"
+     gene            61088..61309
+                     /locus_tag="Milano_113"
+     regulatory      61088..61090
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_113"
+                     /note="Milano_113"
+     CDS             61100..61309
+                     /locus_tag="Milano_113"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72135.1"
+                     /translation="MTVKLTHAQVKCLRAIANTTWGIRLISLNAAGFSTTTVMRLSML
+                     GYVSIDNAVVTLTDDGKAFIRFGVN"
+     gene            61310..61506
+                     /locus_tag="Milano_114"
+     regulatory      61310..61314
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_114"
+                     /note="Milano_114"
+     CDS             61321..61506
+                     /locus_tag="Milano_114"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72136.1"
+                     /translation="MAIRKAKTFVDNPDYSGVPNPNPHISDDIMCVDVFITSRETILH
+                     TDEMEELREYFLKEQES"
+     gene            61496..62171
+                     /locus_tag="Milano_115"
+     regulatory      61496..61499
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_115"
+                     /note="Milano_115"
+     CDS             61506..62171
+                     /locus_tag="Milano_115"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72137.1"
+                     /translation="MRYVFGFCDSPKTISSRRTRTVHNSGINSKRVRNMKNPLFSFAN
+                     CLRHAFMTGAGYGESERISDADQRRWCEYDPPNVGSFSTMADVLASAARDEYNQTMSR
+                     KDAMTVIGHATDFSEAMQRATKLLSELRPPARTGVVIVAAAIRIHANGSDFVISVPRP
+                     GRHHDIHSAEAFPLEYAYTEGFLTSAGTFVDRENALELAIKAGQFNAPAEGKRELFSE
+                     DLW"
+     gene            62157..62302
+                     /locus_tag="Milano_116"
+     regulatory      62157..62160
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_116"
+                     /note="Milano_116"
+     CDS             62168..62302
+                     /locus_tag="Milano_116"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72138.1"
+                     /translation="MMTFICLVVLSCAVGTLYGGVYGCLVFGVVGLIIMATNKWVDWE
+                     "
+     gene            62286..62868
+                     /locus_tag="Milano_117"
+     regulatory      62286..62289
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_117"
+                     /note="Milano_117"
+     CDS             62299..62868
+                     /locus_tag="Milano_117"
+                     /note="InterPro domain IPR029063"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="S-adenosyl-L-methionine-dependent
+                     methyltransferase"
+                     /protein_id="QBQ72139.1"
+                     /translation="MTVVASGYELKENEKYETEPWVCHAVFRHIPVAGLYVWEPAAGN
+                     HKIADECLKFGARVYTSDIALYDRDHDFVIDFFMMDDPTLGFDMIFTNPPYGPQNRTA
+                     AKFARHALELCDGWVILVLTAKFDSGSSRHDLFRDNPRWHAKIVLTDRISWEGNGKSG
+                     TEDHAVYVWRPKWAQIEKPVLIYEGKTRN"
+     gene            62937..63209
+                     /locus_tag="Milano_118"
+     regulatory      62937..62940
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_118"
+                     /note="Milano_118"
+     CDS             62949..63209
+                     /locus_tag="Milano_118"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72140.1"
+                     /translation="MRVKVGNEWFACSVDTPIQVELTEKDKENIANMAPDACLYATFA
+                     QPARNEFERGQQLAWMLEGSRKQGAAISVAEAEKATEVKNVD"
+     gene            63189..63618
+                     /locus_tag="Milano_119"
+     regulatory      63189..63193
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_119"
+                     /note="Milano_119"
+     CDS             63199..63618
+                     /locus_tag="Milano_119"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72141.1"
+                     /translation="MLIELKDGDTVIIGAVDIEKNRQFYTDICDSLGRGLSNAHFYYA
+                     PAEYHSVTVYRPSSTKDAPPVEKHDGWHSFESAPMDGQIFDAWVTDGERGNRRIPCVS
+                     FIKGVYQVHSAMAYEFRPIGDYGTPTHWRYPPQGPKA"
+     gene            63603..63830
+                     /locus_tag="Milano_120"
+     regulatory      63603..63606
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_120"
+                     /note="Milano_120"
+     CDS             63615..63830
+                     /locus_tag="Milano_120"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72142.1"
+                     /translation="MTVIRNPFKRGQSVELTKGFPSVGLKAGDRLIVKSTSYGFTPGK
+                     TCPKGIRPTCGFDEIKNARIPTEYLKA"
+     gene            63812..64399
+                     /locus_tag="Milano_121"
+     regulatory      63812..63815
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_121"
+                     /note="Milano_121"
+     CDS             63827..64399
+                     /locus_tag="Milano_121"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72143.1"
+                     /translation="MIYGYICKNETPAFEFFVKDVKDEEGQPIITETQLANGMKVFPV
+                     WRDERKGEVMPTIVGYSRILEFGSTNAKREFINNSDYDPEIHDSDEWWPVTEQLALNW
+                     DAAHEHNAARELHDRAHEAFHVWNYLPKDTPADVKDRMKAIYQDKAGVAFIASRRLGF
+                     GNHVVPDDTIDEYHIKMANKHRELARLYSI"
+     gene            64453..64983
+                     /locus_tag="Milano_122"
+     CDS             64453..64983
+                     /locus_tag="Milano_122"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="terminase small subunit"
+                     /protein_id="QBQ72144.1"
+                     /translation="MDEPTIEIDVDKLSERAEQFCAEYCVDFCKAKAEIRAGYAPGCG
+                     PSLKDPRIIAKIEENKKKHAARQNISVDWVLDNYRRIAMGNMADYFEIKHTDDGHAYV
+                     QINFKKTTPEQLRNLKKLKMGKYGLELEIHDPIAALGKIGQYLGMSGASEGDNGDEQR
+                     TADTYQIIYHAPASET"
+     gene            65023..65287
+                     /locus_tag="Milano_123"
+     regulatory      65023..65026
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_123"
+                     /note="Milano_123"
+     CDS             65033..65287
+                     /locus_tag="Milano_123"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72145.1"
+                     /translation="MTESVRVVTLTEADVERIVDKTVNDTLLKLGMSVGDPIEFQKDM
+                     HFVRGWRKSSESVKRQGFMTAVAIVTTGFLGLLYSFFKGD"
+     gene            65278..67053
+                     /locus_tag="Milano_124"
+     regulatory      65278..65281
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_124"
+                     /note="Milano_124"
+     CDS             65290..67053
+                     /locus_tag="Milano_124"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative tail fiber protein"
+                     /protein_id="QBQ72146.1"
+                     /translation="MAKLRPLQVGGVPGCANIPGGEDCQCWPEWTADNGYFFGDVVQQ
+                     GGVLYYATRDVPPGTPFLAADWAPYRPAATAIPPHNENSTYFQYQPVAYNDKLYTART
+                     DLPPGPFDPANWQEISVEGLVEVVDSATIDFTGTGAAGDPVSADVKLDPDPDNLLSAT
+                     ANGLILTADNIPFPDPSQILISEEVTLRVDYVTGDDATADGTLAKPFATVSAAIGVAT
+                     TGDRVEIYPGTYIGNFAPKSDVTVVGLEGVVIDGDVTIAAGVSGALVDGLFVDGSVLV
+                     NGANGSVTFRNSRVTENVLATGNNTGVYRFENCDIETAAIVNGTGNAEFIFSGGVSEN
+                     DFFLNSPGTMIVENRSRVKAVLHEAGNMIVQNIGVIESLASTPDNGFLAVMSSSLFDP
+                     LTSTYGTISKTGLCPFVFQDFGRDNTDTTALNGPKFIVSNGRDVHGNYDPAFYALPNG
+                     QTLNSHFAGIDAALETLQEYSPLDRLVPVDLGFSFTGGWTDGETIGAHVVSRSTIVPE
+                     NMAGSVFSTDSSTLDGVLNIVVGPSVVGTVTIVDGIATFASSSFNLDPGQTVRVVTTS
+                     DGTFDYAALTLVGHREVVYVN"
+     gene            67062..67501
+                     /locus_tag="Milano_125"
+     regulatory      67062..67065
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_125"
+                     /note="Milano_125"
+     CDS             67076..67501
+                     /locus_tag="Milano_125"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72147.1"
+                     /translation="MALRLHPTNFALAVCNAGVDQFDTGGTIEIYDGVQPADPTVAIT
+                     TQNLLMTFNIPSPGYGPAEIVAGQPYVRAPGFLPAVAVPIASGVATWARVKNSGGDVE
+                     FDGDVGTSASSAFVKLSTTNVTSGVGVSVTASEYRQAIR"
+     gene            67503..68009
+                     /locus_tag="Milano_126"
+     regulatory      67503..67506
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_126"
+                     /note="Milano_126"
+     CDS             67515..68009
+                     /locus_tag="Milano_126"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QBQ72148.1"
+                     /translation="MITPVCPSVPCGNPPVPLPPPPSPPPSTGGAIVVEASDTIILTG
+                     DGTADNPLRAELAFPLRIDLASTSYDGLSDNDFQMVYSAVESFNFVNAESTGAVSPIL
+                     STVLNVTVNDADAGNITVDNGVFSFALSESILVNPGDVVKIINSGPIVFDYLAITIVG
+                     NVTP"
+     gene            68008..68451
+                     /locus_tag="Milano_127"
+     regulatory      68008..68012
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Milano_127"
+                     /note="Milano_127"
+     CDS             68020..68451
+                     /locus_tag="Milano_127"
+                     /note="similar to Agrobacterium phage 7-7-1 virion protein
+                     NCBI YP_007006559.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion-associated protein"
+                     /protein_id="QBQ72149.1"
+                     /translation="MAIIISQAIALSLVDAIHARIDAGAAAGHLRVYSGARPANPEAA
+                     VPGASVLLVDFELNDPAFLAATMVGSVASANADTVDPVNGAANGTATWFRISDSNGVA
+                     IFDGSVTDQTGTGDLKLATTTIVAGVPVTVVSLTGRMSTGA"
+ORIGIN      
+        1 tcggagaatt tagaaaatgg caaagggtaa accgtacctg ctaacgtggt tgtcgaacgt
+       61 gcttgcgtct tggcagatgg acagtaacga tgtctttcag ccggtggcaa acgtcgcact
+      121 gacaagtacg ttcgatctaa cgactttgcc attttctctt gccgcttcct atgtcgagga
+      181 caccaatttt ctcggcataa tttatcgtgc gtcatcgacg ccgatcggtt cgaatattta
+      241 cacccttccc ggccttacgc cgatcgtggt gacgcccaac tttatttcgc cgggcggcac
+      301 accttcaatg gttgccgcca agaaaaaggg attgatgaca tacgccctga cggcaaccac
+      361 gacgtcagcc ggtcgtaaga tcgaccggaa tacaggtgcc gctatatcag cgtttggcct
+      421 tggatcaaat gcgggatggt tgccgacgta tgccaaggtt gctgttcacc ccaccggtcg
+      481 ctacgccgtt cgtccgcgca caaacggcac gacggggatc agtgtttcgt ggaattcggc
+      541 tcttacgact gccaacaatt acccgaacct gaacaacaac aattacaacg cgccgactcc
+      601 aaatcttatt caggctgtcg cggcgtgctg gtcgcccggt ggcgaattgc tttacatgct
+      661 ggattctgcg ggcgtcatcc agatcgttcc gttcacgata ccggctgacg atccggttcc
+      721 gcaaccagct aacgtttacg cggcgttcgg cgcgatcgtt tcttccgttc cgacaactgg
+      781 ccttggcttg gattatttca cgcacatgga agccgacccg tcgggaagct ttgtgatggt
+      841 ttgccacggg gcagggacga caaatccggt ctttacgacg gtcatttatc agcgcgtcgg
+      901 caacacgctc acggaaatcc agcgtatcgc ggatttcgga aaatacgccg aattttccga
+      961 agattcgcaa tatattatcg attccggctc gaagaaggct tacaaactca atcttgtcag
+     1021 cggtctttac gaagacgttt cggcaaccgt catggtgaac gttccgcttg gcgctatggg
+     1081 tttcctgtcg cctgagatcg acgcaacgcc cggtatcgcc aatctttaca acgtttcgat
+     1141 tcaaaaattc ctgacttgcg gcgtcgactt cgcaaacatg aagatgattt tcctgtcgtc
+     1201 aggagcggca ctcaacgcgt cagccacaac aattgccggt gctgtaggtg cgtttgcggt
+     1261 cagtgacccg aacgttcccg caagtggtct tcagcttcag aacgtcacgc tgaatcctgc
+     1321 ggcgggcggg caagtaactt tgaaagcgaa tgacctttcc gttcaggtgg cgaacaactt
+     1381 cacgttccgg tattccgtgc tggtcgacgc cacaaatgac acgccgcttg ccttcttcga
+     1441 ttggggcgaa acattcacga tcggcgcttt gtccggtctg aatatcgacc tttcttcaag
+     1501 gggaattgcg cttttcgggg tttaaaatgg ctatcgtcca atattttatc ccgaaaaccc
+     1561 ttcttgtaaa agcaaccgct attccgcttg ctgaggcgga agaccccggc ttgcttttga
+     1621 ttggtgaatg ggattatccc ggatattcgt tgatcggtca ggcgtaccga gattatcagg
+     1681 gcgtcggcgt ctttgattat ccgacttatg tcgttgccgg tgaagtgacc gacggcgcac
+     1741 cgtataagcc gcctctttac ctctattccg aaccgtcggt ttcgaagttc tcggcgctgc
+     1801 cgatcgacgg tgaagaattc cgcatttcgc aacccgtcgc gggcgcatgg ggttacccga
+     1861 aatactgcgc acgcggaacc attgtgtatg tcggcgtcgg tgtcggatca tgggattacc
+     1921 cgtcgcttta ttccgccgaa ggtacgttgc aacagaacgg cgcgatcgtc ggtgaatggg
+     1981 actatccgtc ctatgacatg ttcggtggtg cgatcgaatc gcaaggcaaa tggaactacc
+     2041 cttcctatta tgtcgaaggc tctgcgtcag gcggaacgga aggtcgtttt gattatccga
+     2101 cctatgaatt cgaaggttcg ttcgtcaagg ttcctgacaa cgcggtttac gcgacgttgg
+     2161 attatccgac ctatttcgtc gaggcagaag gcgttcaaca gataaacgcg acccttgtcg
+     2221 ctaattattg gtcatattcg ctccgtggca cgctcgaaac gcaatatggt atcggcgaat
+     2281 gggattatcc gcgttatgcg tttgatggcc ttgcagcggc gaacggtcag gtcgttggtg
+     2341 aatgggatta tccgacatat tccgtttccg gctcaatcga caaatacggt ttcgaagggg
+     2401 aactgaatta tccgcgctat ggttttgatg gccttgtcgg tttccccggt gttgccgttg
+     2461 gcatttggaa atatccgggg tatcagttga acggcgttat cgggaagccg gtaatcgaaa
+     2521 aacgacgcag gcaattgacg gtaacccgca catggtaaaa acgcttcagc gccgccccta
+     2581 tagtggaacg acgatcgcgc cagcgacgca gttgaaagtc aagctttcgc cgacggggaa
+     2641 attcctttgg gtttccccgt tcaacggttc ttcacgcacg cggaaaatct ggaacggcac
+     2701 ggaatacgtc aacgcaccgg gcgcggctgt cgagatcgcg gaatatttcg ttggttggac
+     2761 cgctgacgaa acgtatcaag tcgtcgttgg tcgcgcgacg ggcggaacga cgcgtcttta
+     2821 cctgcgatcg gtcgaccctg ccggtgtgct tgtggccctg tcgtcaccgg caacaaccgt
+     2881 tatgtcggac acgaacgcga ttcgcggcct tgaacgcatt acaggtgaca cgttcattgc
+     2941 ctacggtcag tctgcgattt gtgttttccg tatcgatcgc ggcacgaaca cgattgtcat
+     3001 tttgaacgac agtatttttc ctgataaccc ggttcgcggc atcgctggta acggaaacga
+     3061 caacatcatt gtcgttcaca gcggtgcgag tggaagcgtc ggatttcaga cgtatagtgt
+     3121 caatctttcc acgggtgttc tatcgccgtt gggaacgaaa atcatcaagg ccggtaatcg
+     3181 tatcaacggt tttgattacc gggacggaaa aattctgtcg cattcgttct acactataag
+     3241 cgacgtcatg ttcctgcaac gtgacggagg gaatgcgctt caacctgttc cgggttttga
+     3301 cgcaaccgtt ctgcaaagca atatgacgtc agcaagtgca caaacgacgg cgtcgtttat
+     3361 tcatcttggg tttgacggga cggaaataac ttatctcgac caagcagccc cggcgaaatt
+     3421 ttggagtgcg gacgttacca cgcttcaaaa atctctgccg tttgttccgc cgaccgatct
+     3481 tccttcagga tcgacgaacg ggcgtcaata cggtgaagat atcagccgcg cgttcgtttc
+     3541 ctacacggat gacggcaaga ccatggccgt cacgttttgg gtagctgctg cgcttcaggg
+     3601 tgtctatgtt tacaccgaat acgaagacgt cacgacggcg tttctcgctg acgtgttgtt
+     3661 gccgacggcg tttattgacg cggtagcggt ggaatcggcg caacttctcg ctgacgtgaa
+     3721 acttccatcc gccacggtcg acctagccaa gaatggcacc gcgcaacttg tcgctgacgt
+     3781 caaacttcct tcggcgttca tggtgactaa caataccctt ccggctgaat tggtggcgga
+     3841 tattgccgtt cctgacgcct tcattcggca gcgggcaacc aaacgaaacg gtatcatggt
+     3901 ggtgcaaacg ttatgagtta tcggagcgca aagcgacttt acaaattcat gggaatgcta
+     3961 gcggatttct tcgaccgttg gatgacatgg ggcgcgtcgt tccttcacat gtgtgccgaa
+     4021 ggaaaacaca acaattggtc gattcttttt gcacgcattt tttatacgga atgcccgtgc
+     4081 tgcaattttt atcgtggtgt gactgtcggt attgtgttaa ccctgatttt cacaatcatc
+     4141 ttgacaggag tgttgtaaat gggttgcgga tgtggaaaag gtcgcattaa gtcaggctcg
+     4201 aacgtggtcg caccgcgccc gtccaaacct gtttcaaacg cggcgcgtgt cattcgttcg
+     4261 acggctgtga agcggaaaac cgtttgacat gcaactaaat tggggggccg cttacgcgga
+     4321 catatggcaa cctgccgaaa acaagtgttt caaaggcggt cgcggttccc aaaaatccca
+     4381 tgttattgcc gaatacgttg ttcttcgcgc caataaacgc aaggaacgcg tagtcggcgc
+     4441 acgtcagttt caggcttcca ttaagggaag ttcgaaagca cttattgaag aaaaaattat
+     4501 cgcgctcggc atgaaacgcg atttcgaagt aacgaatacc gagatcagaa gccgccgaac
+     4561 tggctcggtc atgaatttca tcggccttga acgaaatcct gatagtgcgc gatccttgga
+     4621 aggatgcacg atatgttggg tggaagaagc ccgtaacata tcgcagcgtt ccatgaacac
+     4681 gctcatgccg acgattcgcg ccgaaggtgc ggaaatcatt tggtcttgga acccggtcaa
+     4741 cccgaaagac ccgatcgaaa aatatttcgt tgtcggcgaa cgaccgcccg caacgattgt
+     4801 caggcatacg acatatcgcg ataacccctt cttccgtcga acccgtcttc ctaatcagat
+     4861 ggagcatatg aagaagacga atttcaagct gtataaacac gtttgggaag gggaatatga
+     4921 cgacggcggt gaagcgcgca tattcaattg caaaatcgag cggatggaaa ttcctgacgc
+     4981 tatccgccca caattcggca tggactttgg atcgaacaat gacccgaacg ttctcttgcg
+     5041 gttctatgtc ctgcaatcaa cacagacgat ttacgtcagt catgaacgat atcttccgtc
+     5101 atcaattgaa aaatggatgg agtatatcag ggacgttccc gacgtcaccc gtttgacgat
+     5161 tgcagccgaa tcatcatggc cgcaaagtat cgcgacgatg aacaacaacg ggttccgcgt
+     5221 tgccccggct aaaaagggtc cgttcagcgt gcttgaaggc attcaatggc ttcaaggctg
+     5281 gaatattgtg attagtcccg attgcccgcg cttcattgag gagtcgcgcc tttacagttg
+     5341 ggaagttgac ccgtatgacg atacgaatat attgaacgtg ccgaaagacg aagacaatca
+     5401 cggttgggat gcgctacgtt acggcacaga acagaacaga ttcggcggcg gtgtgacagt
+     5461 gaggcggctc taacatgctc ggtattcccc ttctgacgcg caaagcagct ttgacgcctc
+     5521 ctgcgccttc ggcgaacccg gcaaagattt tcattcgtcg attcttctct gccggtgttg
+     5581 cgaaaaacgt agttagttac agcaatgtca tggctgcgca gcgcgccatg gaacaccctg
+     5641 tcgcttttcg ctgtctcgac aaactcggtc tgaccgttca gagcgtcaaa tgggacgtcg
+     5701 gcaaagaccc gcaaaacaca caggtcggtg acggcggaat gtccgcgtca cagcggaagg
+     5761 cgctgcaaca gattttgcag cgcccaaacc cgacaatgag cggcgcgcag ttgcgttatt
+     5821 cagccgccct ttcgtgggcg tgtttcgggc gaatggcctt caaggtcagt gtcatgagcg
+     5881 acggcagcgt taacgcgatt tggccgctcg gcattccttt tctgaagcaa aaatttgacc
+     5941 ggtacggtga cgttgaaagt ttccaatacg gtgatgaggc cgggaaagaa actatccctt
+     6001 cgtttacgaa ggttgaaaaa aacgacaaag gccgtccgat caaaaattat gcgttcatga
+     6061 ttgtcaaacc gagtatcaac ggggcgatga attttgacgt tcagaataca ccccttcagg
+     6121 caatcggggt tcctgtcgcg ctctatgatg cattgatggc tagggcgatc gattccgccg
+     6181 acggaacgcc gaattcgaaa tggcttgtta cggcgtcgcg cgatctggat gacggtcagg
+     6241 cgaaggaagt caaggaaggt atcgaagaaa ccaaaccggg cggtgataac ggcggtgaaa
+     6301 tcatcttcat cgctggcacc gacgtgaaag ttcaggaaat gaaaaatgac ctgagcgata
+     6361 ttcacagtaa agttccgcta gacgatcagg cgcgaacgat tgccggtaac ttcgggattc
+     6421 ctattgcatt actgggtttt gccggtgccg acggctcgaa attcgcaaat aactatgacg
+     6481 aatcgcgcaa agcattcttc gaagacacga ttgaacccgg ttacctgacg cctttggaag
+     6541 atggtttttc catgttcctt tgcggtgcag gctatcgcgt tattttcgat cgtgatagca
+     6601 ttccggcact gcgcaaatca cgcgccgata ttgccgcgac ttacgataag gtcaccttca
+     6661 ttactgagga agaaaaacgg gaagtgaccg gatggcccgc caagaaagag ggacaaaccc
+     6721 aaaatgacga tgcttgacac gaaaaaggtc gatcgcgacg ccgatacgca cgttgaactt
+     6781 cagcttacgt tcacgcctgc gaccgaactt gaactgaagg caatcggcga taaccttcag
+     6841 gaaggttaca ttgcgggttg ggcgtcgaca cccgaccgcg atcggggaaa tcatgtcgtt
+     6901 atgaccggtg cgttcgacga atcaattcga gaacgcggcc ttcagggtcc gaaaggcgtg
+     6961 aagttactta tcaatcacgc atgggacaaa ggcgcgggcg caattactgt gcttgaaacg
+     7021 cgcaatggtc gcttgtggat ggaagcgcaa ctgaatcttg atatcaccta cgtgaaggac
+     7081 gcctatcttg cggcgaaatc cgcaggtgga tattcatttt ctgtgggttt ccgtcgtcag
+     7141 gaatgggcat ggatcgttga cgaagacgat aacgacgagt atctatcgat ttcgaaggcg
+     7201 gatttgtggg aagtttccat ggttcccttt ccgatgaacg aagaatgcac gatcgaattc
+     7261 atgaagtcgg cagactccat tgaaactctc gcagacttcg aacgctattt gatgtcgcaa
+     7321 ggaattgtga aatcaaggaa cgttgcgcgc aacattacac gggttgtaaa gtctgtgccg
+     7381 cacctgttcc aatccaagga agaaccgccc cggttggcgg taaatgacgt caagtcgatc
+     7441 cgctcgaagc tggccgcact gacgtcaaaa atggcaccgg ttgccgatcc ctgacaatca
+     7501 caaggtgtca aacccatggc aaacaaagaa tccgaactga acggccttga cgatatccat
+     7561 tcggatattg aaaagctgtc tgcccacgtt gaaaagttca gcgacggcat ggacgaaaaa
+     7621 tataaggaac tgaccgcgcg tttcgacggc gtcaagggtg acaacgacgc gatccgcaag
+     7681 gccgtcgctg acgcaaccaa ggaatacgcc gaactttccg cgaagcatca gttcttcacc
+     7741 gaagaacttg ccgccatgaa agcgcgtctt gacacgccga tcatgcgcag tcaggccgaa
+     7801 cttgacgacc atgaccgcaa gacggcaatc cagcttcagc gtaacatgca cgagttccgg
+     7861 ggcggtgacc cgaaggaatt cgtcgccgac gaatcgaacc ttgtcgacct gaaagcctac
+     7921 cgttccgccg tccgcaagat gctgaaggtc ggtatcgagt cgaaggaacg cgtcatcgct
+     7981 tccatgaccg acgtcgagcg caaggctttc gaagcttcga cgatcggccc cgcattcttc
+     8041 acgccgcagg ttctggcgct tgaagttgat tgtaatatcg agtgtgcttc gcttctcgac
+     8101 ctttacggtc agatcgaagt ttcccggtcg accttcactt acatgaagat cgccgattac
+     8161 ggtcagcttg gcgaatacac ctgcgacgcc aagtgcgatg ctgagttcgg cgaacccggc
+     8221 aacattcgtc accttgaagg caagacttac gactatcgcg gcgtgttctg ctttaaccgt
+     8281 aagaaccttc aggaagcgaa ctatgacttc ctgtcgttca tgatcggcgc tgcgcagcgt
+     8341 tcgcaccgga tcaaccgaaa tcaggcgctt atgatcggca agggcgtcaa cgagccgaag
+     8401 ggctggctga ccgaaaactg cttccctgtc ttccagacgc ttcccgtcga cgtcaacggc
+     8461 acttcgacac cggcatttct ggcgcaagac tggcgtcgtt tcgttacgtc cttcccggca
+     8521 gaatacggcg aagcacgttc ggtcatgcac cagaacgttt tcggctatct cgctgccatg
+     8581 gtcgacgcaa acggtcgctt cctgttcggc gacggcgatc ttaccttcac gcccgatctg
+     8641 gttcgcgaac gcattcgcat ttcgaactgc cttcccgatc cgaccgaagg aaacacgaag
+     8701 ggcggcaccg gtcaggatgc tttcgcagcc ggttcgttcg tcgcagcaca ggccgcttgg
+     8761 aagaccgcat tctatgcggt tgaaaagcgt ccgatgttct tcgaacagta cgaaggcggt
+     8821 tcttctgcgt ggtgcgtcaa gtatcagttc ggcgcggaag atggcggctt cgtcggctgc
+     8881 tgtgaacatg gccgcattct tcagatcggc taacaaggaa acgaggacaa cggcaccgta
+     8941 aaacgtgccg tttctctcac aacgcaaaag agggtttcaa aatgaatttc aacgttggcg
+     9001 ttgactttcc ttcgttcatc gcatgggacg gcgaagagtc tttcccggta aaggtcgacg
+     9061 gttttaacca gttcggcttt accttcaaga ctatcgccgc tctcacagcc gcgacgacgt
+     9121 tcaatatctt ctatcacgag ccgtcggacg ccgacccttg tgttccgggt cctgctatcc
+     9181 gtgttcctga agttcctttc tgcgacacgg ttcttctgtc tgaagatggc cttgccgccg
+     9241 tcacgctgcc ggaaactgtc acgccggatt cgttctgcgc tggcaccgtt ccttgcatga
+     9301 atggtcaatg gatttccatt gcaccggcaa cgggttcgga aacgaacgca gcgaacgttc
+     9361 agatcacggt gacgatgaag ggcgcaacgc gctaatcgtc atgagaaaag tggtgcgaca
+     9421 gtcaaagacc gcgcggcccg gtgaaatggt ccgcgcggtt gttaagttaa agggtggtgc
+     9481 gaaatctgcc cgtgtgttca tatattcccg atataacggt atcggggatt tttcaccgca
+     9541 tgttgatgac gcggcgatag gagttctgga aaatggaaaa cctgtcttgg cgcgaccgtt
+     9601 cagcatccgt cttgataggg aactgaaaac gcggaatgtg ttttctatca tggcgtcaga
+     9661 agccattgaa gttcaggtga ttgaagaact ggatttcggg caagagatca acacaagggc
+     9721 aaggattgtc attcatggaa aagcttcaca agcgttcgga cggatattca gaaacatccg
+     9781 acggttcttt cgccgtaaaa ccccttcggc ataactccgt cgttcagcgc gcggacggcg
+     9841 tctataagca gttcgacttc aaggcttcat tcgacgctga gacgatccgg gttgaatggc
+     9901 ccgttgaaag tcacattgcg attttccccg gcgacgtttc agcgattatg attcgtctcg
+     9961 gttacgcacg caacctgacg aacgaagaag tcgagcagta caattcgtct gtcgatttcg
+    10021 agaacggcaa cccggcaccg aagcaggaag aaccgccgaa gcaggaagaa ccgccgaagc
+    10081 aggaagaacc gcccgccgac acgccgaagg atgaagaacc gacgcaggaa ggcgacgaga
+    10141 cgcccgccga cgaaaaaccc gccgacgttc aggccgaaga aaagcccggt gatgaacagg
+    10201 aaggcgaaga aaagaaaaag gcgggacgtc ctaaaaaacc cgtggcaatc cccggtttga
+    10261 caagctaata tccttcgcgt tgcaacccac gttaacgaaa gggatatcac aatggtaaag
+    10321 ctgaattgcc gcccgttgtg tcaggctccg accgcttccc ggcttgtgtc gcctccgtgc
+    10381 ttcatctgcc gtggcgtggc accgtcggca ccggtcacac ccggctaaca actgaactat
+    10441 cgataaaaag cggggaatat tccccgcttc tttctaatga ggcaagcgcg caaatgtatt
+    10501 tcttttctgt tgatccccgg aacggtgcat cgaaatcagg tgatgtttgc ggctcttgct
+    10561 gctgtgaaag tatcagcgcg cgccccggcg aagttaacgg cgtcatggtt tcatacgccg
+    10621 catggtcggc cccgcttcgc ggtcacggtc tgacgaacaa aacgactttc gaaatcgatg
+    10681 gtgtctctgt cacgcctccg aaggtcagca acgctttcgg tcgaacgaaa gtcggcgtcg
+    10741 ttttcgaagg aactctgtct gacctgtttc cgaacccgga aggtgaacag gttgaatatg
+    10801 aaatttcaga actgaatggc ccgtcgaacg gtgtcgtcga actcggcgcg aatggagcgt
+    10861 tcacttacac gcccggtgcc ctatttaccg gtgttgacag gttctggttt tctatcaatg
+    10921 ggaatatcgg tgagtacgtc atttcggtcg atccgacgac ctccgaattg ccgcaaccgc
+    10981 cattcacgac acctgtctat gttcctgccg cgcgccgctc cgtcgatccg cgcacccacg
+    11041 ttttgaaatt cgttctaggc gtgtctcccg ccgcgatacc gggcgacgtt taccgcctga
+    11101 ccgttcgtca ggtcgcaatt gactgcgacg gtaacgagtt cgttcatatt tcgtgctatg
+    11161 acatttccat aggttcgtgc ggatgaatct tgatacgctc ttgccgcttc agacgatccg
+    11221 tgaacacgcg aagtgcgacg ataacccgcg tgttaccgac gatcttctga agctgtatcg
+    11281 tgaagccgca ttcgaggcgg cagaacttta caccggcctt tcgtttaccc ctgaaaaaac
+    11341 gattgtcgag cctattcggt tgaaaggccg caggggtaaa atcatcctgt cagcaacacc
+    11401 gattgccggt cgacctgtcg ttttttacgg tggcggtttg ggttctccgc tggaacttat
+    11461 cccacgcccc ggctcgaatg ttctgttctt cccgtatggc tcacccgatc gttttcagac
+    11521 atggggcgat tgccacacct gcgacgtcga atcgcagttg atggcaacct atgtcaccgg
+    11581 acgcaggtgt gaaaattccg ttcctgccgg tatcatcatt ggtattttga agttgatcgc
+    11641 gtggaacatc aacaatcccg gcgacgaggt aatgagcgtt cgaaacacat tgaatgcgaa
+    11701 cgctcaaggc ttgatcggcg gcacgaacaa cggtgcggtc atttctggcg cacaagacga
+    11761 gtggttccgt tatcgtaggg tgttgctttg aggactgccg atcgcaagca ccgtgtcatt
+    11821 gtttgttcgc agcaaagcga cgtcgacgac gaagggcgct tgctgattac gcgcgccggg
+    11881 gtgattcaag gttgggcagc tatcgcacct gtgaaagcga ttaggttttc acaagacggc
+    11941 gtatcaatgc aaaaagacac catgcagccg acgcatgaca taaccatgaa ctataaccct
+    12001 gacgtcaatg tttccgtctc ggcgtgggtg tatgaacaca ggttgaaatc gcctcctaga
+    12061 tggttcaagg tgctttccgt cgtcaacgtc gacgagtgtt cgcgatatat gaaaattcgc
+    12121 tgccgtctgg tcgaaacgtc cgatgacgtc acacccccgg tggaagaaga aaagaattcg
+    12181 ttcggtgcgg taaaaatcga tatcccattg tgagggttca aaaatggatt gccgtaatct
+    12241 ctgtggtgcc gccgctccgt cgcgtctcgt ccagcccggt tgcttcattt gccggggtgt
+    12301 cgcggtttct attccgcccg ccgcacccgg tcccgcaaca tcagtcttcg acacaccgcc
+    12361 gtcaaccttc agccttcgac ctgacggaac cattatcgca gggacaggta ttcgcggcga
+    12421 tcatgcgtct gtcggaacgg acggaaccat tgaaatgttt attgttccgt ttatcggaga
+    12481 cgttacaggt agtgaactta ctcacccgta tgcggttgaa cttcaggacg gcgaagaact
+    12541 cgcaatagct ttcggagtaa cgctaaaatc cggttacggt gcgcggataa ccgaatatta
+    12601 cgatgtttct ttgtttttgg aaaatggagg gaattcaaag gaattaaccc ttcaacctgc
+    12661 taatacgaaa agcggctatg tctggtcaga tgggcacggt tataatatca cagacagtga
+    12721 cggcgatctt cataccgttc agaacgtcac acgcccggtg tggttcgaaa tgaccgaacc
+    12781 cggaatcgtg ggggtgataa tggaagcaag gtataaagca accgggcttg tctctagttc
+    12841 catctccata accgtgaatg tgacatatgc ggattgaatt caaaccgtgg gggcggttct
+    12901 cggcgtaccg agacggtcga cagattcgaa ggtttctgtc gaccgctgcc gatatcgttc
+    12961 taaaacggtt gaaagacggc ctgaagaacc cgccgaaatc gggaagactt tatgtcggta
+    13021 aatcgaagcg gacaattcag gcttccgtga atagggcgtt ggcagaatac cccgcgcgtg
+    13081 atacaggcga tctattccgc agcgctaaaa agcgcgtcgc gcgcgatgaa atggaagtcg
+    13141 gaacaaacat gttttattcg cgattccttc gtgaaggaac aagcaagatg gcccggcgaa
+    13201 aaatgtcaga tacggcgctt gaagaaagct tgccggaact tgaacgcaag gtcggaaggt
+    13261 tcgcatattg gaaacgaaac tgacttacgg taaccgggtt acgcttcctg aattcgcgaa
+    13321 atatatcgtc gcgcctgctt ttcatgagat cgaagggcgc gcaatcccgg taacaggtgt
+    13381 ggacgacgac gcaagcggga cacaggcgac aaagcttcct ttcgtgcttg tcgggcttcg
+    13441 acagggtgac acttccggcc ctgccaccat tgccgggaat tcgacaatca atttacgtga
+    13501 cgacttcatt gttgaattca acatgaagaa agagcgctac cgggaccgta aaggtggcga
+    13561 aactccgttc ttcagctact atgactacga atcgattcgt gaccgacttt tcaattcgat
+    13621 gattgagttt tcgggggaac acgggataac gtttgaattc gtttctcttg atatttccac
+    13681 ggaaggcgac gtcgtctata ttgaatttcg gttccgacaa aattatgaat ggtgcgagac
+    13741 ggttcgggaa gctgacacaa cgattgaggc gggacgcttt tcaatcaatt tacagggttg
+    13801 ttgacatggc aaaactaatt tccgtcacgg gcgtcaaggg acgtgtcgcc tattccgccg
+    13861 taaccggtgg cgatcttcgt cacgggcgtc aagggacgtg tcgcctattc cgccgtaacc
+    13921 ggtggcgatc ttatcccggt cggcgtccgt aaagacgtac cgcatacgaa atggattcag
+    13981 gaccgtcttg acgcgggcga tatcgccttg ttcaagtcac ctgccaagaa agccgacaac
+    14041 cccggcgaag acgccaagaa gtaaggattg aaacacaatg gcacaagatg cactttccga
+    14101 cggcttcgtt cgtctttgca ttgacccgtc gctgaatttc ttcggtgagg gttgtaaaat
+    14161 ccttgtcgaa ggtcagatga ccgacgacgg aagcgcaacc cctgacgcgg tcacctgtgt
+    14221 gacttccgaa ctcgatatca tcgaacggtt cggtcagggt tccgttctca ctgagtcgtt
+    14281 gcgcaaggtg ttctgcacct gcaaatctgg cgtcagtgtt tacgccctgc cgcgcgaaga
+    14341 tgccgccgct ggcgtgaagg ccgtttacac cctgacaatc gcgggaccgg caacgaccga
+    14401 tggtcgcgtt cagctttaca tgggtgaagc tgaatatgcc gttgatatcg gcgttgatgc
+    14461 tggcgacaca gcaacggaca ttgctgccgc gatcgtcgca gctatcagcc ctgatttccc
+    14521 ctatgctgcc acggcagcgg caggcgtcat cacgctcacg gcgcggaatg ctggcacgat
+    14581 cggcaatcat ctttccgtca tttacacgaa tctcggttcc tgcacttctg tcacaccgga
+    14641 aggcgtcacc gtgacatttg cgcagacaac ggcgggttct gtcaatccga caccgaatga
+    14701 ttacgcaact gtggttaacg aatgctgctt tgcggtttat gtcctgtctt cggatgacac
+    14761 cgactggcaa gaaaatctcc gtgactggat tcgctccgcg tgggattgct cgaaaccgca
+    14821 gtgcttcggc cacggttacg tgttcaataa gggcacgctc ggtcaggttc tagccgacgg
+    14881 tgacaattcg gcagaattga gccgccttgc actgccgacg acctatcccg ttcttcccta
+    14941 cctgacgaac gccgcttacg gcgcgctgtc ggcttgctcg acgtgcaaca acccggaact
+    15001 gaatattcag ggtcagacgt tcggcctcct gtcgtgcatc aacatgccgg aaagctgtac
+    15061 gccgggttgg accttcggcg aagtgacaca gcttcaggcg aacggcttcg ttgtatcggg
+    15121 tccgtcgacg accagcggac agggcaacta cacgtcgcct tacatttaca acgacgtcac
+    15181 gaactatctt cgtgacgaaa agaaccgccc gaacgctacg ttccgcgacg cgtcgagccg
+    15241 ccgacttgct gccgctaccg gtgttgcact tgctgagttc cttcagcaat tcaacggcct
+    15301 tgccgtgttc acgaagaaca ccaatattcg aaccggcatc atcggcacga acccgcgctt
+    15361 gatgctcggc aaaatccgca aatgggcgca agacaatgtc ggaacgctct tttcggagtt
+    15421 cgacaacatc aacgaagata tccagcttct gaccgacttc gaagttcagc cgaagtgtgt
+    15481 aggtcagccg ggaatcttcc atttgaacat gcgttaccgc ccgcctgttc gcggcgcacg
+    15541 cattaacgtc aacatggccc ctgccctgtt cgacaactgc gaccgataag aaggggttcg
+    15601 gaacatggca tgtaacaaac agaatggtgt gaagaacatc cttatcacct tcacggattg
+    15661 cgacacgcaa gaagtgatcg ggccgatttc acacgaacag cccgacgaca ccttgccgac
+    15721 ctataaaaac tgcgcgtgga caaacacagc gctgacgaac ggttatgtgc agcgatcggc
+    15781 aagcaacgcc accatgacgt tgccggtcgt tcgtgacctt cgtgttccgc tggctttcta
+    15841 tcaaggctgt gcgcaggtcg acgttcaggt tgaaaagttc gacggaactg ttatgacctt
+    15901 gactgaaggt gcggttgttg aaccggaaga atccgacggt cgttcggtga cgatgaatat
+    15961 cgttgcttcg gagatcgacg aacttcttcc ccccggttct ctcgctgctg cgtaattctt
+    16021 tcccgactct ccaatggtgc aaggattggt gcaaatgatc gaaattccag caaacgaaaa
+    16081 tggcttcgtg aagttcacgg tcgagcctat caactatgtc agccttgtcc gtctcggcgc
+    16141 gtctcttgtc atcaagaatc cgcgcgacac gtcaaagctt atgcagcgtc agcgcatttt
+    16201 ccggcaggtg acggcttaca acgacaaggg caaagcacct ttcacggaag tcgaacttgc
+    16261 ggcactttcg cccgcgctcg gcaagcgtat ttcgcgcgct gttgacgagg tcctagacca
+    16321 gaaggaagaa tgcaaaatca tcagccctga agaagccgac ggcgtttcag cgccgatcct
+    16381 tgtgaaactc ggttctccgt tgacgatggg cagtgaatca atcactgaac tcgaatttca
+    16441 cgccaagaca tacggtgata tcgaagcggt cttttccgaa gacaacgccg gggaacagac
+    16501 gattctcttt atcgaaaaca tggcaaagcc gatcacttct gacttgaagc ttcaggcgct
+    16561 tccgtcgtgg gcggtcgatc agatcacacc gaatgacggg attttcattt cgcgctttgt
+    16621 gttgccacgt tttttggaat agcgcggaag gtcatggaaa gcgtcgaggt aatggcatac
+    16681 cacaaagcga cgcctgacct ttcgtcaatg tccataattt tgattgccag aaaacttgag
+    16741 attttcaaca gaacgcataa agataaactc aagtttgacg cgcaaattgc aggcgctaaa
+    16801 ttaaagtagg ttccgcgatg gcgaaatttg tcgaatccgc aattctgaag gttatcgacc
+    16861 agtcttcgcg gaaccttagt aaaatcgaac gagcgctgaa gtcgtttcgg actgaggcca
+    16921 atcgtctcaa acgtgtcgac ctgaacatca ataccggtcg cgtcaaaaac gcgacgcgcg
+    16981 aaatcaacgc gctcggtcgt gctatccgca ccatttccac acctaaaatc aacgccagcg
+    17041 gcattaactc gacgaccgcc gcgcttcgcc gtcttcaggt tcaggcggcg aagctgaacg
+    17101 gcacccgtgt gaacatccga acgggtgcgt caggtggtgg catgggcggc ggtggcatgg
+    17161 gcggcggtgg cggtccgcgt cgttacggta tgggaccggg cggcggtgtg tttcgcatca
+    17221 acgcaagcgc tctggatatt tggtcggcag ggtttattca tcgtctcggt tcgacgatcg
+    17281 aaagcgctat tacaaccggc ttccgcgaag gtacgaagaa cgtttcgcaa tcctatcttc
+    17341 gtaatcaggc gctaggttat aaccccgatc agatcggaat gattgatcgg gaatcggcgc
+    17401 gaatttcccg tgagaacccg aacttcacgc gttcggatgt tcgcacgtgg tttgcggaaa
+    17461 tcggcccgac gctcggcaaa gacccgtcgc gatccattcc ccttatcgaa atggccgcga
+    17521 cgtttgcgaa ttcccggttg acgcaaacag gcaacacgga agaagcacag aagggcattc
+    17581 gagcgctgtt caagacgctc gacaacatca accgtcttca ggattcgaat ggtaacattt
+    17641 catccgaagc gaaagattac atgcgggttc tcattgaaga atccattatt tccggtgcgg
+    17701 atattgaccc ggaaaaaatc aacaccgctg taacctacgc ccgaacgacc ggtaaaaccc
+    17761 tttcgcctga aggctttcga acgcttatcg gaatgctaga aagcatgggg cgcgtttccg
+    17821 gttcatcact gaaccgtttc gtcgagaacc ttagcggcaa caccacggca aaagccctta
+    17881 acgcgcaagc ggaatggggg cttatcacga tggggcaacg tgaagtcgga aagaccggca
+    17941 aaaaatcgcg aactgagaat ttccgcgaat cgacggttgc cggtgaactg ttgcgcactg
+    18001 acccgaacgc atgggttgtt caggaactga ttccgcgtct caaacagcgc ggaatcgacc
+    18061 taaataacgc tgcgcaggtg gccgacgcgg tcacgccgtt gttcgggtca gtggtggcga
+    18121 aagacgtcgc cgcgaacctt gctatgtggc aagcggaata tcaaacacgt ttggaggccg
+    18181 cgcggaatat tccgacgaac gaagcaatta ccagccttgt gaacaacaac ggtttgctta
+    18241 cgttccaatc gatcggaaaa cagacaaccg aacttctcgg cgagatcggc accacacttt
+    18301 tgaacaaggt gaacgggcca cttcagagtt tccgcgatac gatcatgtca gtttcaaact
+    18361 tccttggcgg ggaagaaaga agcggaacga acactgcgat cgtcggcggt gccgccgcag
+    18421 gtgtgggcct agcggggctt tgggcaggct caaagatcaa gaattttctt ctgtctccga
+    18481 tcgtgcttgc tggcagtctc gacacggctt cagccgccgc cttacgtttc gcaacgacac
+    18541 ttgacggtgt cggcggtctt cccggtggtg atggccccgg aaaacgtcgg aaaacaaaag
+    18601 taccgtttgc gcctatcgga cctacggcaa cgaccgccat tgttgcggca gcggtaggcg
+    18661 gggaagccgc gctgcttaat tatgggaaag aacatatcga gtcacagccg cgtcacgctg
+    18721 aggatatcaa gcgtttcgag acttggcgac aaaacgctag tgcatggttg aaaaatctcg
+    18781 gttcgtcatt gcctgccggt aatatgcccg cacaacccga aggcatgacg acaaccccgt
+    18841 tcgattggaa gcgattcttc atcggcgacc ttgccgacgg tggcacgttg cgcgatgcgc
+    18901 tcggtattca aaccggtgtt gaaatgggcg cggaccgact gcgaacgacg tttgaagaag
+    18961 gatcgacaat gatcgggtcg aaagggccag aacttgcggc aggtgtgcaa gatgcgctta
+    19021 tggccgtggc gggtccgttc ggtgcggcga tcgcggcttc tatgcaaagt aatttcacac
+    19081 cgccgccgct tagtgttaac gtcaacgcag gaacgcccgt cgatacgggc gcgaacccga
+    19141 acaacgcaag gtaattagat ggccggtccc tgctataacc cggatgcgga atatctaccc
+    19201 gcaagcttca aggggttttc ctttgacgcc gacagttccg attccgatca tggtcgaaat
+    19261 ggtgctgagg ccgaatttgt cttcggtgaa cgcaccggtt atgccgatct tggaatcaag
+    19321 atcaaaagct accagcttcg tgcgcgtttc cagactaacg accacattgc gcaaacgaac
+    19381 gcttttatcg ctgttctcga atcacccggt cccggtcttt tggtgcatcc gacgcgcgga
+    19441 acggtttttg cggcgtgcag gtcagcgcgc gtcaccgata gcaaggttga cgcggcaggt
+    19501 gtaacatacg tcgaactcga cttcgtcgag gcgaacagcg ttctttctgg tttcggcctt
+    19561 gtgggcaatc tggttgctct tgctctggca ccgatcatta ccgccacgga aggcagtttc
+    19621 aagcgtcatt tttcgcctga caacatccga tattacaaca cggaagctgt cgtttcgacg
+    19681 atggcacaag cggtgacaca ggttcaaaac gcgtatctcg ccatttcggg aaatgatacg
+    19741 tcgcaagata aatggacgac cgttcgtgac ttcagaaacg tcttgatcga cgaattcact
+    19801 ttctattccc cggcgaacgc atggaacgtc ctgcgtaacg gtttcgccat tctcgacgct
+    19861 gctgcgacgg gttcggataa attcaatgtg ctgcgcaacc ttatcaattg gtcgtcgaca
+    19921 cattcggacc tagacggtga atcaggtgac gcggaaaacg cgatcttcac cgctgttcgc
+    19981 gttctttccg ccgcctatct ggcaaaggct tacacggaga cggcagcgac gaccgtcaac
+    20041 gaaggtttga cgcaatacga cctaattgcc gctgttctgg aacaggaagc acagatcgca
+    20101 aaggacgatt gccacgataa tgaattcttc ctgcaaatcc gcgcgttcgc tgttgacgtc
+    20161 gcccgtgtga tggtgaaccg cgcctacaat tcaccgtcgc tcattgttta tgcgtttccc
+    20221 ggcaccgtgc acggccttgt agccgcatgg gaaatcttcg gtgatgcgaa acgttctcgc
+    20281 gatctggaag cgcgtaacaa cggttccccg tgggctgtag gacctaagat catttccgaa
+    20341 cgggtgcgcg catgataaag ccgatgcgaa ttttcatagg tggcgaagaa ctcgttacct
+    20401 acacgtcggc gcaattgcag cgaacgaaga agcaaatgac cggatcgttg acggtcgaaa
+    20461 tcttccttga ctatgtcccg acaaaaccga cgatcgtgaa cgctgttcgc gggaaggaaa
+    20521 ttcttgtcta tatcatgggt gaactggcct tcaccggcat tatcgacaag cgtcgcggaa
+    20581 agagcgtaaa aaagcaaaac cgagacgcca gcggcaggtt tgctttttcg ggcggtcccg
+    20641 gatcgttatc tgaggacgca ggcggtgacg tcagcgttaa tttcagcaaa gggaacggtt
+    20701 attccgtcac gctcacggcg cgcggaagaa cgaagtacct tatcgacagt tcgcagactc
+    20761 atccgaccgg ctttttcaaa aataccagcg ataaaaaggt aatcgaaacc cttgtgaaag
+    20821 aacataatgt tgttttgcaa tgggacgctg aggaaatcga cgaaccgaag gtgacgttgc
+    20881 gtgacggaaa tcgaatttac aatgagattt tcgagcgctg taaccagaac tgtcatttcg
+    20941 cttatgagac acgtgacggg aaacttttga ttaccgacgg cacgaacggg accgtcggtg
+    21001 aagatatcat tttaggctat aacattcttg atttctcggc ggaacaatct gaggatcaag
+    21061 cgaactcgca gattacggtt aaggggcatc gcacgcaaaa aggcgtgtgg gggaatgacg
+    21121 ctatcgttca gccggttcaa accgtcgctg attcatgggt tggtgcaaat atcccgctca
+    21181 ctatccagca ttacggggac gccacgaacg aaggtcttca gcggcgcgcg aagttcgaag
+    21241 ccgatcgtcg cgccgctgaa agcaagtcgg tcagcgtgac agtgtttcac gtcgctcaac
+    21301 aaacaggtac gccatgggat atcgggaccg ttcactatgt cgaaattcca cctgaaggaa
+    21361 ttttcgacgt tctcgaatgc gtgtcgctga cgtacactgt cgacgcgaaa agcacgcttg
+    21421 aaacgaagct tgaacttgcg ccgccacctt cgcaggggat ttccgggggt gctgctagtg
+    21481 gtgtgtcagg tcttctttct tcagccaata acttactttc cgatctgacg acgaaaggga
+    21541 ttgcgcggcg cgttcaggcc ggggttcaaa ttatcggcgg tcaatatccg tcatcgtgga
+    21601 caagtgcagc actgtccgct atcgcaaacc cgatcaatgc tataacatcc gttgtcaatt
+    21661 cgttgcttgc gaaagaagac gagaaaccgc cgaaacagcc accaatgagg ttaccgcccg
+    21721 aatgacgaca agcaagacat atgacgagcg caatcgggat attcaggacg gattcgagcg
+    21781 tcacgttttc aaaggtatcg aacacactga cacaggggcg cttgtgtcag tgaagggttc
+    21841 cggtacgcag gaagaagacg ttcccgttat caacagcggt tacggcttca cgcccgccgc
+    21901 cgacacggaa cttgaagttt tcctgcatgg tgacggctct gacgcttcga acaagttcgc
+    21961 cactatgaca atcccgcgca acaaacaaag gaaatggcct gaaggggcgg gcggtgttca
+    22021 gcatcctttc aacgccgata agttcgttca gttcgacgac gattctattt ggctgaaaga
+    22081 tgggaaattc acgcttggca ataatcagga actcacgatc acggtttcga acggccttgt
+    22141 gacattgtcg agcaataacg aagttgattt ccgttgcccc aagcttatgc ataatggcgt
+    22201 caacattggc gacagtcacg ttcacccgca aaaaccggat agcggcggcg atagtgaaga
+    22261 agataccgac ccgccaaaaa gggactaaaa catgacgtgc acggtcgacg tcgccgacag
+    22321 gcgtaaaagg ttttggacga cacagattgc cgcgtgcgga acgtctagcg acgattgcgg
+    22381 cgactgcgct cgacccggtc ttcagctaat gtgtaacggg cagggtcagg ttaccgtctc
+    22441 gacggataac tatgctgtcg gtctggcgct gaatatcctt ttgactgacg ttctgacaac
+    22501 cttcgaagcg gcagtaaaat ccgtcaggtt ccgacccgta catcaatgcg cgaaacggtt
+    22561 tccctcattc gcgcgtatgc ccttgacgat cttaaaaaac tggtaacata cggtgttgca
+    22621 aagtccgtcg acgtcgattt gacatatcgc ggatcgaaca agattgatat gacggtaatc
+    22681 attcaaggcg tcgacggaaa tgaaagtcga gtcggcttga ccggcgaaag aatttcaaac
+    22741 gcgtgggttt ggagctaaca tgtcctgtac tattcaacga cctgacccgc aggatttgcg
+    22801 caacgatatt gcgacacgtt tttcaacaaa cgttctaggc ggcgcaccaa tcattcccga
+    22861 aagcaatgaa ttctatgtcg tatcgctcga atacgccatg caggaagaat tctatgcgtt
+    22921 cggtgaacaa atgtggcgcg aacgtgaccc gcgttttgct tgctgtgaaa accttgtgaa
+    22981 aatggcggct gaacgtgggg tttacccgaa accggcacag ttcgcgcaag gttacgttcg
+    23041 catgaccgga acaccgggtt cggcgctgaa tcagggactt cgtttccaat ttgggaacca
+    23101 gacatatgaa ccggcctccg tcgttcccga tcagctacca gctaccggaa ttcttgttct
+    23161 ccgtgtgtcg gcagttaatc ccggtccttc cggcaatgcg cgcgtcaccg acggaaccct
+    23221 tgttacgcct gttcccggta tcagttcagc ggttactgct tatggtggaa acttttgcgg
+    23281 cggttctgac gaagaagaat gtgaacagtt ccgaacccga tatcttcagc gacttcaata
+    23341 tcaaccccgg ttcaccgtgg aatggctgaa gtcaaaagca gcggaatggc cgtgtgtgac
+    23401 tgacgtgttc gatttggggc cgaattgctg tgcagtcaat gcgctcggcg aagtcgtatg
+    23461 tccaaacaac tttgaatttt acgttctgtt tcgcgatact ttcgattgcg gacttgcgcc
+    23521 gcaatgcgtt gttgacgaaa tcaccgattg gcttttcggt tcaccgcaag gtttggggtt
+    23581 aggtgaagcg gaattcggca tttgcggcaa ggtgaggacc gccgcacctg tgaaactcga
+    23641 catcattctt gacggtcttt cttgcgcgac accggcacaa tctcgcgtcg tcgaggaacg
+    23701 tgttacggat ttcgtcaacc gtcttcctcc gtcgacgaac ctgacgatcg accagcttcg
+    23761 attcatcggt cttcaggttt tgggaccgtc attcaatttc aacgttgcta tccgttcccc
+    23821 taacgacgca gtgcaaccgg gacttcgttt cacgtcgtgt ggtgacgcgg aaatagactg
+    23881 cgactataag gcttgcttga acagcgtcgt cgttatcaat aacaacgtca caacgagcgg
+    23941 gtgtctttga tgaatgtcct aatccccggt attgacggca tggtttcggc tggcacgctc
+    24001 gaatataccg ggtgctgccc gccaagtttt gcggacgtgg acgaatgcac actggcgacc
+    24061 gcattcgtcg ggttgttgcc tagtggcccg ctttgggacc gccccaaata tgaggcaatc
+    24121 accacgatca cggaggccgg taactgtgcc gcgtgctgga caacggatca ttgcccgaca
+    24181 ctggttgatt acgccgtcaa tgtcggtgcg cgtctggcgt ccgttattga gcgcacgata
+    24241 tggcccgctg tgcgtgaaag cgatcctttc accgccgtga cgtcaaccgc cgactggcta
+    24301 aaccgtttcg attgggtgaa ttgctttgag acgtcgtgcc gatcgaaaga actcggcgaa
+    24361 aaaacaccga tcgaatacat gacggattgc ggcccggtct atgtcaagat tacctatccg
+    24421 ccgtcgcttc agcaagcgtt tgaatcggca ctgattaaat ccttggaacg tctttccatg
+    24481 gggataatca agaatcttgc tgcaatcaac tttgtgattg agccgctcaa ggtccgcgtc
+    24541 gttcccgttg atacgacgga cgcgtgcgaa aatgaaacac tgtgtgtcgt cttggaaaaa
+    24601 acaagcgact tttttgacgg ggtaaatgcg aacacctgtg gcattccgac accggttgcg
+    24661 gcatatattg accgtgacgt tatgcaattg ccgtccgatt tggacaaata catatggccc
+    24721 ggtcatatgg cggcggaatg cattgttcgt tcgctcctgt cgcatgtatc taggttctgt
+    24781 ctgattcgga ctgaacaagc acccgattga aaggttacga aatggccggg attttcttta
+    24841 gtggtggttt ggcctgcaat ctcacagtga acgcagcgtg cggcattgcg acgacaggtg
+    24901 acgattgccc cgcgctctat tatccgccga aatgtaacgt tcaggtcgat ccacttcaga
+    24961 tgaacgccgt catttcggag attgcaaacg cgatcaatgc gttcggaaac acatatgatt
+    25021 gttctcgtct cgacaatctg aaacaggttc tgaatcgcgc gcggaatatt tgcgatcttc
+    25081 cgccattcgg tgacgcccct gatatggacg accgcattgc gggttgtttc gacggtcaat
+    25141 catcgaccgt taccgttcag caacttgtca atcttgttct aggacaagtc ggcaccctgt
+    25201 gccagttgcc ccaaatcggc gctattcagg atgacgactg gcttgccggg tgtatcgatg
+    25261 gtgcggctcg aatcgttcca tttgctgccg tcaggagcgc gcttgggggc ggcggtggtg
+    25321 ttatcggtgg cgtgatccca caaaaccaac ttttcgatag ctggcgtgct ggcggttttt
+    25381 gggacgtgtc acaatcgacg gcaggacgaa cagcctttgt ttttcgttcc cgaaaagaag
+    25441 gaatcggtat caccgtttcc gaacttttca ttgcgacagg tggcggggct tatcaaagca
+    25501 tatcggaatg ggaacctagc actttcgctt atgttcctac cggggaaaca accgctatcg
+    25561 acggcggcag gattcaagct gttgcgattg ccttcaagaa aggcaatcaa tggtatgcga
+    25621 aagccggtga cataattctt ccgttgggcg gtgatgacgg cgtcattcgt gtccgaaccc
+    25681 ccggctatca gcgtcttcaa atttgggatg gtgtgcaggt atgattgacg aattcaaccg
+    25741 atcgctgaca aaggttctcg ttcacgaagg cggcaaggtc gacgataaaa atgatcccgg
+    25801 tgggcgtaca aatcagggcg ttattcaacg cacctatgat gcgtggcgtc gacgcaaggg
+    25861 actgaaaacc cgcgacgttt ggctaatgac gaacgacgag cgcgacgcca tttatcgcga
+    25921 acagtattgg gaccttatca aaggtgacga actggcaccg ggtgtttcgt atgtcgtgtt
+    25981 cgacggcgcg gttaattccg gtgtgaaaca gtctgttatc tggcttcagc gtgcgctcgg
+    26041 cgtcaatgct gacggtatcg ttgggaacca gacaatcgac gctctcaata atcacccgga
+    26101 tcatgaccga ctcattgctg atattctgcg tcgtcgtctc gcgttccttc aggcactgaa
+    26161 gacgtggaag ttctataaga acggctggac gtcgcgcgtc aacggtgtgc gtgctgtcgg
+    26221 tcaggcgtgg gcaatgggca gcgttggtcc tgccattgaa ttcgttccga acgggaataa
+    26281 gcgcggcctc atcacagacg ccaagcaagc cccgtccacg gcaccggcag acgcttcgac
+    26341 gggtgccggt agtatctcgg ttgttctttc acaggcgacc gaccaattaa cgccgctggc
+    26401 gaacattgac ttcatcgcaa aggctgttgc cgtcctgacg gtggccggtg tggtcgttac
+    26461 cgtcggcggc attggatatc gcctgtgggc gaagcgtcag gaagcaaaac tgaaggaagc
+    26521 tttgtcgtga tccgacttta cgtttacggt gcgatcgcaa tcgccttgct cggtctgtcc
+    26581 tattggattt atcggcaagg cggtgaatcg attcgaaccg agatcgaaaa gcaggacacg
+    26641 aaagccggta acaggtccga tgacgcacga tcgcgctatg acctttgccc cgtcggtaaa
+    26701 tggaattttg gagcgggaaa atgttcagaa taaccgcact gtgcgtgtta cttgcgggtt
+    26761 gtcagactgt cgagccggga agcacggcgg ctgttcgccg tatcgtcggg actgacctaa
+    26821 tcggggcgcg cggcgcgacc gctgaggatc aacgcaagat cgatcgaacg attgtcggcc
+    26881 tttgcgcccc gaacgtctac acacgggatg aatgcacccg tcacggcacc ctcacaagcc
+    26941 gcccgctgtg agtcatacag aaccgagact tcggaaattc cgatcgacgc ggaaaccagt
+    27001 atttttgaaa atcagacgga agggcgaacc ccttgttcat gtcgaaaaag catgacaggg
+    27061 gttcgttcca atagacgccg gtcggtatgg gtgacaggcc gggaatcatg atttaatcgt
+    27121 tcggcattgg tggaaaacgt ttgcgaaacg ggaattctcc gcgccgctct atccatttcg
+    27181 aatgaaattc gccgacggtg gacacgtaag ctttttgaaa cgtgtcataa aatctctgtg
+    27241 tcgaaacttc ccattcgtaa ccttcgggga taggttcgac ttctttcggc tcgatatcga
+    27301 ccttctcgtt cgtgatgacg gggcgcttcg ccttttcccg cacaagtgcc aaggtcgcgg
+    27361 cagcgtaaac gatggtgccg agaatttcgc gctctgctgc ctcatactcg ccacgctcaa
+    27421 tcatgcccat ggcttcaccg atcttctttg cggcttggaa cccggttccg cccggtccgt
+    27481 actgtcgacc tagcgttaaa atggcctgtt cgtgccacgg gaggccgcga ccatgccgtt
+    27541 ccttgccttt ccccgtcgac gcctgttcaa acgcgtccgt gaggatattt gccagcaatt
+    27601 cataaccttc cgcgtacatg gcggttctcc tatctcggtt cgtaattaat tttcgagtga
+    27661 tatgggcaga acccgaattt gcgcgtcgcg ggttcattac acatgagcga ttcaccgccc
+    27721 cggcgaacag tgacgacata ccggcaaccg gtatcgtcaa tttcaagcaa ggtgacgggg
+    27781 ttgctcggtt cgaacacctt cacgggttcg ggcggcggtg ggggcgggga aggttcctta
+    27841 ataccgccac gcttccgctg caattccttt tcggtgttca gaagggtttt cccgcgaagc
+    27901 ggcacgtgtg ccagtctgtc acgatttcga ttatagaaac cggcgatcgc ggcttttgtc
+    27961 gttcctagcg ctttgccgat atcccgacaa tcgcctttcg tgtcgggata gacgcgcgtt
+    28021 atcgcgtcta tccgttcagg aaccgtcatt tcaccccatg ccgtcacttc ttcaccgacg
+    28081 gcatgggaat gccgtgttct cgaagcgtca tgcccaatgc atccatgtag gtttcaagaa
+    28141 tggtttcgaa ctcgacgcgt tcgttcgcat cttgtttgcg gcgcttgatg atttcacgaa
+    28201 tggccttcgt gtcgtaaccg cgacctttgg cttcacccat gatatccttc tggtcgctgg
+    28261 cgatagcacg tttttcttct tccagacgtt cccaacgttc aatgaactgg cgaagttctg
+    28321 ccgccgctat cgtttccgtg ctttcgccgc tgttgtgacc tatttgcgcc gtcatgcatc
+    28381 aatcctcaaa tcttcaagcg aaacgacaat ctcacggtcg gcaattttcg cttgttccgg
+    28441 tgtcagggaa atgtcgccgc tgagagttac gagcgacacc gttattgcct tcagggatgc
+    28501 aatcgcctgc cgacgtgttt cgataaggtc ggtgatatgc cgtgtcaaca tatcaacttc
+    28561 accttccagc gcgttccgct gaccttcaag aaggctgacc gtcgaaccga caattccgtg
+    28621 attagggaga atgccggggt ccgctttttc gacggtcaat ttcgattttt taaacatgtt
+    28681 tccgcacctt tgtgttaacc cgataacgta taaacttttt ccagcttgtc gacaagcttg
+    28741 tgcgcttctt cgtagtaaaa attcctgtcg agattgttcc aatcgaacga ccgaatatcg
+    28801 ttgcattcat gcagttgcca gcccttgaac tgtgccattt ttctttcttt ttccgggttc
+    28861 ttcgccaagg gaggcattat cttgaaaagt tcgcgcccct gtttcgacat gtgaacccgg
+    28921 cttgtgtttt gaatcctttc gccgtcagcg aattcaaggc gggatgttct cggcgctttc
+    28981 acacggatgc agaagtcgaa aatatcggtg tggttccaca cgaaggattc aatgctttcc
+    29041 ccgcgcacta ggcaggcttc agcggcttta ggaacgacaa ggtgcgaatg atccttgtgc
+    29101 cattgaactt cgcgtgtggc agcgttttcc atgggtgtga catatgcgta agcgccgatg
+    29161 cgcttaacct ttccgtcggt cttcaccgcc atatagctgt tcacatcgcg aatgtgcatc
+    29221 gctgaatact gcgcatattc cagcttcaga agcgtttgtt tttgccacca atcacacact
+    29281 ttgtcgaaat acggtttcgc gctcttgtgc atgagaactg tcacgccgtc ggtgttcgcc
+    29341 tgaatcatct gaatgagatc gtgacgaagt aagttttcag ccagcatcaa gagcaacaat
+    29401 tgaccgttga tcgttatcga catggtgaat tgagggtcaa ggaacacacc gtgttcattg
+    29461 ttgctttctc cgtacacccc gttcagcgaa agcttcagca tttcgttttc agccgttccc
+    29521 ttcgcgtaat tgctgcggtc ggcgtaaagt tccgcgtaaa cgtcacagaa cttttccgtc
+    29581 aggtgcaacg gatagaaccg gttcgcgatc gctaggttcg ggtaaaagct ggcaacgtcg
+    29641 acgtcatgga tttcccaatc accatgtgcc attaccgact tgttcgttac ggagccgtgc
+    29701 aatccgcccg cgccgatatc gaatttgaag ccccgaaagt taattgagag ttctttcagt
+    29761 tcaggcggtg accgcgtgtc gcggatcgtc gttcccttca ggtaattcag aacggtgtta
+    29821 aattcggggt tctggtaatt cacataggga agaatgattt cctgaagcgg aatcccgttt
+    29881 ggtcgccatg tctgacgcgg attttcatat gtgccggtga tacccggcat ttccttttcg
+    29941 agccgctgaa taaagtagtc tttgccgatt ttggtatcgt tatagttgat aaacgatttg
+    30001 cccatgcgct ccgaaagttt ctcgcgaaac tcaatcttgt cgagcgattc gatatagaat
+    30061 ttttcggttt cgtttacgtc atgacagtta tacgttataa tttcatcgat ctgtttcgac
+    30121 gtgagttcag cttcgacagg atagggcaaa tccttaatgc tgtaggaacg catcgcgaat
+    30181 tcaagcgctt tcaggccggt gatttttgcc ttgttatcga agtgatgaat tttcaaaagg
+    30241 tcaagttgcg gaacgacaat gtcgcgcccg aaaaccatag agcggatatc ccgcttttgt
+    30301 ttttcaataa tgtctgttcc cttccaattg gcgtgttcac ttgtgaaccc cggccccaca
+    30361 ttgagaaggt aatgaattac aggatagtcg aacgccagat tgttaaaccc gaccattcgc
+    30421 gcgtttacgt gcttcagcca ccaaatgaag ttgataaaag cgacactgtc attcctgcgc
+    30481 caagacacct caaaaatcca tcggttcccc gtcgccgcgt gcttaatcac acaggagaaa
+    30541 agatagcgat aggtttcgac gtcatagatg aaatcgtttg gtcttggcgc aagagttgtc
+    30601 atgaaaaatt gccgtaggta tgagccgttg cgatcttcac cgcttcgtcg acatcctttg
+    30661 cacgctgcaa agcttcgtga aattcacggt cgtccgtcag aagttttccg tcttcatcac
+    30721 gatagccgcg ttcagctatc agacgcagta acttttccat tttgcacctg ttttgaagga
+    30781 agggggattt tcacgattct gttttccgtg acgtagtgac gaattccccg ttcgtcgtca
+    30841 cccgcaaccg ccttgttcgg atattccctg acgaccgtta taacggtcgg gtgacgcatc
+    30901 cacgcgtcga ggacgataac ccgctttacc atgtccgttc ccttcataaa atcggcgggc
+    30961 attggaggtc aaacaatgcc cgccgatccg tcgaccgtca aaccttacga aatggcgggc
+    31021 ggctgaagga tttgcggata tgccggggca ggtgccgcgt tagtagggta tgtggtcgtc
+    31081 gagggctgct gaccatgacc cggcaatgta gggacctgtg gaacctgcgg ctgtgccacc
+    31141 tgtggaacct gcggcaaacc gggaacctgc ggctgttgct gatactgcgg ctgtgccacc
+    31201 tgtggaacct gcggctgtgc cacctgtgga acctgcggct gttgctgata ctgcggctgt
+    31261 gccacctgcg gcaagccggg aacctgtggt gcaccgccag caccggggcc gaccggcatc
+    31321 gccgaagcac cgacagggag aacaggagcg ggcgcactgc cgaacgcctg ttccgtcgag
+    31381 ataccgccga cgatccgttc accgtgaccg agaagacgaa cagcgttcgg gttcaagtaa
+    31441 atgcccgccg tgcgatcttc cttgccattc ggagacgaag aaagatgaac gtccacatac
+    31501 gcgccacgat agatttcctt cggatcgatt tccgcattgt tcggaacgcc ggggatgatg
+    31561 ttgtaatgcg ttgccttgat aggaatcatg gtctggaaag ccagaaccca gcaacccgcc
+    31621 gtgttcgggt tgacgacgcc ttcagcgttc ggcttgtcgc cgtctttgat cttgaacgca
+    31681 aagtcgccac gcgtgaagcc cgacgaatat tcgttgttga tccgttgatg aattcccggc
+    31741 ttgttcggat agccggtaat ggcgacgtta tacaagccgc caagtagttc gttcatcccc
+    31801 tgcgcatcct tgcggacggc aaggccgaac tgaaacggac ccttccccgg ctcataggga
+    31861 ttgttgtcgt aatcgtgcgt cgcgcgctcc gtgatggacc cccaaacgaa acgaccgccc
+    31921 ggtgtgaggg tttgaaactg gtctgccatg tcggctatct cctaaagtta cttgtctttt
+    31981 ttgtcgaaca ttcggcgcat ttccttgtcg tcgagccttt ccaatttgct tggaagcttt
+    32041 ggccgttcgg aaagaaattc caccacatca ggacgcgcgc cccgccgttc aagttcggcg
+    32101 ggggtgcata gtgaattatc gaaagggtca acacctgtca tcgccttgat gacttccggt
+    32161 gcatatttaa atgccctgtt cccctgtctt ggcttcagga cataaccccg aagccccctt
+    32221 gaccgtaaac gcgattcggc gtcgggttca atggcggaac gacgcgcttt taacagcttt
+    32281 gacagcaaat taatggcgtc gagttctgcc gcaatttctt catccgtcag ttcacggtaa
+    32341 tgagccgatt ttgatatgaa ttcaccgcca cgataaatcg agtgtgcaag tgcttcgcaa
+    32401 cctttcgaac ccgtgcaacg atggcaccat ggccccggtg tcgcaagcgc gcccggttgt
+    32461 tgaaccatgt gacctttttg aatcaggtcc tgcaaaagca tcatgagttc gtcaatggtg
+    32521 acatcccaat aacgatacgg gccttcatga tgaaatgcac gcggttgata aatcccaagg
+    32581 cgaactttcc gaatattccc cggtcttcct agtcgaagat attcaccgcc accataaagg
+    32641 ataagttgcg ggttctcgaa aacgtctacc ggttccatcc cgaattttag atcgtcgaca
+    32701 taaagcgtat cggacgtgta ggaaacagac gaactgtcaa gcgttccctg aataaaggca
+    32761 cagatgacga cacgctgttc cgctgacaca atgccgccgc gcgaaagaac atggtttatg
+    32821 tatttctgga cataataggc catgtccaga ttgacgagcc agccgttaga gtggttgcgc
+    32881 ccgactaggt cttccgccga acttgcatca ccacgaagaa cacattcagc aacccacgcc
+    32941 gcacaggttc cttcgcgtgc ggcgtctgtc ggttcttcag gtcctgccat ggcttcgaaa
+    33001 tgaggattca aagcacagtt cgaccatttg aaagcactag aggggcgcaa ctgaatcatg
+    33061 attagctgtt ctgcttgatc gtttcgttga tgacttcgac gaccttcttg cgcttcgtct
+    33121 cgtcattgac gatttcgttc ggattgccga cgcctgccgc cgtatagatt tgatcgatga
+    33181 aggtttgctg aagttcaccg aacttcgcct gaagaacgcc gaacgcgttg ccgacgtcgt
+    33241 cgagtgtaac aggtacgtct tcgacgacag gaacaggagc cggggcaggc ggtgtcatgc
+    33301 cggggatgtt taccggaatc gtcgcagccg gggcaggggc cggaacctgc ggaggaatcg
+    33361 tgacggatgt cggggcaggg ttaacggcag gcggcgcggg cggcgtggcg gttgtcggaa
+    33421 cgaatacggc ctgaacagcg gcaggaccgg cagcgacggc aggagcggcg gcaggagcgg
+    33481 cggcattcgc ctgtttccac gcgatttcgg cggcgtcacg ctgttcttca gtaacaccct
+    33541 tcaggcgctt ccaacgacca tctttcgttt gtgtcctcgt cgacgcgtga acagcttcaa
+    33601 gccacggaat accgtttttg tcgacgttgc cgaccggtgt cgtggaaagt tcttcgccgt
+    33661 cttcatcgtg cgcagaaacg ccgacgacgg acgaagccag tttcgcgatg aaattcgaaa
+    33721 attcatcgtc ggaaacttgg atttgcaatg aaagaattcg tgtcattccg ttttgtcctt
+    33781 ttgtaaggtt gacgcaaaac gattagctca ttatgcaaat atgtgtcaac acggaaaatc
+    33841 acaaatgcaa ctgttcgccg atcaacagaa actagagaac gacatatttc tgaaatggat
+    33901 gaccggcaat aaaaacgttc tggctgttgc gccgacaggg gctggcaaaa cagtcgtaaa
+    33961 atcatccgtt gccagacgtt tcaatcaacc tgccgtcgct atcgcgcacc gtcaagagtt
+    34021 ggtgtcacaa atttcagtcg cgtttgcgcg ctttggaatt acacatcgaa tcatcgcccc
+    34081 ggaaaaggtt gtgagattca tcgtcaaaca gcatattaag gaatgcgggc gaagttacta
+    34141 tcatcaaaat tcaccgttcg ctgtggccgg tgtcgacacg atcctgaagc gcgcaaagga
+    34201 ttatgaacag tttttcgaca gtgtgcgatt atggctcggc gacgaagcgc accatttcct
+    34261 tcctgataac aaatggggga aggcggttct taacaacttc ccgaaagcga acggccttgg
+    34321 cgttactgca acaccgcgcc gaacggacgg gaaaccactt cgcggaatat ttcaggcgct
+    34381 ggttctcggt cctaccgtcg ccgaattgat cgccgcaaag cgattgtcga attatcgtat
+    34441 cttcggaatg ccgccgtcgt acacaatggt cgacgaagaa gacatttcga aaagcaccgg
+    34501 ggattacacg cttgacgcac tgcgcaagcg tgccaagggt tcgaagatcg ttggcgacat
+    34561 ggtcgacaca taccttgcct ttgcaccggg tgaaatagga atcggatttg ccgtcagcgt
+    34621 tgaacaggcc gtcgagatcg ccaccgcgtt cattcacaag ggtgttccgg caatggcgtt
+    34681 gtcgggcgaa agcaaggatg atgttcgaca ggatggaatt gacaggctgc gacgcggtga
+    34741 cctgaagttc attgtaaacg tcgatctgtt tgatgaaggt atggacgcgc ccggtgtcac
+    34801 ctatgtcggg gcaggacgaa aaacgacgtc aatcatcaaa tggaagcaac agatggggcg
+    34861 ggctatgcga taccgtgaaa acggtatgac tgcaaagatc gcggatcacg tcggcaactg
+    34921 cgtttccctt agctgtgtgc ctgacacaga atttgcatgg tcgctcgacg ggaaagagaa
+    34981 gacgaaagcg gaaacaaccg tcaagctgaa gacctgtaca cagtgctata acgtctatcc
+    35041 tgccttcaaa cctgtttgca cacggtgcgg tcacaaggaa gaacccctag cgcgttcagc
+    35101 acctgagttt gttgacggtg accttctgga attctcaccc gaattgatcg caaagcttcg
+    35161 gggcgaaatc aaaaagatcg acggtaaacc gctcatacct caaaatctgc cgcaacatgc
+    35221 gataggaacg gtcgagcgtc gatgggaaga acggaagcaa gcgcaacagg aattgcggga
+    35281 ttgcatatcg caatgggcag gcatacgaaa atacgttgac gagcgatcag acgccgaatc
+    35341 atatcgcgaa ttctatctga aatttggcgt cgacatcatg acggcgcaaa cattgggtgc
+    35401 ccctgaagcg cgcaagctga cggcgatgat tagggacgaa tggacatgat tgaaggttgg
+    35461 tttcaaaaat acaatatccc gtttgaggcg caagccgaac tgcggttgct gttcatttct
+    35521 cacccgcgcg gcgatgatac gccgtcgacc gggaccgaag gtgatgttca gaacctgatt
+    35581 cgcatcaagg ctgctgaact cggcgatgtt ctttggcgga acaattcggg cgcaacaacg
+    35641 gatgacgccg gtaacttctt ccggttcggg cttggaaatg actcgacaaa gctgaacatg
+    35701 gtctacaaat cacctgacct tgtcggcctg cgttgtgacg gtaaacccct gtttattgag
+    35761 gtcaaagaac ccggttggaa ctggaccggc accaaacacg aacaggggca aatgaacttc
+    35821 ctgacacatg cggcgtcgtt cggcgcactg tgcgggttcg cgcaatcggt ggaagacttt
+    35881 ttgcatatcc gaaaccgcta ttgacggtcc tatgcagttt cgtgttaata cggtttggga
+    35941 taaattcagg gcagataaaa tgaagaaaaa accccgcaag gttatgagcg cggacgagcg
+    36001 gaaagaatac attctgctaa acggcgcgaa gcttgccgat caggtcgggc ttaacaacgt
+    36061 aacggccaaa ctcgtttcag ccgtttgcga cgtaaacacg tctgtcatga cgattcgaca
+    36121 ctatttcaac aatcaaagga ttcttcagga agcgattgca aaaagcgctt acgcgtcgaa
+    36181 ggacgttaaa gcagaactgc gccgtgcttg aacatgcata ccctacccgc gcaattcgta
+    36241 tgttggaagc ttgttcaaaa accgggcaag ccgaagcctg acaaggttcc gattgacaaa
+    36301 ctcggtcgcg tggttgacgc gcatgacccg cgtaattgga tgacctatga agaagcccac
+    36361 gggtcgggct tgaacgtcgg tttcgtcttc acgcaaaatg acccttattt tttcttcgat
+    36421 ctggatgatt gccgcatcgg cgaccattgg aaaccgcacg tcaatgaggc gtgtcagttg
+    36481 ttccacggtg ccgccatgga agtttcgcag tcgggcgatg ggattcatat cattggtcgt
+    36541 tgtgatacga tggtcggtgt ttcccgtaaa aacaaattca agatcaacgg cgagaagcac
+    36601 gaattctatt ttcacagtcg gttcgtagcg ttcggaaagc acgggttcgt tggtgatttt
+    36661 aacgccgaca tgtcacaggc cgttttgaac tttatcccgg tcagaacacc gcaagacgac
+    36721 attgaactga cggaaggcgc tgacccggct tacactggcc ccgaagacga cgaagaactt
+    36781 ttgcagatga tgcttgccag tcgtggcggg ttgaatcaac agttcggcga caaggcgacg
+    36841 attcgcgaac tatgggacgc ggacagtgtg aaactcgcac aggttttccc gtcgacacag
+    36901 ggtgacgcct tcgaccgatc ggcagcggac gcggctttaa tgtcgcacct tgctttctgg
+    36961 actggtcgcg atcttcagcg catggaccgt ttatttcggc gttccggcct catgcgtgaa
+    37021 aagtatgaga aacgaccgga atatagggaa tggacggtta ccaatgcggc gaaagggtgc
+    37081 cggaatgttt acaacattcc acggcctgac cgtcgttttg aagtacccgc cgaacgattt
+    37141 caagagataa cggaaaccgt cgccgaaggg tttgaaaacg tcgtcgctgg cctgcccatt
+    37201 tcgatgcatg gttcaatgac accgtcggaa cagataagtt actttgacaa catggtttac
+    37261 gtgatggaag accattccat ctatgttttc aaagataacc tgttttatcc gcccgaacgt
+    37321 ttctcggcgt tcttcggagg cacgacattc attatcgatt ccgaagggaa gaagccgacg
+    37381 aaaagcgctt tcgaggcgtt cacgcagaac acctgcgtgc gattcccgcg cgttcaacgc
+    37441 agcgttttcc gccccgatcg tcgcgttctg gaaaaggacg gcgacaggac aatcaacacc
+    37501 tatattccgc atgttcccga aacggcggaa ggcgatgttt cattgttctt agaccatatg
+    37561 cgccgcctgt tttcgaccga acgagacatg aatattgttc tctattggtt tgccacactg
+    37621 gcgcgatacc cggataaacg cattcgttgg gctcctgtaa tccaaggtgt cgaaggcaac
+    37681 ggtaaatcgt tccttggcga cgtgctgacc tatatcgtcg gtgaacaata cacacataag
+    37741 ccgaacgctg aggacatttc gaacaagttc aacgactata tcgaccgcaa gcttctaatc
+    37801 atcgtcgagg aagcacacat gcaagggcgt cgcgaaatga tggacgtcct gaagccgctc
+    37861 attacgaacc cccgcgtcga aatccagccg aaaggcggga agaagcggat gattgacaat
+    37921 tggacccggt ggattttctt cacgaaccac aaagacgctt ttccaatcga tctgaagaac
+    37981 cgccgctatg ccgtatttta cacccggcaa cagtcgaaag aggacctgaa cgaacacggc
+    38041 atgaccgccg aatacttctt gcgcctgtgg ggatggtttg agaatggtgg tgctgcaaac
+    38101 atcgcgcatt ttctcaagac cgtcaaagtc ccggcagaat atgacccgct gacgacgctt
+    38161 atcaacgcac caattacgtc ttcgacgagt gacgcaattc ttgaaagcat gggcacggtt
+    38221 gaacaataca tcatggaagc gatcgaaacc gatcgtgaag ggttcaggaa tggttggata
+    38281 tcgtcgggcg cgctcgacga actcttgtcc gtcacaatgc cgaaggtcac gctaggaccg
+    38341 acgaagaaag cgcaaatcct gcgcaatcta aagtatgaaa aggtaggtcg ggcaagccgt
+    38401 gaaatcttca atgagaaaat gagcaagcct attctttatg cccgacaggg aatgaaacat
+    38461 tccggtgacc ctgtaagtga ttattgcaca gcacagggtt accagattgc gccgacaatg
+    38521 ccggttatgg acaacgttat tccgctgaag aagtgaggcc gatttcggcc ctgcctttct
+    38581 cggtcagaaa gatttcgtcg ttcctttccg taacgtaacc gccgataaat aacttatcgg
+    38641 cggtttcctt cttcaccaat cttgaatgac ctttcgcacg aaagccgccc gccgcgcgcc
+    38701 tgaatcggtt attccacaaa agacgaagta aggatttatc aaccatgttt aatttccccg
+    38761 ttgacgtgtt aacacgaatt tgcataatta gttttgcaca gggttataca gcccgtcaac
+    38821 ctgaacaaag gggttcccca tgtaaacggc acgcgttgcg cagatttgtt acggacaagt
+    38881 atagagattt tacgggtgct gagcatcacc aactaaaagg ctcaaaaagg atttacaatg
+    38941 cggcaggaaa tcaaaaattg gttgaataac gttcggctcg gtcatttcaa cgaacgcgcc
+    39001 cttgtgattg tcggcggcaa atcgtcgggc aaaactactt tcgcgaagtt ggcagcgcaa
+    39061 aagtgcgggc tgattcggac cgaacagtat gttttcatca acgccgctgt gacggagacg
+    39121 aaattcttcg tcgattcagt tcgtcagtat tccatgattg ttatcgacgc ggacgaactt
+    39181 gacgtcgacg aggtcattga acggctgaag ccgattgtgt cgaaccgtca gattcatgtt
+    39241 gaccgtctcg gcaagtcgtc aatcatggtg aacaatcgaa tgaacttcat gattctgacc
+    39301 gagaaatatg aaccgcccgc cgcttcgcgc cgcgtgcttg tggcgtcgcc gatttacgca
+    39361 atgaacgttc tcacggagat ttaagaacaa tgtcaatcaa ggaactcgca aaggggcgtt
+    39421 ctgaccttta tcgaatggac ccggctgacc ttcaggtaaa ggaaggctgg aatgttcgcg
+    39481 acgcggaaac gctcgacctt caggaactga aggattccat tcgtgaactc ggcgtcaaac
+    39541 agcctatcac cgttcaggtc gaaaagggcg ttccctacgt caccgacggt caccgtcgat
+    39601 acgcggcggt catggaactt atttccgaag gcgtcgaaat caaaaccgtg cctgtgcagg
+    39661 tcgaagaccg tttttcgaac cctgccgatc atatcgcatc catgatcgtg cgcaattcgg
+    39721 gcaagccgtt gacggctatc gaacaggcgc gggttttcaa acgtctgttc gattacggtc
+    39781 tgacggaaac cgagatcgcg caaaaggtcg gcaagtcgcg gcaatggatc gtttccatgc
+    39841 tcgaattgaa cgcggcaccg gaagaactga agaagcttgt caaaaccggc aaggtgacgg
+    39901 ccacacttgc gcagcagacg cttgccaagg aaggcggcga aaaggccgct gagacgttga
+    39961 cgaaggccgt caaaaaggct gaggccgaag ggaagacgaa agcaaccgcg aagcacgtcg
+    40021 agaaatcggc gaaagtgcag ttgcgagaac tgttcgacgc gctcgaattc gagccgtggg
+    40081 aaggcaccgt gccgggttac accgtttcga tgactgcgga tcagtacgcg gcctttcgtt
+    40141 ctcttgccgg tgcgtgatga acgatctggt tttaatccag cttcaggaaa tgggctgcgt
+    40201 ggttgaacct tgcggttccc gcgtgacctg taacccgccg ccgaccgaca cggatcgtga
+    40261 ttatctcgtc gaagtgaaac gtttcgacga ttttgacaag gcgcttgaaa tcatcatgga
+    40321 aaatggtttc taccctgaag ggagcgacca ttaccggaac agcgttttcg attttcaatc
+    40381 gtggcgtttt ggcgaaatca atctgatagt gacttacaag gattggtttg ccacgcggca
+    40441 ccgatcggca acggcattgt gcaaggcgct gaacttgatg gacaaagccg acaggatcgc
+    40501 gctttttcaa acaatgctct acgggaatcg tcccgacgag aaaacatcgg aaacggatga
+    40561 ccttccgtac taaatcaagg attaacatca tgtatcatga attacctgcc ggtgccgttg
+    40621 tgcgtctcga aaacggtgaa acagctacga ttatcgaacg ccctgtatcg tggccgaaaa
+    40681 acccggatta tccggttgtt gcattgatta aaggggccga caatccagat acatggacgg
+    40741 aaaacggtca gtttctaaag gaaggaaacg acccttacga tattgtcgcc gtcgttcatt
+    40801 acggtgaaca gaaagcccct atcgtcaaac atgaaccaat caaccggatc gaacggcgcg
+    40861 acgtcgagaa ctttcgcacc ggcaattatt cgacgcgcaa tgcgctcgac cagtatcagg
+    40921 agattgccac gcggtcagcg atctatccgg ggcagggaac accgctcggc gttatgtatg
+    40981 ctgcacttgg cttggcagaa gccggggaag tgcagaacaa ggtcaagaaa ggttttcgcg
+    41041 acgacggcat gattgaattc gtcgacgaac ctttccagaa cggcgacgtg cttgttcgct
+    41101 tcaaatcgat cacgcccgaa cgacgcgaag caatcatcaa ggaaatgggc ggcgcgctct
+    41161 ggtatatggc ggcgctggcg aaagagatag gtgtgagcct gaaggaagta gcttgtcgca
+    41221 atctggacga actttgcagc cgcacggagc gagacacact gcacggcgac ggggatgacc
+    41281 ggtgatgccg gataaaccac aaaactaata ctgaaggaac tgaaatgaca caccacgttt
+    41341 tgaaagcaca cccgccgatg ttcttcgcat tgaaggacgg cacaaagaac ttcgaagtcc
+    41401 gcaaggatga ccgagcatat caaaccggcg acacggttga aatcagacac ttcgaacccg
+    41461 ctgttgcacc gcctgcgccc atgacaccgt ttgcgcccgc cccattgtgg cctgacgaca
+    41521 gaaagccgaa atcagtcgaa gtccgcaagg cagacatgac accctattac gggaaaatca
+    41581 cgttcgtcct gcgcggcaac caatacggtg tggaagacgg ttatgttgtg ctggcgttaa
+    41641 gcgaattggt cgattgacgc catacaaata atatgtattt ataaccctca tgttcaaatc
+    41701 gaatatgagg gttttttagt gtctggattt atcggcaaaa tagtgcggtt gcggaatggt
+    41761 gaagttcgcg gtccaattcg tgaaagggac gataacggac cttatacgtt aaccgacgac
+    41821 cattcatcgt ggacggaaac cggtcgttat atttccggtc acgtcgatga caaggatatt
+    41881 atggaagtcg ctcaattcat tcctttctac gatccgaaag ttgccgaaga aatcacgaag
+    41941 acagggcaag agatcatgaa gaacctgccg ttctcggtcg atactgaagg tgtcgttctg
+    42001 accggaacac cttcacatgg tcgcatctat cttgccggtc cgatggctgg atatcctgaa
+    42061 cggaattacc cggctttcat acgtgccgca aaagcgcttc gtgaactcgg ttacgaggtc
+    42121 tataacccgg ctgaatacga ggcgaacgag cgcttcaagg gtcaggagga tcgaagcgaa
+    42181 ttcccgcttc gtgaagcttt caccgaatat acgaactaca ttctgaacag ggcggatatc
+    42241 atcgccctgt tgccgggtca tgaaaagtcc gtcggcgcta cggcggaact gtcgcttgcc
+    42301 cgtgttgtga aactgaagga aatttatctg tgacacctga agaactcgaa tcatggcttg
+    42361 aagaagtccg tcgcgtttcc cccggcatta ccgacaagga gattgccgaa gggatcggac
+    42421 gcagcgacca atggttagcc gacgcgaaga agaaaggggt aaagatgaaa acccctgtca
+    42481 tggctatgcg ttggtttctg cacgggctga aggtcggtta atgatagtcc tttgctttgg
+    42541 tgggcgcgat ttcaacgacg aactctatgt tcgtcatgtt ctttcgtggt tcaatcaaag
+    42601 cataggttct atcacgcagg tggtcgaggg tgacgcacgc ggtgctgatc gtttatgcgg
+    42661 gcgtgtcgcg cgatccatgg gtatttcagt tcgtaagttc ccggcagatt gggacggctt
+    42721 aggaaaacga gcggggccga tccgaaatca gcaaatgctt gacgaaggaa agccaaatgc
+    42781 agcgatcggc tttcccggtg gtgtcggaac ccgtgatatg gcgagacgtt tgatagctgc
+    42841 gaaaataccg atatttattg acgccggatg tttgaatggc gtgttgacaa ctacaaataa
+    42901 tttgtataag gtcattgcag attaaacgga gtgaccgaca tgttcaaact taatatcgct
+    42961 ggcaactggt atcagtcgga aatcaagggc ggcaatgacg gcatgtggtt attcgtgcgt
+    43021 cgccccggcg attacaaggc tgtgccgctt ttctatcagg agacaatggg cctatgaccc
+    43081 gtgaaatctg gaaaaacccc attaacattt acaccatgcc ggaaagtcat attgacgtca
+    43141 tggttccggc agattctgaa gtccttcacg tatcgcgcca attcccgcaa gacgacagct
+    43201 tgccgcaagt ctggacgatc ggaacgcctt caaagccgcg cgaacccttg cgcattcatg
+    43261 tgttcgggac cggtgttccc attccagcgg gtcttaaact gaagcatatc ggaaccgaga
+    43321 tttttcatcg cggtcaactg gttcttcact tcttcgtcga ggaaaaagaa tgacacctta
+    43381 catgcaggga agacttgccg ggaagatggg taaggggcgt tgcaccaatc cttacgaacg
+    43441 cggcaccgaa gaacaccggc agtggctgga aggctatagc gacggggcaa tgacactaac
+    43501 gcatggctga cggctatcaa gccgccttca gggacggaac acttgcctat cgtgcgggtg
+    43561 attacgaaaa cccttttgag gatgaccggc aggcaacagc ttgggtgaac ggatggcgtt
+    43621 ttgaaatgga tgttcagaac gaacacattg tgtttgtctt cggctcgaat cttgccggtc
+    43681 gtcacggtaa aggtgccgct ctatccgccg cgcgcttcca tggcgcaata cgcgggcaag
+    43741 gcgtcgggtt tatgggttca tgctacgcga taccgacgaa agggtatcag cttgaagttc
+    43801 tgccgctcaa cgagatcgaa aagcatgttc acaggttcct tgttttcgcg acaatgaatc
+    43861 agaaactgaa attccggttg acgcctgtcg ggtgcgggct tgcgggatat agaccggatc
+    43921 aaatcgcgcc gatgttcaaa ggcgcaccat caaacataat catgccagcg gagtttaaga
+    43981 catgattttt acacgggttt ataagtccga agtgattgcg cggctgattc cggtaatcga
+    44041 cgaactgtcg aaatggtatt ccgaacacgc ggatgacctg aacagcaagt attctaaagc
+    44101 cgcttggcaa aaaaaccgga tcgaaaacaa agcgcgtgtt gcgacgagaa tttatcgcct
+    44161 gtgcatgttc aagggtgacc cctatatttc gatcgatatc gatcacgtcg aggatttcga
+    44221 atctctgacg gtcgagaaca tccgcgacga gatcaaggaa tacgcgcggc tgcgtgaaat
+    44281 ccagatcgtg aagacggaaa gagcgatcaa acctgaagtt acctatgatg acgatcaacg
+    44341 ggcgcatgac gccgtcctgt gttctctcgt cattgtcaca gtgtcactga tcgccgcgtt
+    44401 cgcttaggag gactgaagac atgttttaca aatatgacgt ttattgccgc gctaaagtcg
+    44461 tcgagtcgac gaccgacaag gaagaagcga aacgaaaggc gcgcattcgt tcgaaatctg
+    44521 acgtggacca tgtgattgtc tataggcgca cgattgcgac agggcgacgg cagaatatcg
+    44581 cgcatttctt cgacggtgaa gacatcaccg gcaagcacta catggcaggt atggagtgga
+    44641 aattttcagc cggtgccgtt gtcgcgctca ttgccgccct gtcattcatc atggcgtttc
+    44701 tggcgtttac cagtcttccc gcctgcgaaa ctgtctcttg cttccatgcg gtgaacagat
+    44761 gacccgtttt attcgtatca acgatatgac tgtaattccc ggtgtcgaac tcgctgacga
+    44821 aatgaagaag ggttacgttt tcgacagtaa ggaaaggcgg gaaatcgaag gctggttttt
+    44881 cttcatcggc cctgacggaa ccgcgcacgc ctcctatgat gttcaggaac atgattatcc
+    44941 gacggaagac gaagtcattg aacatatcat gtatcgcgaa attgacggtc ggcggttcga
+    45001 acgccgggat gacgacaaga ttgaacgcat ggcggaaatc gttgccgctc tcgctgccgg
+    45061 aaagaaagtg actttgtgat gaggaaatgc acgggtgagg acactacaca ggttttggct
+    45121 ttttcgttcg tcgccctttc ttcgttcgcc gaaaattccc ttagtccgac acaatccaga
+    45181 tgggcgcgcg aacgcgccga aaattgcctt tgggctttgg gtatcgaaga attcaagacg
+    45241 gaacgaagaa cctatttcgc ccgtgaactt gtgacaaaaa caatcaatct ggaatcgaca
+    45301 aaaaggattg ggaaatgatg gaatattcaa aagcccgcgc tcatatggtt gcgttacgac
+    45361 aatgcgtgct cctgtgtgaa ccttcggcta tagcgaccgc catgaaagaa gccgccgatt
+    45421 ttctcgaatc gactattccg gttctcgacc atgtagaacg ccgggttctt ctaattcttc
+    45481 aatcggtcgg tgaggattac gcgatgaatt ttaaaggtat tggaaatcga tatcggcagg
+    45541 aattcggaca ggaaatctca aggaaaacca ttcgtgacta ttgctggaaa ctgaaactca
+    45601 aagggcttgc tgtttatcgc aacggcctta tgagcgagat tgacggcgcg gtggcaggtt
+    45661 ccggctattc ggtcacaact gagggtgcga agttctatgt cgaagaacca atcaaggcat
+    45721 aagaacgcct atcgcgccgg gtatctcgac gcgattaacc gcctgcggga attaccgcgt
+    45781 tcggaggaac tcgacaaaat aattgcgtac ctcacaaatc aggcaccgaa aaaaccggtt
+    45841 gactgataca aatgatttgt atatcctgca cataacaaag cggagatatg cacatgtttg
+    45901 agtccggcac tgttcttgaa atgacgaacg gaaattacat ccttcggttc ttcagcttcg
+    45961 aaggtcagat ttcgttcgtc aagccgccgc gcgtcgcgaa gacagacgtc gaggaatgcg
+    46021 accttacgcg ggcgctggtt ctgttttctg ccgcgaagaa gaagggttac aaggtcgttc
+    46081 cgtcgacttg gaacgtcaag ttcctgaccg cccgtcagcg cgaagttctg gcgcggatcg
+    46141 cggaacaccc aatgcgcaag ttcgaaagcg gcgtgaagat cgacacgttc gaaatgctta
+    46201 tcaattacgg cctgattaac aatcatcatt tggcccgtga atttcacatt accgccgcag
+    46261 gacggatgtt ccttgccggt atcaccaaca tgagggacgt ggcatgatta tcgaaaatat
+    46321 ccatctgagt ttcgcctata tctataatac ctatgacctg aaggattacg acggtcgccc
+    46381 cgatatccac acgaaagcta ccgtatcggc gattcttgac gaacaggttg acgaccgtct
+    46441 gaaggaacac ttcttcggca cggtctattc aggtccgaac gttggtaaac cgaagttctc
+    46501 ggcgcggtca aaccgtcgtt gccctgtgat cgtcgaagga gggtattctc gcttcaagga
+    46561 ttttcagggg caattagaag ttctggacgt cgccaatatc gaccggaatt tgatcttcaa
+    46621 gaccggccct gtgacgttgg aagtcgagcg cggcgagtat gagcggggcg gcacgtcgaa
+    46681 ttcgttcatc cacctgtcga agatgattgt cgacgtcgac aagctggaca tttacaaggt
+    46741 gctgaaatga acgttgaacg cgccgtcgaa ctcgccaagg aaatgaaccg caccggcaag
+    46801 cacaaggagg aatggcacta ttacccggca ttgcacgatt ccggtaactg gtttgtcatg
+    46861 cgtcgccgca aacgtgcgga actgtgtgtc gccgtgtatg tcgacggcaa gacgtcagtg
+    46921 agggaagcat gatgaaggtt cacaagtccg aactggtgcc gaacggtcgg ttatccttcg
+    46981 gcacattcga agaacaattt ccttatcctg aagtgatgaa atggcgtttc gatctgccgc
+    47041 tgtcatggcg gggcaagagc gacttcgaac aggtctataa ggacttgacc gccattcgtc
+    47101 gcctgcgcgc gttcctgcgg cccgtggcgg ctcctgtgtc ggacctgcgg acgtctgccg
+    47161 catacccgat gggtgttccg gtcgagcggc gctattacac cggcaatgtg gttgaaccca
+    47221 cggcgcaaga tataatcgac tatttcaacg gtgtgcgcga tccgaaggcc gatgcattca
+    47281 atcgtctcat gtacggctat tgtgtgtcag acgtgcgcga aaccattcgt cagcgggaaa
+    47341 ttcttcttcg ctggaatttg aacagaacct acgggaaata tgcgcgatga aagcacagga
+    47401 aatatttgaa gctgacccgg aattgcacag ggttgcgacg cttgaattca tgaaaattca
+    47461 ggatgaggtc ggcatggatc atgaccgcgt cgaacaggcg aaagccgcct ttctcggcga
+    47521 aatcgagaaa ttcaggacgg tggaaaacgc cgccaaggtt gcaagggagg ctgtcggact
+    47581 atgactaagg acgaaacatt aaacgcaatc gccgtcatgc aggcttacgc cgacggcaaa
+    47641 ccgatcgaag ttcggacacc gtgcggtttg ccgcatgaac gtggttggta tttgctgaag
+    47701 ccgatagatg ctcctaattg ggattggcgg aattccgaat atcgcatcgc cacggtgaag
+    47761 ccttcgattg actggtcgca cgtcgcgcct gaatatcggt ttcttgccgt cgatgatgac
+    47821 gaacgggcgc acctataccg gaatgagccg gtcaatcgtg caggtgattg ggaagacccg
+    47881 aacaaccgta aggcattcgc gccagaagcg gcggcttttg catcatacat gcgcggtgat
+    47941 tgcccatatc acgaaagcct tgtagaacgc cctgaaggcg tgtaaggtat tcagatcgcc
+    48001 cggttgtctt ccaagtttgg caattcggat taacacgtaa tggtgaattg gtgcgaccgt
+    48061 aacgacccct aaccgcacgc ttcggcacgc ggcggatgta tcggaaaact tggcgggatg
+    48121 cagagaaacc gctactagta ccagagaacc ccgcaacacc ggcccgtgaa ccggaagaat
+    48181 gttgcggggt ttttcatttt ctggttgacc actacaaatc atttgtataa cgtgacttca
+    48241 tcaacaacgg agttaccgac atgcagatga ccaaaaaagc acagaaagcc gccgaagttc
+    48301 tggaaaaccg gaaggctgca ttcgtcaaga aagttgccgg gttgctcggt cacgttttca
+    48361 gccgtcagcc gctggccggt gtcgtcgccg cgttcgaagc tggtgtttct gccgaagatt
+    48421 tctcgacatc ggttgcatcg cgcgaaccgg tcggcctttg ccttcacccg atgaagattg
+    48481 acgcctgcga cgcgatggaa gcaaaagttc gtgacgcgac tgaaaagttg ctttcgaagc
+    48541 tggcggaaca tgacggcgat attttcaagg cattcccata caacgaaaac tggcgcaccc
+    48601 gcacagagag cgacaagggc gacgagagac ttcacaacca cgttcgccgc ctgacgaccg
+    48661 acacggaaga actcattgaa gttcgcgaat atcatcgccg gaatttcaaa cgtgttccga
+    48721 acccggaaag cattgaacgt ttcgttcagg agaaccgcga catcgcggca atgaactatg
+    48781 acatgttcat ttgcaagatg gttcagaaag tcggtgaagg cgtcgtttcg gcgacaatcg
+    48841 aaggttcgca catttggggt aattcgatcc tgaccgttgt gaaagaaagc ggcaaggtcg
+    48901 aacgctggca cacacagacg atctggaatt actcgaaata cggtcttccg ttcaaccagt
+    48961 ggccgtcacg ccttaaaaaa taaaataacc ggttgaccgg tacaaatgat ttgtataggg
+    49021 tgtctctatc aacagcggag acaccctgac atgtacgcaa tcgatatccc taaccgtcgc
+    49081 aatctcataa acgcagcttt tcgaattttg attgcaaaag accctatcac aaccatgagg
+    49141 aaatttgaaa agaagtacgg tttggaaatc cgtgaagcac acgcatttgc tcatgaagcg
+    49201 tatggtaatt gcatggccgc aaaagaagaa gacgttgaca ataaattatc tgaaaaattc
+    49261 ggatggaaaa caatgcgtca attgagaaaa gaatcaattg acgcacttaa acaggaattg
+    49321 ttgtgatgga ctacgcaaca gcacgcgaga tcgtcgatac atggtggttt gacccggata
+    49381 ttgacccgcg caggatgaag cgggcggaac gtgtcgtgat gacgaaaggc aatctgttcc
+    49441 ttgcctataa ccggggaatg ctggcgttct atcaggggcg tgcaaaaacc gacaatccct
+    49501 ttccgcccgg tgcgcgtcgc gaccaatggg aacagggttt caactatgga gcggtgaaat
+    49561 gaaattcttc gaagctgtgc gcatgtggcg ctatcgccgg ttcgtcaaga cgctgccgaa
+    49621 agccgttcag gaaccggaat cattcattga cgacattttc atgcgtgacg tgaagcgtcg
+    49681 gttcaatcct ttctcgtcgg acgaccgtaa cgcgatctgg cgcggtgtcc ggtacggtca
+    49741 acttcaggca ttcaacaagg tatttccaga atgatcgaaa tcacccataa cgaaacaccc
+    49801 ctgtcacgcg aactctatgt gttcgatcac aacgcatggc agcgcggcac ccggcttgtg
+    49861 cgctactcca aacaggaacg ggaaacgacg cggcataagt tcaagggtcc gatgtggaac
+    49921 agtgacgaca cccgccgccc gttcggcagt cagttgggtg aaccgtccga gatacccgct
+    49981 gaagtgctgg aaaagctgaa gtccgcgctt atcgacgacg ttctgtcgat gacgctttat
+    50041 gtcggctggt tcaacccgaa gcacgtctat aaggacaatt tgaaatgaac gacaaaataa
+    50101 ctcgcatggg caagcacggt gcaccctata gcgtcgactt cctgacacag cttcggaacg
+    50161 atctgcaaca gcttgcggcg gacgttgacg acacgcgata tgccacgcgg cttttgcagg
+    50221 cggcaagcgc tgtgaacctg atcagaagca acaacgcggc ggggcgtgac gaatgaagga
+    50281 tttggagccg atcttcggat atgtcgtgct catctttttg gtattttttg ttgtcgcagg
+    50341 ggttgtgtta tacaaatcac ttgtataagg taattccaga tcaaacggag ttatcgacca
+    50401 tgtatcgcat cggaaaagac ggaaacaagg gctggaaagt cgttaaaaac gcgaccggta
+    50461 aaaacgtttt cttcggcaca aaacaagagt gtgaagaatg gattgaacgc aacggtcatg
+    50521 acggggacgt atgaacatga tccgaagcaa caatgaccgc tcttgaagaa ctgatagccg
+    50581 agcgcgaccg caaacgcgtt gagtatgtga agcgccggga taaacggatg aatgattttt
+    50641 cgcttttcac cctgtttatt ttcgcgatcc cgttcatttt tgctgccgta ggggttgtgt
+    50701 tctacaaata acttgtataa ggtaacttca gatcaaacgg agttatcgac catgaaagac
+    50761 cgaatcaaag cagcccgcgc cgccgtcaac aaagagacgt tcggcacccc ggaatgggaa
+    50821 gcaaagatgc aggttgttcg cgatctggtc gatcgtcacg acgcggaaca gccccgtttc
+    50881 gagcatacga gcattgatgg cgatatttgg agcgtatgat aatgattaat acgaagctta
+    50941 ttgcccgcga agttgggttc ggcgaaatta tccttaaaga cacaagcggc gagactgtcg
+    51001 cccggttcga ttccgcccct tatttttaca tcgtcaccgg gttcaaatct gccgacgctt
+    51061 acaacgcgca tcacgccgat gagccggtta agtttctggt ctggaagcgg gagcattgaa
+    51121 gatgactaat gatgcacgca actatgccga aaaaagcgaa tctcattccc gtcgagcgct
+    51181 caaagcgacg agacatgcaa ttactgaact tcgaaagcgt atcgctgaaa atgaggcgat
+    51241 gctgaaaagc agtctcgccg atctgaacga agttaagcgc gtcatgtgtg agcaggggtg
+    51301 gacggaagaa tgaccatgaa aaaaatccgt cgcactggtc tacaaggacg gaagccgtgt
+    51361 aacctattcg attgaaattg atctggtcgc ggtcgcgcaa caactcggaa gcctgaaggc
+    51421 acgggtgaac aagagcaaga aatccacggc gttgcaaggt gctgtcgtgg ttactgtcga
+    51481 agcggagaac tgaaatgaat acgaagtcca caacgccgat tgacgtcatg attggcaaca
+    51541 atatccgtgc cgtgcgcaag ttgcgcggca tgtcgcagga aacgcttgcg gcggggatcg
+    51601 gcaagacctt ccagcaagtc cagaaatacg agaaggcgac gaaccgcgtg tcatgctcga
+    51661 cgatgcttgt catgtgccgg gtgctgaact gtgagcctgc ggacatcatc ggacgccccg
+    51721 acggtgaaca tgtcgacgtc gccgaaagct tcctgacacg ggaagccgaa ctgcgcgacc
+    51781 gtatggcacg ggcaatcaag gtgcttcagg atggctgata agacgttcag aattacatgc
+    51841 gttcggtcgc atggcaaatc tcattctctc gacctgtcgg ggtttggcgc ggaacaactg
+    51901 gcttacgaac agttcaagcg cctgaaggaa tcgaaacgat acgtctacat cggcatgttc
+    51961 gaaaatgacg aactgttgat gttcgacgtt ctgacgaagg gagacgttcg aaccgatgga
+    52021 taacgacgcc ccgctgacaa gtcgtgaagc gacagagcga ttcaagccgg aagaaaacca
+    52081 catatggctt gaacgaaaca agcgcgccga agaactgttg cgcccgatgc tgaaggctgg
+    52141 cgaccgtatc agggcaacaa aagcggagtg ctgcgcgcgt gaagcaactt tcacatttgc
+    52201 tggatgggaa aagggctgga tagtcagttg gagcggcaag agcattgcgc cgggaaacgt
+    52261 ctattcggtc aacgggaagg tcgtcagggt atgacttctt gccagtgtgg tgaacgcaag
+    52321 aggccgttcc ggtgcgatct ggcggaagga tcaaatgacc gcccccggca atggttcgtc
+    52381 acccgacgta acgagacgtg ttcggcattc accggatatc gtcggcaatg gtcggaatcg
+    52441 tcggacgtca tgtgtcgggt ttgcggtgcc tactggcgaa caaaagcgaa atgggtttcc
+    52501 aatctggaaa actgtgaata ttggcctaat caaaacgcgc cacgcgcgga accaatggag
+    52561 tgaaatgaaa tggctggaat tgttgcaatc tttttggggc ttatcgtggt cttcggcggc
+    52621 atcggcggct gcatggccta ttaccccgaa tacaccgttt atcagcagag catggaaggc
+    52681 aaggcggcat acgccaaagc tgaatcggac cggcaaattc gcgttctcga agcacgggcg
+    52741 tcgcttgaat cggctgaaat gacgtcgcag gccgaaatca aacgtgccga aggtgtcgca
+    52801 gcggcgaacc ggatcattgc cgacggtctc ggcggtcctg aagggtatct tcgctggcgc
+    52861 tatatcgaaa tgctcgaaaa caccggtagc aagggcgggc gcgacgtcat ctacattccg
+    52921 acggaagcga acctgccgat actggaagcc ggtcaacgaa aataacgttt gcaagataat
+    52981 cttgcatatg agataaacag cttgcccgac tggtaatcgg gtatcgaaag gcgaaactgt
+    53041 ctcctcattt gtttcgccta gtaggaagaa ggggcgggtt tacgggtggt gccgggccat
+    53101 aacgcccctt cttacttttt agcgattgcc gcttgacgac tacaaatcat ttgtataagg
+    53161 tgtctctatc gaaacaggag ataccgtcat gaaccgctct tacggattga agaccctcac
+    53221 tgcgaaactt ttcattgcag agttgcgcaa ccctgaaaca aacggttcaa tctgcgaatt
+    53281 tgaacttgct tattcacgcc ctgaagcatt ccggaatctt gcgaagcgta tgagcggtta
+    53341 caagatcgtg tcttttcggg gtgaagacga aatgtcccgt gacgaattgg aacaggcgcg
+    53401 ggattggcgg tctgcgggtg ctgttcatca cttcaataac ttcgctcaat atggcgaaat
+    53461 gcaagtttat catggttgag gagataccgc tatgttctac atcatcaaca aaaattctga
+    53521 tttcatccgt tcgcatccgc gttggggttc acctgaggcc gttcatttgg gcgacgcatg
+    53581 ggaaaacaag cggtacgccg acaagttcag gacgaaggct gaagctgaaa aacagcttgc
+    53641 catatgggcc gacaataacg acttcaaagg tcgggttatc gacgaacaga caacgttcga
+    53701 aatgggggcg tgaacatgaa actcaccaaa acggtaaacg gcgtcacatt cgagcgtcgg
+    53761 cacaacatgg gcgatccttc ccggtatata tgggaaggcg gggcagcggg cggcactgtg
+    53821 tttatcagtc gcagcgggaa gttcggtcat tcaagggagt ggcacgacac ctttgaagcc
+    53881 gctgccgaac gttccatgct ggcgtgccgg gaacgttatt tgcaggcgaa gaaactcgtc
+    53941 gatgcttacg aaaagcaggt tgacgcctac aaatgatttg tatagggtat ctctatcaac
+    54001 aacggagata ccctttatgt ccatcgctca aaccattctt cagcagcttg gcggtaatcg
+    54061 ttttctcgcg atgacaggcg cgaagaactt gcttaacggc ggcaattatc ttcagatgga
+    54121 tttgggccgg ggcaagaaag ttcgtatcac gcttgacgcg tctgacacct acacggtcga
+    54181 aacgttcaag tggaacgcgc gggcgctgga atgcaagcgg atcgacggtc attcaggtgt
+    54241 gttcgccgac agccttcggg aagttttcac cgacctgacc ggtctttatt gcacactgtg
+    54301 aaaataccga tgaaagacgc ttgacgtcta caaatgattt gtatatggta tctctatcaa
+    54361 caacggagat acccgacatg acccgcttcg atcacatgat ttcctatctc gctgccaagg
+    54421 gtgtgaagat ggtcgtcaag acggaatatg tgaacggcgt tgcggctggt cggaagctta
+    54481 tgacgaagct gacggttacg aagtcggacc ggttctatcg cgtcaacggc aaggtggttt
+    54541 cgtcgggtat ggctaaagaa cttatgagga tggcagcgca atgaccaaac ttattttcgt
+    54601 ggttctcctg aacatggcga acggtcaaca gatcgaagcg tatcggtcgg aaccgatgac
+    54661 gttcgtcgag tgtgacaagc ggcagcggga agtatgggcg ggcgattggc ccgtcgcttt
+    54721 cattgacgaa gaaggggcgg cacctgtgat agacgccgca tgtgtgccgc aatgattgaa
+    54781 tatttcattc gtatcattgc gcccgacggc gaacagcaat gggcgttcat cacgtccgaa
+    54841 aaacggatcg gtgcgtcgcg cgatttcatc tatgcggagg cgttcgggct ggaaaacgct
+    54901 atccgcgtcg gtcaacagat tcacgctaac gcggtgccgg gaacgtttat cgaagcaatc
+    54961 gaaacgacgc acgacatgtt cgcgctgccg gtcaaaatga ggaaggtgat taatgcgtaa
+    55021 attcttctat gtgacggcga tttacgggac aaaggttgtt gcattgctcg gtccctatga
+    55081 caatcacgcg gcggctttgg aaaacgtcga tcgtggccgt tcaatggctc ttggctatga
+    55141 caagagcggt aaagcttcat tcgcttctta cggcaccagc ggcagcgatg aagaatttaa
+    55201 aaccgtattt ggcaaataac gaagtggatg gatgaatgac gacgaaagca atttacacga
+    55261 acgacaccga ctatctcgaa acgaagacat ggaacgtcga tatcatcggc ttcgtgacag
+    55321 ggaacccgca ggatcggtca aggcagtatg gcacccttgg cgaacagccg cttgccgtgt
+    55381 gcgtgttcga tgacggtcga cttgaagcta ttccgtttag ccgattgaaa gtgaagcgcc
+    55441 catgaagatg aatatggttt gtaaaaattg cggtggtaat cgcacatcat ggttcccgac
+    55501 aaaccgggtc aattcggtcg ctgttgacgg tcgtctgaaa tccaatgaaa tatcatgtga
+    55561 cttcgtgctt ggctgcgacg agtgttcgga aacattgaag gtcgtcagcg ctgacgaggt
+    55621 tgcgcgtcag atgaatgaac gaaaacatgt tgggtggcgc tggaagcacg ccgatacacc
+    55681 ggatgagggt cactggcatt atgtcgacgg tatcgaaaag cccgatccgg gtttcacaac
+    55741 agaatacgcc aagcgcgtga cgtttcagga ggtttatgca tgacacatca tcgcgacgga
+    55801 aacatgatcg tcgacgggaa cggcgcggtt gtctgcctca tgtgtgagtg tgacagcttc
+    55861 gggggattgc acacggcgca caatgccgat gcgaacgcgg aagttattct gaaggctttc
+    55921 aatgacgctc ggacatcgtt catgatcgga cctaacacca tggaacgcgt gttcaaggcg
+    55981 gcggggctta ctgacctgtc ggaccttcag gcggtcatgg atgctgtcga gaaggcgcta
+    56041 acggtcagcc gggaaccgac cacgatcaag ggtgaaaact ttgttgattt tctaaacacg
+    56101 gatcgaccct atatttgccg gaagatcgaa ggaacgcgtt acctgcttgt cgacagggaa
+    56161 accggggaat tcgtgggtta tcgtaaatat gacgacgata tgccgacaat caagccgctc
+    56221 gaatggaaac ggggggaata tgtcagttcg gcaaagtcgg tcgacaagct ggcgtttaat
+    56281 gcgcaacgtc tcggcagcgc gggcgaacaa tggattcttc atgcctatct cacgacagag
+    56341 acggtgcgaa cccttcatcc atcccgtcag gcagcggaag cggcggcgca aactctgcac
+    56401 aatgaggcag tggcgaaata tctttcggat tgaccggtat cgggcgatct ctcaatagcg
+    56461 accagtcagg cgggatcata acggttccgc cttttatttt gcctgtgccc gtggccccgt
+    56521 acaggctgtt cgtggtgatg tgtggtcgcc aactcggcat gtatcgccga agccgccgtg
+    56581 cgaccgtctg agccgcaacg tcgacgaccg gacatgtgca cgacatgaac aggaagtcgc
+    56641 ttagttccgc gtaaactgtt tgttcgataa cgaccatgca caacgacgat ttagggaagc
+    56701 gcaatccggt gtgcgcgaaa atcattccga acgcagaaac ccatgcgacc cttagttcat
+    56761 gatcgccatg acgcatgatg caccaatcgt catggcgaag aaccattcgg attttcgttg
+    56821 cgtgtcggca ggggtgatag atgccgtatt cgagattaaa aaacatttca tgactttata
+    56881 cggattatgg ttaacacgtc aatttcacaa ttggtcgggg ctgtgaagac tcaatgaaga
+    56941 ctcaaggcat cgaccgaagt cattgatttt attgaacatg ccattttcaa agactcaatg
+    57001 gatttattga gtcttttttc taatttattg attttattat atattttcta aaagactcaa
+    57061 tgaatcaaaa ggtctatcta aaaatcgtag gggatgatgt tgtaaatgaa tggtcgttgg
+    57121 ttaaacatta ttgactaacc aacgacgaaa catgtactac atcactagat aaaaaataga
+    57181 gggtatcgcc gcgaaatcat tcattgtggc atttgcgcta agggattgaa aaatatggat
+    57241 gacacaatag agcattggaa agccgtaagg tcgtttgcat tcctcaacga tcacatgatg
+    57301 gttgcacaac ctgaagaatt tggttcacga attatctgtg aacgtaacga cggacgaacg
+    57361 tttcattttt attttggcga tcgttcgttc atcgcttcta acattggtga ccgtcaatat
+    57421 ctcatcacct atgatgttcg tccaaatctc ggcggttaca atctcgtcaa cggtcgttac
+    57481 gttcctagtc ccgacggcga cgttcagatc gaagggttct ttccgaacta tcggatcgcg
+    57541 gggcttttca ttcctgtcta tctcggccca cacctctatt tctacacgga gccgcaagac
+    57601 gatatcatca atctcgccaa gaccgggcag ctacgcgcac cgtcggtgca tatcgtgcgc
+    57661 cagtgtctta cgtgccgccg cgaaatccct aaggcgatcg gcccgcgcgc taaatattgc
+    57721 tcgatcgaat gcggccttgt cacgcgcgac atgcagcgac ggcagcgggc ggcgcgtgct
+    57781 gagacgagaa aattcgaatt gccgaaactg acgccagttc gcaaatgcaa aacatgcgac
+    57841 ggtgtcattc cgaaagaact aggcgggcgc gttcgttatt gctccgtcga gtgcggtttg
+    57901 atgacccgcg aaatgcagaa acaggggaaa caaagcccct gcgattattg cgccaaaccc
+    57961 tttaagcgct atggtcgtca acggttctgt tcggaagaat gcaaacttag gagtaagcta
+    58021 gatgctctgc gatgaatgcg ggatttttga agttcctgag aatatggatt gctgccgcgt
+    58081 ttgtttctcg gtcatgcgcg gaattccgct cgacgatctt agcgacgtcg aattcgattc
+    58141 attccgtcac cgcgtgctga agaaacagaa acgggaagaa gaccggcagc ggaagaagac
+    58201 cgacagagaa cgacgcgcca tgtcgaccgc cgaagaaatg cggcaccgcg tggaagtcgc
+    58261 gcgacagaca ggggaatatt caggaccgct gcaattttgc ggctcatgca agggcgtcat
+    58321 taaaaagact gtcggttatt gcgttccatg cgctcgaaaa gcgcttgccg ccgctggaat
+    58381 tcccggtcat aatgcaaaat aatcttgcat aaacgaaggg tgcgaagaaa tgattaatga
+    58441 agaactcgaa acgcaggtgc tgcattttct cgtcgaaaaa ctcggcgggc atagcgtgac
+    58501 aattgttcgt gacgccggga cacccgacgc gcaaagcctg acgggcttca gcgtgtcgaa
+    58561 cagtaagacg ttcgccattc gtgatttgct tgaactcatc aacggacccg acgacggcag
+    58621 gccgtgtcac atggataagt tcgtcgccga tctgcatgaa gcgacggacg acacgtttga
+    58681 acgcgacgaa gcaatcaccc attggcttta cggtgattgg cctgcggcaa tggaatatct
+    58741 gaaggatgaa gacgaatgag atacatcgct gtcgttcata gctggttcgt gcacagcaag
+    58801 ggttttgacg ttcgtgaact cgacgtcacg aacgataaag acgcgaagac acaggctgac
+    58861 gcttttgcgc atgaggtcag tgacgatttc aaatcgaccg ctgtcgtcct cctgaagatc
+    58921 ggagagggtg aacgcatttt caaaccgcgc cgcctgacgt ggaaagagcg catgttagga
+    58981 agaatcgaat gaagctgacc gttccgcaat atcaggcgct gaagaaatac gaagacgaac
+    59041 aggcgcacaa cgaaacggcg cttagcatcc gtgcgaacgt ttacgaccgg cttgtgaaga
+    59101 tgggttgcct gaagcgctcc tatttgctga aaagccgtat caccccggaa gggcgcgcgg
+    59161 cgctgaaggc ttttgaggat cgattgaaat gacacccggt caggacgaaa atcttcggcg
+    59221 tatcgccgaa tacctgaagc gcttgccgac gtgtcacgcc tgcgtcgtcg agggacagga
+    59281 gcgcgaatgc gagtgtatcg gtgcgcgttg ggcggggcgt gaaatactga agacgcttga
+    59341 tcgtaacgag tggataacaa aggcattggt aaaatgaaag ttggtcaaat tctgtatgcc
+    59401 tgctattccg acgacacaac cggtaaagtc tcattcgagg aataccacgt cagaacgatc
+    59461 cgcaagggca agatatacgc cacattgaaa ggctctttta catggggcaa acggtcgtcg
+    59521 aaacatggtg atttcggctg gcttgatccg gtcccggcat ggtgccgaca gcgcgtcgac
+    59581 ctgtgttcat ggctattcac aacgaagctt caggcgattc gaaatgaaat aaaacgtcat
+    59641 caccctgaag atttcgtgtc tcctgaaatc gccgaaaaag ccttgaaaac cctcaaatcc
+    59701 cttgaaacga agaacaaacg tgcaaaataa tcttgcatac gcgacgactt tcgagttacg
+    59761 ttcgcttatc cgtcgcgccg tgtcatatcg gcgcaaatgg gaaacaacct gtcggtcggc
+    59821 tgttgtggtc ggtgtcttcg ggcgcaatct ggaattcagc aacggtgata tcgtcgacgt
+    59881 aagggaaatt gttctatgac cgctgaagaa tacgaacgtc tcgccaacga aggcggcaag
+    59941 cacgcggcaa tgttccgggg catggcgaaa tggtgccggg aacaggaagt cgtttcgaag
+    60001 ttcaccgatg acgacaagac aatcattcgc agccttcgaa ggggacaccc gcgcgctgaa
+    60061 atcgccatgc gccttgcgat ttccgaagcc atggtttcac gtcgcatctt gaatatctgg
+    60121 cagatgattg acgaaccacg cacgaacgac gcggggcttg tctttgcgct cggtcggcgg
+    60181 gggttgctgg tatgattgag gaagtaaaat cattcatcat cggctgcgtt atcggactgg
+    60241 tattgttttg ctggttggtg atgtcatgac gcttcttctg actgccgggt acggtcacga
+    60301 ttcgccgtcg aaagtctggc tttcgtttcg cgcgcgccct gattactggc gtgaaatctt
+    60361 cgtcgaaatg gctgaaaatt tcggatgcga aaaacgcttc gcagacaagg ccgcttcgat
+    60421 cttggaaacg tcttgtcgtt atgactgttg cgttcaacgg gtatggataa acaaccgcct
+    60481 atacaatctg gtcgaagcaa tgtcgttcgc aggcgtgacg gtgaaagtcg atcctgaata
+    60541 tttcccgccg cgcgggtatc ataggagtgt caaagtatga aagtcatcca tcccgctaac
+    60601 gcgcaacttc ttcccggccc tgaaggcact ttcgcgctgc cggtcgtccg cgacgaaaca
+    60661 gggttctatt catactggca acccgacgaa aaggaacttg cacttctgaa cgcggggtac
+    60721 gccgttcaac tcggcataca ccacaacgtt cacccggtcg tcagcatggc tattgcgttc
+    60781 gctgctggcg agaacgtcaa gggtgcatat agtgacgaga cggtgtcgcg ggttgcacag
+    60841 gctttcttgg ataacgtcga ggaacacggg ttcgtcgcgg cgatacgggc aggacttgac
+    60901 gcgttatgac aatgtcgacg ctccaatacg aaaccatgcg gattgaccgg ctaatgcagc
+    60961 cgcgccgcct gacgctttac ccggatcacg atctggtttt gtcggtcgcg gtgtgttggg
+    61021 cggtcatgta tcattgcaag ggaagcccgt ttgaagcgaa ggattattat ctgtcgacga
+    61081 tcggcatgga cggtgtgcaa tgaccgtcaa actcacccat gcgcaagtaa aatgcctgcg
+    61141 cgcgatcgct aatacgacgt gggggattcg tctgatatcg cttaacgctg ccgggttttc
+    61201 gacgacaacc gtcatgcgcc tgtcaatgct cggttacgtt tcgatcgaca acgccgttgt
+    61261 gacattgacg gacgacggga aagcatttat ccgttttggt gttaactgag aggtaaacaa
+    61321 atggctatcc gtaaagcgaa aacgttcgtc gataacccgg attattccgg tgttcctaat
+    61381 ccgaacccgc atatcagcga tgacatcatg tgtgtcgacg ttttcattac gtcacgtgaa
+    61441 accattcttc acacggatga aatggaagaa ttgagggaat atttcctgaa agaacaggaa
+    61501 tcgtaatgcg gtatgtcttc ggcttctgcg attccccgaa gacaatttcc agccgtcgga
+    61561 cccgaacggt gcataattcg ggcatcaact ctaaaagggt gcggaacatg aaaaatcccc
+    61621 tgttttcttt tgcaaactgc cttcgtcatg cgttcatgac gggtgccggg tatggtgaat
+    61681 cggaacgcat atctgacgcg gatcagcgcc gatggtgcga gtatgacccg ccaaacgtgg
+    61741 gttcattcag taccatggcg gatgttttgg cgtcggctgc gcgtgacgaa tataaccaga
+    61801 ccatgtcgcg taaagacgcg atgacggtta tcggtcatgc aacggatttt tccgaagcga
+    61861 tgcagcgcgc aacgaagttg ctttccgaat tgcggccacc cgcacgaaca ggcgtcgtca
+    61921 tcgtcgcggc ggctattcgt attcatgcga acggttccga ctttgtcatt tccgtaccgc
+    61981 gccccggtcg ccaccatgac attcacagcg ctgaagcgtt tccgcttgaa tacgcttaca
+    62041 ccgaagggtt cctgacgtcg gcgggaacgt ttgtcgaccg ggaaaacgcg ctggaactcg
+    62101 ctatcaaggc cggtcagttt aacgccccgg ctgaaggcaa gcgtgaactg ttcagcgagg
+    62161 acctttggtg atgacgttca tttgtctcgt agttcttagc tgtgctgtcg gaacgcttta
+    62221 cggtggtgtt tacggctgtc tcgtcttcgg cgttgtcgga ttgattatca tggcaacaaa
+    62281 caaatgggtc gattgggaat gaccgtcgtc gcatcgggat atgaactgaa ggaaaacgaa
+    62341 aaatacgaaa cggaaccgtg ggtttgtcac gcggtctttc gtcatatccc ggtcgcgggt
+    62401 ctttacgttt gggaaccggc agcgggcaac cacaagattg ccgacgaatg cctgaagttc
+    62461 ggcgcgcgcg tctacacgtc cgatatcgct ctatatgacc gagatcatga ttttgtcatc
+    62521 gacttcttca tgatggacga tccgacgcta ggattcgaca tgatcttcac caatccgcct
+    62581 tacggtccgc aaaaccgcac agcggcgaag ttcgcgcgtc atgctctgga actctgcgac
+    62641 ggttgggtaa ttctcgtctt gacggcgaag ttcgatagcg gctcatcacg gcacgacctc
+    62701 tttcgcgata atccccgctg gcacgctaaa atcgtgttga ccgatcggat ttcatgggaa
+    62761 ggcaacggca agtcgggaac ggaagaccac gccgtttacg tgtggcgtcc caaatgggca
+    62821 cagatcgaaa aacctgtgct gatatacgaa ggaaaaacca gaaattaacc atatttcacg
+    62881 gttcctgtag catttcgata caccgcatgt agtagttatt tcgtcgtcca tttttcgagg
+    62941 ataatgtaat gcgtgtgaag gttggtaacg aatggttcgc ttgctcggtt gatactccga
+    63001 ttcaggtcga attgactgag aaagacaaag aaaatattgc gaacatggcc cctgacgcgt
+    63061 gcctttatgc cacgttcgcg cagcctgcac gcaacgaatt cgagcgcggt cagcaattgg
+    63121 cttggatgct cgaaggttcc cgcaaacaag gcgctgcgat cagcgtcgca gaagccgaaa
+    63181 aggcaacaga ggtcaagaat gttgattgaa ctgaaggacg gggacacggt gattattggt
+    63241 gctgtcgata tcgaaaagaa tcgacaattt tataccgata tttgcgattc tttggggcgc
+    63301 ggactaagca atgctcattt ttattatgcg cccgctgaat accattcggt caccgtctat
+    63361 cgtccttctt ccaccaaaga tgcgccaccc gtcgaaaaac acgacggctg gcattccttt
+    63421 gaaagcgccc ctatggacgg tcagattttt gacgcatggg ttacggacgg cgaacgtgga
+    63481 aaccgtcgca ttccctgtgt ttcatttatt aagggtgtct atcaggttca ttcggccatg
+    63541 gcatacgaat ttcgccctat cggcgactac ggcaccccga cacactggcg ctatccacca
+    63601 caaggaccga aggcatgact gttatccgca atcctttcaa gcgcggtcaa tctgtcgaac
+    63661 tcacaaaggg ctttccgtcg gtcggattga aggccggtga caggttgatt gttaaatcca
+    63721 cgtcatacgg ttttacaccg ggcaaaacgt gcccaaaagg cataaggccg acgtgtggtt
+    63781 tcgacgaaat caagaatgcc agaattccga cggagtattt aaaagcatga tttacggcta
+    63841 tatctgcaaa aacgaaaccc cggcgttcga attcttcgtc aaagacgtca aggatgaaga
+    63901 aggccagccg attattaccg aaacccaact tgcgaacggt atgaaggttt tcccggtctg
+    63961 gcgtgacgaa cgtaaaggtg aggtcatgcc gacgatcgtt ggctattcgc gcattcttga
+    64021 atttggttcg accaatgcaa aacgcgaatt catcaacaat tccgactatg acccggaaat
+    64081 tcatgacagt gatgaatggt ggcctgtcac cgaacagctt gcgttgaatt gggatgccgc
+    64141 acatgaacat aacgcggcgc gtgaacttca tgatcgtgcg cacgaagctt tccatgtctg
+    64201 gaattacctt ccgaaagaca cgcctgccga cgtgaaggac agaatgaagg cgatctatca
+    64261 ggacaaagcc ggggttgctt tcatcgcgtc gcgtcgtctc ggtttcggca accatgtcgt
+    64321 tcctgacgac acaatcgacg aatatcatat taagatggcg aacaaacacc gcgaactagc
+    64381 gcggctttat tccatctgat taaagccctt cggggctttt tttattcctg tgattcgtgt
+    64441 taactcgcga tcatggatga accgacaatt gaaatcgacg tcgacaagct gagtgaacgc
+    64501 gcagaacaat tttgcgcgga atattgcgtt gatttctgca aagcgaaggc tgagatacgc
+    64561 gcagggtacg cgccggggtg tggaccttcc ctgaaagacc cgcgaattat cgcgaaaatc
+    64621 gaagaaaata agaagaaaca tgccgctcgg caaaacattt ctgtggattg ggttctggat
+    64681 aattaccgcc gtatcgcgat gggcaatatg gcggattact tcgagatcaa gcacacggat
+    64741 gacggtcacg catacgttca aatcaacttt aaaaagacga cgcctgaaca gcttcgcaat
+    64801 ctgaagaagc ttaaaatggg caaatacggc cttgaattag agattcacga cccgattgca
+    64861 gcgctcggta aaatcgggca gtatttgggt atgtctggcg cgtcggaggg tgataacggc
+    64921 gacgaacaac gcacggctga cacttatcaa atcatttatc atgccccagc gtctgaaact
+    64981 taatttcaac agttgccgtt aacgtcgaga acacgttaaa gagggttgcc caatgaccga
+    65041 atctgttaga gtggttacct tgaccgaagc tgacgttgaa cgaattgtcg acaagacggt
+    65101 gaatgacacc cttctgaagt tgggaatgtc cgtcggtgac ccgatcgaat ttcaaaagga
+    65161 tatgcatttc gtcaggggtt ggcggaagtc gtcggaatct gtcaagcggc aagggtttat
+    65221 gaccgccgtc gcgatcgtga caaccggatt cttagggctg ctttactcgt tcttcaaagg
+    65281 tgattgacaa tggcaaaact tcgcccgctt caagttggtg gcgttcccgg ttgcgctaat
+    65341 attcccggtg gcgaagattg ccagtgctgg cccgaatgga cggctgacaa cggctatttc
+    65401 ttcggcgacg tcgtgcagca aggcggggtt ctctattacg cgacgcgcga tgttccgccc
+    65461 ggtacgccgt ttcttgccgc tgattgggca ccatatcgcc ccgccgcaac ggccattcct
+    65521 ccgcacaatg agaattctac ctattttcaa tatcagccgg tggcctacaa tgacaaactt
+    65581 tatacggcgc ggaccgatct gccgcccggt ccgtttgatc ctgccaattg gcaggaaatt
+    65641 tcagtcgaag gtttggtcga agtcgtcgac agtgcgacga tagacttcac cggcacgggt
+    65701 gcggctggcg atccggtttc cgctgacgtc aagcttgatc ctgaccccga caaccttcta
+    65761 tcggcaacgg cgaacggcct catcctgacc gccgacaaca tcccgttccc tgacccgtcg
+    65821 caaattctca tttcggagga agtgactttg cgcgtcgatt acgtgacggg tgatgatgcc
+    65881 accgctgacg gcacgcttgc aaaaccattc gcgacggttt ccgctgcgat cggcgtcgcg
+    65941 acgaccggtg accgcgtcga gatttacccc ggcacatata tcggaaactt cgcgccgaaa
+    66001 tccgacgtca cggttgtcgg gctggaaggt gttgttatcg acggcgacgt gacgattgcg
+    66061 gcgggtgtaa gcggcgcgct tgtcgacggt ctgtttgtcg acggttccgt tctggtaaac
+    66121 ggcgcgaacg gcagtgtgac attccgcaat tcacgggtga cggaaaacgt tctggcaacc
+    66181 ggaaataaca cgggtgttta tcgcttcgag aattgcgata tcgaaaccgc tgccattgtc
+    66241 aacggaactg gaaacgctga attcatcttc agcggcggtg tgtccgaaaa cgacttcttc
+    66301 ctgaattcgc ccggtacgat gattgtcgaa aatcggtccc gcgtgaaagc cgttctgcac
+    66361 gaagcgggca atatgatcgt gcagaacatc ggcgttatcg aatcgttggc gtcgacgcct
+    66421 gacaatggct tccttgcggt catgtcttct tcgttgttcg acccgctgac aagcacatac
+    66481 ggcacgatca gcaaaaccgg actttgcccg ttcgtgttcc aagatttcgg gcgtgacaac
+    66541 accgatacga ccgcgctgaa cggtccgaaa ttcatcgttt ctaacggtcg tgatgttcac
+    66601 ggaaattacg atcctgcgtt ctatgcgctg ccaaacggtc aaacgctgaa ctcacacttt
+    66661 gcgggtatcg acgcggcgct tgaaacgctt caggaatatt caccgctgga ccgccttgtt
+    66721 cccgtcgatc ttggcttcag ctttacgggc ggttggaccg acggcgagac gatcggcgcg
+    66781 cacgttgttt cccgatcgac gatcgttcct gaaaacatgg cgggttccgt tttttcgacg
+    66841 gatagttcaa cgctcgacgg cgttttgaac atcgttgtcg gcccgtctgt cgtcggaacc
+    66901 gtgacgatcg ttgacggcat agcaactttc gcgtcttcct ctttcaatct tgatccgggg
+    66961 cagactgtgc gcgtggtgac gacgtctgac ggaacgtttg attacgccgc gcttactctt
+    67021 gtcgggcatc gcgaagtcgt ttacgttaac taaaattctt cgaggacttt taatcatggc
+    67081 ccttcgcctt catccgacga acttcgcgct tgctgtctgc aatgccggtg tcgaccaatt
+    67141 cgatacgggc ggcaccattg aaatttatga cggtgttcag cccgccgacc cgaccgttgc
+    67201 aattacgacg caaaaccttc tcatgacctt taacattccg tcaccgggtt acggtcctgc
+    67261 ggaaattgtt gccggtcagc catacgttcg cgcgcccggc ttccttcctg ccgtcgcggt
+    67321 gccgatcgcc agcggtgttg cgacgtgggc gcgcgtgaag aacagcggcg gtgacgtcga
+    67381 gtttgatggt gacgtcggaa cgtccgcgtc gagcgcgttc gtcaagctgt cgaccacgaa
+    67441 tgtgacaagc ggcgtaggtg tgagcgtcac ggcgtcagaa tatcgtcagg cgattcgata
+    67501 aggggtttgc gaacatgatt acacctgtct gcccttccgt gccgtgcggt aaccctcctg
+    67561 ttccgcttcc cccgccacct tcgccgccac cgtcaaccgg tggcgcaatt gttgtcgagg
+    67621 catcggacac gattattcta acaggtgacg gcacagcgga taatccgttg cgtgccgaac
+    67681 tcgcttttcc gcttcgtatt gaccttgcgt cgacgtccta tgatgggctg tctgataatg
+    67741 attttcagat ggtttattcg gcggtggaat cgttcaattt cgtgaacgcg gaaagcacag
+    67801 gtgctgtttc cccgatccta agcacggtat tgaacgtcac cgtcaatgat gctgacgcgg
+    67861 gcaacattac cgttgacaat ggcgtgtttt ctttcgcctt atcggaaagc atattggtta
+    67921 atcccggtga tgtggtaaag atcatcaaca gcggtccgat tgtgtttgac tatctcgcta
+    67981 tcacaatcgt cggaaacgtc acgccatagg agcatcaaaa tggcaatcat tatttcacag
+    68041 gcaatcgccc tttctcttgt cgacgcgatt catgcacgta tcgacgccgg ggcggcagcg
+    68101 ggtcaccttc gcgtttattc tggcgcacgc cctgccaatc ccgaagccgc cgttcccggt
+    68161 gcttcggttc ttctcgtcga tttcgaactg aacgacccgg cattccttgc cgcaacaatg
+    68221 gtcggttccg tcgccagcgc taacgccgac acggtcgacc cggtgaatgg tgctgcgaac
+    68281 ggcacggcta catggttccg catcagcgac agtaacggcg tggcgatctt cgacggctcc
+    68341 gttaccgatc agacgggcac gggtgacttg aagcttgcca caacgaccat tgtcgccggt
+    68401 gttcctgtca ccgtcgtttc gctcactggt cgcatgtcga caggcgcgta a
+//
+
